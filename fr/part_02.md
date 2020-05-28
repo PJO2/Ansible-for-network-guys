@@ -61,11 +61,11 @@ Ces fichiers sont organisés avec la syntaxe INI :
     [section]
     parameter=value
 
-Plutôt que de modifier le fichier partagé par tous les utilisateurs, nous allons créer le fichier ~/ansible.cfg, pour désactiver le contrôle des clefs publiques :
+Plutôt que de modifier le fichier partagé par tous les utilisateurs, nous allons créer le fichier ansible.cfg, pour désactiver le contrôle des clefs publiques :
 
     $ echo -e "[defaults]\nhost_key_checking = False\n" > ansible.cfg
 
-De plus, ceux qui utilisent un terminal de fond sombre apprécieront de pouvoir remplacer la colorisation bleu foncé des debugs par une couleur plus lisible avec la configuration suivante :
+De plus, ceux qui utilisent un terminal de fond sombre apprécieront de pouvoir remplacer la colorisation bleu foncé des logs par une couleur plus lisible avec la configuration suivante :
 
     $ echo -e "[colors]\nverbose = bright magenta\n" >> ansible.cfg
 
@@ -98,7 +98,7 @@ Les données (nom du routeur, adresse IP, compte, …) sont passées au module d
 
 
 
-[next](part
+[next](part_03.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NjU0NTQ2LC00ODgxNjYwMzNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc2MzkyMDQsLTQ4ODE2NjAzM119
 -->
