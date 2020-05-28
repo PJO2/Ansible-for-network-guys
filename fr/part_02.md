@@ -83,7 +83,7 @@ Ou en prenant le problème à l&#39;envers, la commande à exécuter est passée
 
 Soit, avec les notations courtes :
 
-![module001](images/module001.png)
+![module001](../images/module001.png)
 
 Notre module raw a donc :
 
@@ -97,5 +97,5 @@ Même si d&#39;autres modules sont plus pertinents pour l&#39;administration ré
 Les données (nom du routeur, adresse IP, compte, …) sont passées au module directement par Ansible, car Ansible considère à raison que ces paramètres appartiennent au moteur, non au module, établissant de ce fait un cloisonnement efficace entre les données et les actions (ce qui fait ma transition vers le prochain article).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODE2NjAzM119
+eyJoaXN0b3J5IjpbNDEyMjIzMDk2LC00ODgxNjYwMzNdfQ==
 -->
