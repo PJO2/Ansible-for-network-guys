@@ -75,11 +75,11 @@ Bien entendu, l&#39;adresse IP du routeur doit être changée, ainsi qu&#39;éve
 
 On fera aussi bien attention à la virgule qui termine le paramètre inventory.
 
-![screenshot001](images/screenshot001.png)
+![screenshot001](../images/screenshot001.png)
 
 Nous pouvons également lancer cette même commande en mode verbose, en ajoutant l&#39;argument –vvv :
 
-![screenshot002](images/screenshot002.png)
+![screenshot002](../images/screenshot002.png)
 
 Nous voyons bien notre commande exécutée correctement même si la mise en forme de la réponse nous déçoit un peu.
 
@@ -87,5 +87,5 @@ Nous voyons bien notre commande exécutée correctement même si la mise en form
 
 [next](part_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzA4NzMwNzYsLTE5NjE3NzI4OF19
+eyJoaXN0b3J5IjpbNjAwNzU5NjkyLC0xOTYxNzcyODhdfQ==
 -->
