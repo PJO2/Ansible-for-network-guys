@@ -1,11 +1,11 @@
-# Partie I : Faire un show clock sur un routeur/switch
+#  Jour 1 : Faire un show clock sur un routeur/switch
 
 Comme annoncé, nous allons commencer tout petit : nous sommes sur une session Unix et notre but est d&#39;exécuter la commande « _show clock_ » en pilotant à distance un équipement Cisco. Si vous disposez d&#39;un autre équipement, vous pouvez évidemment substituer le show clock par toute autre commande brève.
 
 En automatisation, une bonne habitude est de faire le travail au moins une fois à la main. Aussi, nous nous plaçons sur notre station linux et exécutons les commandes suivantes :
 
     $ ssh -l cisco 10.0.0.230
-    Warning: Permanently added "10.0.0.230" (RSA) to the list of known hosts.
+    Warning: Permanently added '10.0.0.230' (RSA) to the list of known hosts.
     Password:
     
     csrv1k-230#show clock
@@ -29,7 +29,7 @@ Nous avons aussi reçu une notification du système sur l&#39;échange des clefs
 Evidemment, toutes ces informations devront être passées en paramètre à Ansible (et non, il ne les devine pas tout seul !).
 
 ## Installer ansible
-Je vais passer rapidement sur l&#39;installation d&#39;Ansible, car cette partie est très bien documentée ailleurs, et, à part peut-être montrer comment installer une version spécifique, ma valeur ajoutée devrait être faible.
+Je vais passer rapidement sur l&#39;installation d&#39;Ansible, car cette partie est très bien documentée par ailleurs, et, à part peut-être montrer comment installer une version spécifique, ma valeur ajoutée devrait être faible.
 
 ### L&#39;installation
 Il faut disposer a minima d&#39;un linux en mode serveur. Si vous ne pouvez pas installer une VM sous vmWare, une excellente alternative est d&#39;installer VirtualBox sur un PC Windows ou sur un MacBook et de créer sa VM sous VirtualBox. Pour des tests, un système avec 2gb de RAM et 16Gb de disque suffit amplement.
@@ -87,5 +87,5 @@ Nous voyons bien notre commande exécutée correctement même si la mise en form
 
 [next](part_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkwMzQ2MDYsLTE5NjE3NzI4OF19
+eyJoaXN0b3J5IjpbLTEzNzA4NzMwNzYsLTE5NjE3NzI4OF19
 -->
