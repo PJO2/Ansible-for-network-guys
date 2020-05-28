@@ -42,7 +42,7 @@ Réglons tout de suite le sort du paramétrage de ssh. Nous avons utilisé :
 
 Si nous enlevons ce paramètre, il est probable qu&#39;il ne se passe rien, mais si vous supprimez le fichier des hosts SSH avec lesquels les clefs publiques ont été échangées (~/.ssh/known\_hosts), Ansible refuse d&#39;établir la connexion SSH :
 
-![screenshot003](images/screenshot003.png)
+![screenshot003](../images/screenshot003.png)
 
 Ce choix se défend pour la gestion de serveurs, ce qui, ne l&#39;oublions pas, est le domaine d&#39;Ansible, mais il est plus discutable pour gérer des équipements réseaux et, incontestablement, il va nous embarrasser dans notre environnement de lab.
 
@@ -69,7 +69,7 @@ De plus, ceux qui utilisent un terminal de fond sombre apprécieront de pouvoir 
 
     $ echo -e "[colors]\nverbose = bright magenta\n" >> ansible.cfg
 
-![screenshot004](images/screenshot004.png)
+![screenshot004](../images/screenshot004.png)
 
 Nous avons retrouvé l&#39;environnement de lab qui nous convient et sommes enfin prêts à poursuivre notre tour d&#39;Ansible. J&#39;entends bien les plus râleurs dire « C&#39;est pas trop tôt », mais ils conviendront aussi qu&#39;on apprend mieux quand on est bien installé !
 
@@ -97,5 +97,5 @@ Même si d&#39;autres modules sont plus pertinents pour l&#39;administration ré
 Les données (nom du routeur, adresse IP, compte, …) sont passées au module directement par Ansible, car Ansible considère à raison que ces paramètres appartiennent au moteur, non au module, établissant de ce fait un cloisonnement efficace entre les données et les actions (ce qui fait ma transition vers le prochain article).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyMjIzMDk2LC00ODgxNjYwMzNdfQ==
+eyJoaXN0b3J5IjpbLTIwNDQ0MjY4NjgsLTQ4ODE2NjAzM119
 -->
