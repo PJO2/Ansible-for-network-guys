@@ -5,12 +5,13 @@ Comme annoncé, nous allons commencer tout petit : nous sommes sur une session U
 En automatisation, une bonne habitude est de faire le travail au moins une fois à la main. Aussi, nous nous plaçons sur notre station linux et exécutons les commandes suivantes :
 
     $ ssh -l cisco 10.0.0.230
-    Warning: Permanently added &#39;10.0.0.230&#39; (RSA) to the list of known hosts.
+    Warning: Permanently added "10.0.0.230" (RSA) to the list of known hosts.
     Password:
     
     csrv1k-230#show clock
-    \*15:29:59.820 UTC Tue May 26 2020
-    csrv1k-230#csrv1k-230#exit
+    *15:29:59.820 UTC Tue May 26 2020
+    csrv1k-230#
+    csrv1k-230#exit
     Connection to 10.0.0.230 closed.
     $
 
@@ -86,5 +87,5 @@ Nous voyons bien notre commande exécutée correctement même si la mise en form
 
 [next](part_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE3NzI4OF19
+eyJoaXN0b3J5IjpbLTE2NjkwMzQ2MDYsLTE5NjE3NzI4OF19
 -->
