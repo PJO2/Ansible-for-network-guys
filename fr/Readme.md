@@ -4,7 +4,7 @@
 : exécuter ma première commande Ansible
 
 [Journée II](part_02.md)
-: Comprendre ma première commande
+: comprendre ma première commande
 
 [Journée III](part_03.md)
 : organiser les données
@@ -15,12 +15,12 @@
 [Journée IV](part_04.md)
 : organiser les actions
 
-[Interlude](interlude_02.md): les templates jinja2
-[Journée V](part_05.md)
+[Interlude](interlude_02.md)
+: les templates jinja2
 
-Jour I 
-: kzkzk
+[Journée V](part_05.md)
+: les templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMyNTUwMjgsMTE5MDExNDQ3OV19
+eyJoaXN0b3J5IjpbLTU4OTQwNDQxNSwxMTkwMTE0NDc5XX0=
 -->
