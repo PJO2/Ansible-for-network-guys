@@ -1,4 +1,4 @@
-[Introduction](introduction.md)
+[Introduction](Introduction.md)
 
 [Journée I](day_01.md)
 : exécuter ma première commande Ansible
@@ -22,6 +22,6 @@
 : les templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIwMTUxNjYsLTU4OTQwNDQxNSwxMT
-kwMTE0NDc5XX0=
+eyJoaXN0b3J5IjpbMTk0MDQzOTIwMiwtNTg5NDA0NDE1LDExOT
+AxMTQ0NzldfQ==
 -->
