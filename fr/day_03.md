@@ -51,8 +51,11 @@ Si nous reprenons notre commande initiale, nous avions les variables suivantes :
 |ansible_ssh_pass|cisco|
 
 Nous pouvons les intégrer au fichier inventaire qui deviendra :
-[routers]
-csrv1k-230 ansible_host=10.0.0.230 ansible_
+
+    [routers]
+    csrv1k-230 ansible_host=10.0.0.230 ansible_user=cisco ansible_ssh_pass=cisco
+
+Il est également 
 ansible-host
 Variables de groupe, variables par host
 
@@ -63,6 +66,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM3OTM0ODMsLTE1NjA2MjAzODQsLT
+eyJoaXN0b3J5IjpbLTE3MTA3MzI4NjgsLTE1NjA2MjAzODQsLT
 IwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
