@@ -1,6 +1,6 @@
-# Jour III : Distinguer  actions et données :
+# Jour III :  actions et données :
 
-
+Comme tout automate digne de ce nom, Ansible cloisonne les actions et les données. Les actions sont précisées 
 ## Les actions : le module et les paramètres du module
 
 Les données : rassemblées dans l&#39;inventaire
@@ -22,5 +22,5 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MzEzOTU0LDE5NjAxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDU5OTM2NjMsMTk2MDE0NDQxMF19
 -->
