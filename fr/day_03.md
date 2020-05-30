@@ -42,7 +42,13 @@ La sélection des hosts sur lesquels exécuter une commande est le seul paramèt
     ansible switchs -i inv
     ansible csrv1k-230 -i inv
 
-Les variables spécifiques à chaque host sont données sur la mpl
+Les variables spécifiques à chaque host sont données à la suite sur la même ligne.
+Si nous reprenons notre commande initiale, nous avions les variables suivantes :
+|||
+|-|-|
+|ansible_host||
+
+ansible-host
 Variables de groupe, variables par host
 
 group\_vars/
@@ -52,6 +58,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjYxMDk0MiwtMTU2MDYyMDM4NCwtMj
-A0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
+eyJoaXN0b3J5IjpbLTEwOTU5MTE0NjQsLTE1NjA2MjAzODQsLT
+IwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
