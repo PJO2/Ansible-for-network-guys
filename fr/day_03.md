@@ -36,13 +36,13 @@ ou avec une petite astuce de notation  :
       [switchs]
       sw-[001:002]
 
-La sélection des hosts sur lesquels exécuter une commande est le seul paramètre d'Ansible qui n'a pas de préfixe. Les valeurs autorisées sont all, un nom de section
- 
+La sélection des hosts sur lesquels exécuter une commande est le seul paramètre d'Ansible qui n'a pas de préfixe. Les valeurs autorisées sont all, un nom de section ou un nom de host :
 
+    ansible all -i inv
+    ansible switchs -i inv
+    ansible csrv1k-230 -i inv
 
-
-Fichier ini
-
+Les variables spécifiques à chaque host sont données sur la mpl
 Variables de groupe, variables par host
 
 group\_vars/
@@ -52,6 +52,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg5ODcwMTYsLTE1NjA2MjAzODQsLT
-IwNDYzNjUzODgsMTk2MDE0NDQxMF19
+eyJoaXN0b3J5IjpbMTUyMjYxMDk0MiwtMTU2MDYyMDM4NCwtMj
+A0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
