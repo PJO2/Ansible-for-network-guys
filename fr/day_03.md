@@ -18,6 +18,8 @@ Jusqu'ici, nous avons pu contrôler un seul équipement distant, ce qui reste é
 
 Le parc d'équipement est décrit dans le fichier inventaire. Par défaut, Ansible le recherche à l'emplacement /etc/ansible/hosts, mais même en lab, je vous invite à utiliser un fichier différent, qui sera communiqué à Ansible par le paramètre --inventory (ou -i).
 
+Ce fichier respecte la syntaxe des fichiers Ini, en étant organisé en sections.
+Les sections représentent des groupes de serveurs distants. Les 
 
 
 Fichier ini
@@ -31,6 +33,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNTA3NDEyLC0yMDQ2MzY1Mzg4LDE5Nj
-AxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEzMTg1OSwtMjA0NjM2NTM4OCwxOT
+YwMTQ0NDEwXX0=
 -->
