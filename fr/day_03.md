@@ -29,7 +29,15 @@ Nous pouvons par exemple organiser notre parc d'équipements réseau de la mani�
     sw-001
     sw-002
 
-ou avec une notation un peu plus souple :
+ou avec une petite astuce de notation  :
+
+      [routers]
+      csrv1k-[230:231]
+      [switchs]
+      sw-[001:002]
+
+
+ 
 
 
 
@@ -44,6 +52,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTgyNDI3MiwtMTU2MDYyMDM4NCwtMj
+eyJoaXN0b3J5IjpbMTcxMzIzMDc0NywtMTU2MDYyMDM4NCwtMj
 A0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
