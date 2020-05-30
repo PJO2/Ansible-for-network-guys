@@ -10,7 +10,7 @@ D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur
 
 La clef, c'est le paramètre --connection (ou -c) qui spécifie la portée du module. Par défaut, connection est positionné à ssh, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
 
-En version 2.7, 
+En version 2.7, une troisième option est ajoutée : c'est la valeur cli_connection qui permet de contrôler un distant, via des commandes locales, à la manière de
 
 ## Les données
 
@@ -27,6 +27,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjE2NDQ5MiwtMjA0NjM2NTM4OCwxOT
+eyJoaXN0b3J5IjpbMTA3ODU2MDE5OSwtMjA0NjM2NTM4OCwxOT
 YwMTQ0NDEwXX0=
 -->
