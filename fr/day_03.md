@@ -1,10 +1,9 @@
 # Jour III :  actions et données :
 
-Comme tout automate digne de ce nom, Ansible cloisonne les actions et les données. Les actions sont confiées aux modules, les do
+Comme tout automate digne de ce nom, Ansible cloisonne les actions et les données. Les actions sont confiées aux modules, les données sont récupérées dans l'inventaire.
+
 ## Les actions : le module et les paramètres du module
-
-Les données : rassemblées dans l&#39;inventaire
-
+Le module est l'entité d'Ansible qui effectue une tâche spécialisée. Nous m'av
 Le module : raw : se connecte en ssh et lance la commande donnée en paramètre (ici show clock). Le résultat est affiché à l&#39;écran.
 
 ## Les données
@@ -22,5 +21,5 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU0MzQzNDgsMTk2MDE0NDQxMF19
+eyJoaXN0b3J5IjpbMjE3MDAwOTU4LDE5NjAxNDQ0MTBdfQ==
 -->
