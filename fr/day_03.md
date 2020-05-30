@@ -21,13 +21,15 @@ Le parc d'équipement est décrit dans le fichier inventaire. Par défaut, Ansib
 Ce fichier respecte la syntaxe des fichiers Ini, en étant organisé en sections.
 Les sections représentent des groupes de serveurs distants. Les clefs sont les serveurs, les valeurs sont optionnelles,  les variables spécifiques à un serveur. Enfin, sans surprise, la section pré-définie [all] est commune à l'ensemble des serveurs.
 Nous pouvons par exemple organiser notre parc d'équipements réseau de la manière suivante :
-[routers]
-csrv1k-230
-csrv1k-231
-[routers]
-csrv1k-230
-csrv1k-231
 
+    [routers]
+    csrv1k-230
+    csrv1k-231
+    [switchs]
+    sw-001
+    sw-002
+
+ou avec une notation un peu plus souple :
 
 
 
@@ -42,6 +44,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDg0ODIwMSwtMTU2MDYyMDM4NCwtMj
+eyJoaXN0b3J5IjpbLTc4NTgyNDI3MiwtMTU2MDYyMDM4NCwtMj
 A0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
