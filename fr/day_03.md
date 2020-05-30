@@ -36,7 +36,7 @@ ou avec une petite astuce de notation  :
       [switchs]
       sw-[001:002]
 
-
+La sélection des hosts sur lesquels exécuter une commande ansible est le seul paramètre d'Ansible qui n'est pas 
  
 
 
@@ -52,6 +52,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzIzMDc0NywtMTU2MDYyMDM4NCwtMj
+eyJoaXN0b3J5IjpbLTE4MjAwMTUzNywtMTU2MDYyMDM4NCwtMj
 A0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
