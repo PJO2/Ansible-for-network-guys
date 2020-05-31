@@ -19,7 +19,10 @@ De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce 
 
 padawans[obiwan] = [anakin, luke]
 
-On peut, par exemple, regouper en une seule variable structurée nos don :
+On peut, par exemple, regouper en une seule variable structurée nos données :
+
+jedis["obiwan"]["padawans"] = [anakin, luke]
+jedis["obiwan"]["planete"] = "tatooine"
 
 
 ## Les formats YAML / JSON
@@ -29,7 +32,7 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDkwMTE2MCwtNTk4NzE4MDM1LDM0OD
-I3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgs
-NzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbLTExMTEwMTM0MjcsLTU5ODcxODAzNSwzND
+gyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4
+LDcxNzI2MTk4Ml19
 -->
