@@ -86,15 +86,16 @@ cat inv
 cat group_vars/all
 cat hosts_var
 
-Dans tous les cas, la syntaxe d'appel
-hosts\_vars
+Dans tous les cas, la syntaxe Ansible est identique :
 
-Créer une deuxième host et lancer la même action sur les 2 équipements.
 
+## Automatiser
+
+Maintenant que nous savons passer les paramètr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE0MTI0MjgsLTE2NTAwNjYxODksLT
+eyJoaXN0b3J5IjpbLTE1NTg2NjkwNzUsLTE2NTAwNjYxODksLT
 E3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2
 MDE0NDQxMF19
 -->
