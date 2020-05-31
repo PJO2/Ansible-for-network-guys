@@ -59,9 +59,12 @@ Notre commande peut maintenant s'écrire plus simplement :
 
     $ ansible all -i inv -m raw -a "show clock"
 
+all étant un filtre sur les éléments prés
 Les paramètres contenus dans l'inventaire sont passés de manière implicite au module.
 
-Les éléments communs
+Les variables communes peuvent être regroupées dans les sections [group:vars], par exemple, nous pouvons écrire l'inventaire de la façon suivante :
+[all:vars
+
 group\_vars/
 
 hosts\_vars
@@ -70,6 +73,7 @@ Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAwNjYxODksLTE3MTA3MzI4NjgsLT
-E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
+eyJoaXN0b3J5IjpbNjE5MzMzNjAxLC0xNjUwMDY2MTg5LC0xNz
+EwNzMyODY4LC0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAx
+NDQ0MTBdfQ==
 -->
