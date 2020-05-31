@@ -61,7 +61,7 @@ Notre commande peut maintenant s'écrire plus simplement :
 
 Les paramètres contenus dans l'inventaire sont passés de manière implicite au module.
 
-L
+Les éléments communs
 group\_vars/
 
 hosts\_vars
@@ -70,6 +70,6 @@ Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyMjI2NTg4LC0xNzEwNzMyODY4LC0xNT
-YwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTAwNjYxODksLTE3MTA3MzI4NjgsLT
+E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
