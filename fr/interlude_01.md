@@ -11,7 +11,7 @@ Par exemple, on peut écrire
 
     phone["aline"] = "0606060606"
 
-ici, la clef est "aline", la valeur "0606060606"
+ici, la clef est "aline", la valeur "0606060606". 
 
 
 ## Les formats YAML / JSON
@@ -19,6 +19,6 @@ ici, la clef est "aline", la valeur "0606060606"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzk0ODcxNCwxMDM2ODY5NTQ4LDcxNz
-I2MTk4Ml19
+eyJoaXN0b3J5IjpbNzIxMTEzMDYwLDEwMzY4Njk1NDgsNzE3Mj
+YxOTgyXX0=
 -->
