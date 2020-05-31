@@ -23,7 +23,7 @@ On peut, par exemple, regouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["planete"] = "tatooine"
-    jedis["obiwan"]
+    
 
 ## Les formats YAML / JSON
 
@@ -34,7 +34,7 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc4NjczMDQsLTU5ODcxODAzNSwzND
+eyJoaXN0b3J5IjpbLTEzNzM0MTM3NTksLTU5ODcxODAzNSwzND
 gyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4
 LDcxNzI2MTk4Ml19
 -->
