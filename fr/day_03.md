@@ -106,10 +106,12 @@ Avec la commande
 
     $ansible routers -i inv -m raw -a "show clock"
 
-nous 
+nous lançons une commande sur l'ensemble des hosts du groupe routers, soit 2 routeurs !!
+
+Notons que l'exécution se déroule en parallèle et par défut, ansible lance jusq5 instances
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODkwMzk2NywtMTY1MDA2NjE4OSwtMT
+eyJoaXN0b3J5IjpbLTYxMTkwMDIyNywtMTY1MDA2NjE4OSwtMT
 cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
 MTQ0NDEwXX0=
 -->
