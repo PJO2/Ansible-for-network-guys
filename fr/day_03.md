@@ -67,8 +67,14 @@ all étant un filtre sur les éléments présents dans l'inventaire. On aurait a
 Les paramètres contenus dans l'inventaire sont passés de manière implicite au module.
 
 Les variables communes peuvent être regroupées dans les sections [group:vars], par exemple, nous pouvons écrire l'inventaire de la façon suivante :
-[all:vars
 
+    [all:vars]
+    ansible_user=cisco
+    ansible_ssh_pass=cisco
+    [routers]
+    csrv1k-230 ansible_host=10.0.0.230
+
+Une autre façon d
 group\_vars/
 
 hosts\_vars
@@ -78,7 +84,7 @@ Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk5MTE1MiwtMTY1MDA2NjE4OSwtMT
+eyJoaXN0b3J5IjpbMTYwMDI3MjY5MCwtMTY1MDA2NjE4OSwtMT
 cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
 MTQ0NDEwXX0=
 -->
