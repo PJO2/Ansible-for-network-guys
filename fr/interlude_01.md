@@ -38,26 +38,31 @@ Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est un
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     ---
-    jedis:
+    jedis :
         - obiwan:
-          padawans:
+          - master: yoda
+            location: tatooine
+            padawans:
              - anakin
              - luke
-          master: yoda
         - yoda:
-          padawans:
+          - padawans:
             - dooku
             - windu
             - Ki-Adi-Mudi
             - Ikrit
-         master : N' Kata Del Gormo
+            master: N' Kata Del Gormo
+            location: dagobah
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MT
-kwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2
-LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbMTAxNTI0NTM4NiwxODQwNTk1NTM3LC0yNj
+YyNTI4NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIz
+LC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNj
+E5ODJdfQ==
 -->
