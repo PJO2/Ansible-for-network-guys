@@ -91,11 +91,18 @@ Dans tous les cas, la syntaxe Ansible est identique :
 
 ## Automatiser
 
-Nous avons appris à écrire un inventaire, organiser les données spécifiques aux hosts et aux groupes, filtrer les hosts concernés par une action,
+Nous avons appris à écrire un inventaire, organiser les données spécifiques aux hosts et aux groupes, filtrer les hosts concernés par une action. Bref, nous sommes prêts à lancer une commande sur un grand nombre de distants. 
 
+Si notre inventaire contient :
+
+
+    [routers]
+    csrv1k-230 ansible_host=10.0.0.230 ansible_user=cisco ansible_ssh_pass=cisco
+    csrv1k-231 ansible_host=10.0.0.231 ansible_user=cisco ansible_ssh_pass=cisco
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTU2MDI0MiwtMTY1MDA2NjE4OSwtMT
+eyJoaXN0b3J5IjpbLTQ0OTI5MTI3MiwtMTY1MDA2NjE4OSwtMT
 cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
 MTQ0NDEwXX0=
 -->
