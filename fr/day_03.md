@@ -108,10 +108,11 @@ Avec la commande
 
 nous lançons une commande sur l'ensemble des hosts du groupe routers, soit 2 routeurs !!
 
-Notons que l'exécution se déroule en parallèle et par défut, ansible lance jusq5 instances
+Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance jusqu'à 5 instances en même temps. Nous pouvons modifier ce comportement avec le paramètre
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTkwMDIyNywtMTY1MDA2NjE4OSwtMT
-cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
-MTQ0NDEwXX0=
+eyJoaXN0b3J5IjpbLTE5OTE2NjczNTQsLTE2NTAwNjYxODksLT
+E3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2
+MDE0NDQxMF19
 -->
