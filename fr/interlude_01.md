@@ -17,13 +17,13 @@ Les tableaux classiques, à indices numériques, sont relégués au rang de list
 
 De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
 
-padawans[obiwan] = [anakin, luke]
+    padawans[obiwan] = [anakin, luke]
 
 On peut, par exemple, regouper en une seule variable structurée nos données :
 
-jedis["obiwan"]["padawans"] = [anakin, luke]
-jedis["obiwan"]["planete"] = "tatooine"
-
+    jedis["obiwan"]["padawans"] = ["anakin", "luke"]
+    jedis["obiwan"]["planete"] = "tatooine"
+    jedis["obiwan"]
 
 ## Les formats YAML / JSON
 
@@ -31,8 +31,10 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEwMTM0MjcsLTU5ODcxODAzNSwzND
+eyJoaXN0b3J5IjpbLTEzNTc4NjczMDQsLTU5ODcxODAzNSwzND
 gyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4
 LDcxNzI2MTk4Ml19
 -->
