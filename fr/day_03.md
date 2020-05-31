@@ -74,8 +74,11 @@ Les variables communes peuvent être regroupées dans les sections [group:vars],
     [routers]
     csrv1k-230 ansible_host=10.0.0.230
 
-Une autre façon de rensigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis group_vars et hosts_vars. Ansible va y chercher un fichier 
-group\_vars/
+Une autre façon de rensigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis group_vars et hosts_vars. Ansible va y chercher les fichiers :
+group_vars/all
+group_vars/routers
+hosts_var/csrv1k-230
+et intègre leur contenu aux variables
 
 hosts\_vars
 
@@ -84,7 +87,7 @@ Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI4ODk0NTcsLTE2NTAwNjYxODksLT
+eyJoaXN0b3J5IjpbLTEwNTQ2ODM0OTAsLTE2NTAwNjYxODksLT
 E3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2
 MDE0NDQxMF19
 -->
