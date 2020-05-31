@@ -91,11 +91,11 @@ Dans tous les cas, la syntaxe Ansible est identique :
 
 ## Automatiser
 
-Maintenant que nous savons passer les paramètr
+Nous avons appris à écrire un inventaire, organiser les données spécifiques aux hosts et aux groupes, filtrer les hosts concernés par une action,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg2NjkwNzUsLTE2NTAwNjYxODksLT
-E3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2
-MDE0NDQxMF19
+eyJoaXN0b3J5IjpbLTU1NTU2MDI0MiwtMTY1MDA2NjE4OSwtMT
+cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
+MTQ0NDEwXX0=
 -->
