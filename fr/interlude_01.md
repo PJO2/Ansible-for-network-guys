@@ -17,7 +17,9 @@ Les tableaux classiques, à indices numériques, sont relégués au rang de list
 
 De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
 
-On peut, par exemple, regouper en une seule variable structurée notre repertoire :
+padawans[obiwan] = [anakin, luke]
+
+On peut, par exemple, regouper en une seule variable structurée nos don :
 
 
 ## Les formats YAML / JSON
@@ -27,7 +29,7 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNj
-I5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNzI2MTk4Ml19
-
+eyJoaXN0b3J5IjpbLTU2NDkwMTE2MCwtNTk4NzE4MDM1LDM0OD
+I3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgs
+NzE3MjYxOTgyXX0=
 -->
