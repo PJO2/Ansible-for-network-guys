@@ -10,12 +10,15 @@ Les langages Perl et Java ont popularisé un nouveau format de données : le tab
 Par exemple, on peut écrire
 
     mobile["aline"] = "0606060606"
+    adresse["aline"] 
 
 ici, la clef est "aline", la valeur "0606060606". 
 
 Les tableaux classiques, à indices numériques, sont relégués au rang de liste.
 
 Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
+
+On peut, par exemple, regouper en une seule variable structurée notre repertoire :
 
 
 ## Les formats YAML / JSON
@@ -25,6 +28,6 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5ODI2OTcyLDg1NTg2NzY3LDEwMzY4Nj
-k1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbLTEzMjcyNzY0MjMsODU1ODY3NjcsMTAzNj
+g2OTU0OCw3MTcyNjE5ODJdfQ==
 -->
