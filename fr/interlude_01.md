@@ -9,7 +9,7 @@ Les langages Perl et Java ont popularisé un nouveau format de données : le tab
 
 Par exemple, on peut écrire
 
-    adresse["obiwan"] = "tatooine"
+    planete["obiwan"] = "tatooine"
 
 ici, la clef est "obiwan", la valeur "tatooine". 
 
@@ -27,6 +27,7 @@ Les formats YAML et JSON permettent d'enregistrer des variables structurées en 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4Mjc4OTIzLC0yMDYyOTMyOTYsODU1OD
-Y3NjcsMTAzNjg2OTU0OCw3MTcyNjE5ODJdfQ==
+eyJoaXN0b3J5IjpbLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNj
+I5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNzI2MTk4Ml19
+
 -->
