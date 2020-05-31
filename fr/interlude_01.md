@@ -46,14 +46,18 @@ Nous pouvons représenter nos jedis par le fichier suivant :
           master: yoda
         - yoda:
           padawans:
-             
-	    
+            - dooku
+            - windu
+            - Ki-Adi-Mudi
+            - Ikrit
+         master :
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mj
-c4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3
-MTcyNjE5ODJdfQ==
+eyJoaXN0b3J5IjpbLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5OD
+cxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2Nywx
+MDM2ODY5NTQ4LDcxNzI2MTk4Ml19
 -->
