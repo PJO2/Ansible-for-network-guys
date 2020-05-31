@@ -31,7 +31,7 @@ On peut, par exemple, regouper en une seule variable structurée nos données :
 Les formats YAML et JSON permettent d'enregistrer des variables structurées en listes ou en tableaux associatifs dans un fichier.
 
 Ansible a choisi le format YAML pour la plupart des données, notamment pour sa plus grande compacité. 
-En effet, les niveau d'imbrications sont représentés par l'indentation, chaque niveau d'indentation indique une sous-structure. De plus, les guillemets sont  
+En effet, les niveau d'imbrications sont représentés par l'indentation, chaque niveau d'indentation indique une sous-structure. De plus, les guillemets sont  optionnels.
 
 Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire. 
 
@@ -39,13 +39,13 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
     ---
     jedis :
-        - obiwan:
+        obiwan:
           - master: yoda
             location: tatooine
             padawans:
              - anakin
              - luke
-        - yoda:
+        yoda:
           - padawans:
             - dooku
             - windu
@@ -61,7 +61,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc0OTM1NTcsMTg0MDU5NTUzNywtMj
+eyJoaXN0b3J5IjpbLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMj
 Y2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODky
 MywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3Mj
 YxOTgyXX0=
