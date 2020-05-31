@@ -78,8 +78,15 @@ Une autre façon de rensigner les variables relatives aux hosts est d'utiliser l
 group_vars/all
 group_vars/routers
 hosts_var/csrv1k-230
-et intègre leur contenu aux variables
+et intègre leur contenu aux données de notre routeur.
 
+Une autre façon d'écrire notre inventaire est la suivante :
+
+cat inv
+cat group_vars/all
+cat hosts_var
+
+Dans tous les cas, la syntaxe d'appel
 hosts\_vars
 
 Créer une deuxième host et lancer la même action sur les 2 équipements.
@@ -87,7 +94,7 @@ Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ2ODM0OTAsLTE2NTAwNjYxODksLT
+eyJoaXN0b3J5IjpbLTEwNTE0MTI0MjgsLTE2NTAwNjYxODksLT
 E3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2
 MDE0NDQxMF19
 -->
