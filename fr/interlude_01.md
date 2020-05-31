@@ -13,8 +13,9 @@ Par exemple, on peut écrire
 
 ici, la clef est "aline", la valeur "0606060606". 
 
+Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
-Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce 
+Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de 
 
 
 ## Les formats YAML / JSON
@@ -22,6 +23,6 @@ Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, c
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzE1NTY4MSwxMDM2ODY5NTQ4LDcxNz
+eyJoaXN0b3J5IjpbMjA4NzM4MDk4NSwxMDM2ODY5NTQ4LDcxNz
 I2MTk4Ml19
 -->
