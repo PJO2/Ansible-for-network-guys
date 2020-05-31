@@ -55,10 +55,10 @@ Nous pouvons les intégrer au fichier inventaire qui deviendra :
     [routers]
     csrv1k-230 ansible_host=10.0.0.230 ansible_user=cisco ansible_ssh_pass=cisco
 
-Il est également 
-ansible-host
-Variables de groupe, variables par host
+Notre commande peut maintenant s'écrire plus simplement :
+$ ansible all -i inv -m raw -a "show clock"
 
+Les paramètres sont passés de manière
 group\_vars/
 
 hosts\_vars
@@ -66,6 +66,6 @@ hosts\_vars
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA3MzI4NjgsLTE1NjA2MjAzODQsLT
-IwNDYzNjUzODgsMTk2MDE0NDQxMF19
+eyJoaXN0b3J5IjpbLTE5NDUzMzc2NzcsLTE3MTA3MzI4NjgsLT
+E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
