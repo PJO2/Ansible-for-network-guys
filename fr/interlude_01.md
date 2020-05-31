@@ -15,7 +15,7 @@ ici, la clef est "aline", la valeur "0606060606".
 
 Les tableaux classiques, à indices numériques, sont relégués au rang de liste.
 
-Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement avec des formats de données complexes.
+Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
 
 
 ## Les formats YAML / JSON
@@ -23,6 +23,6 @@ Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, c
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzcyMzU5NCwxMDM2ODY5NTQ4LDcxNz
-I2MTk4Ml19
+eyJoaXN0b3J5IjpbODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNj
+E5ODJdfQ==
 -->
