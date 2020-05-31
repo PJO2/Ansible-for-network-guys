@@ -50,14 +50,14 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             - windu
             - Ki-Adi-Mudi
             - Ikrit
-         master :
+         master : N' Kata Del Gormo
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5OD
-cxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2Nywx
-MDM2ODY5NTQ4LDcxNzI2MTk4Ml19
+eyJoaXN0b3J5IjpbMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MT
+kwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2
+LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
 -->
