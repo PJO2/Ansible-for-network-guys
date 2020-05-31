@@ -9,13 +9,13 @@ Les langages Perl et Java ont popularisé un nouveau format de données : le tab
 
 Par exemple, on peut écrire
 
-    phone["aline"] = "0606060606"
+    mobile["aline"] = "0606060606"
 
 ici, la clef est "aline", la valeur "0606060606". 
 
-Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
+Les tableaux classiques, à indices numériques, sont relégués au rang de liste.
 
-Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de 
+Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement avec des formats de données complexes.
 
 
 ## Les formats YAML / JSON
@@ -23,6 +23,6 @@ Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, c
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzM4MDk4NSwxMDM2ODY5NTQ4LDcxNz
+eyJoaXN0b3J5IjpbMTg1NzcyMzU5NCwxMDM2ODY5NTQ4LDcxNz
 I2MTk4Ml19
 -->
