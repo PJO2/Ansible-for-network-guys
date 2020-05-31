@@ -14,11 +14,14 @@ Par exemple, on peut écrire
 ici, la clef est "aline", la valeur "0606060606". 
 
 
+Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, ce 
+
+
 ## Les formats YAML / JSON
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMTEzMDYwLDEwMzY4Njk1NDgsNzE3Mj
-YxOTgyXX0=
+eyJoaXN0b3J5IjpbLTgzNzE1NTY4MSwxMDM2ODY5NTQ4LDcxNz
+I2MTk4Ml19
 -->
