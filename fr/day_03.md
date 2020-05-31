@@ -56,16 +56,20 @@ Nous pouvons les intégrer au fichier inventaire qui deviendra :
     csrv1k-230 ansible_host=10.0.0.230 ansible_user=cisco ansible_ssh_pass=cisco
 
 Notre commande peut maintenant s'écrire plus simplement :
-$ ansible all -i inv -m raw -a "show clock"
 
-Les paramètres sont passés de manière
+    $ ansible all -i inv -m raw -a "show clock"
+
+Les paramètres contenus dans l'inventaire sont passés de manière implicite au module.
+
+L
 group\_vars/
 
 hosts\_vars
 
 Créer une deuxième host et lancer la même action sur les 2 équipements.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUzMzc2NzcsLTE3MTA3MzI4NjgsLT
-E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
+eyJoaXN0b3J5IjpbMzcyMjI2NTg4LC0xNzEwNzMyODY4LC0xNT
+YwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
 -->
