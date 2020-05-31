@@ -20,9 +20,11 @@ Toutefois, la valeur peut elle-même être une liste ou un tableau associatif, c
 
 ## Les formats YAML / JSON
 
+Les formats YAML et JSON permettent d'enregistrer des variables structurées en listes ou en tableaux associatifs dans un fichier.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNj
-E5ODJdfQ==
+eyJoaXN0b3J5IjpbNzg5ODI2OTcyLDg1NTg2NzY3LDEwMzY4Nj
+k1NDgsNzE3MjYxOTgyXX0=
 -->
