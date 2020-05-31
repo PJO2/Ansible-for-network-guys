@@ -93,16 +93,23 @@ Dans tous les cas, la syntaxe Ansible est identique :
 
 Nous avons appris à écrire un inventaire, organiser les données spécifiques aux hosts et aux groupes, filtrer les hosts concernés par une action. Bref, nous sommes prêts à lancer une commande sur un grand nombre de distants. 
 
-Si notre inventaire contient :
+Si notre fichier inventaire contient :
 
-
+    [all:vars]
+    ansible_user=cisco
+    ansible_ssh_pass=cisco
     [routers]
-    csrv1k-230 ansible_host=10.0.0.230 ansible_user=cisco ansible_ssh_pass=cisco
-    csrv1k-231 ansible_host=10.0.0.231 ansible_user=cisco ansible_ssh_pass=cisco
+    csrv1k-230 ansible_host=10.0.0.230 
+    csrv1k-231 ansible_host=10.0.0.231 
     
+Avec la commande 
+
+    $ansible routers -i inv -m raw -a "show clock"
+
+nous 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTI5MTI3MiwtMTY1MDA2NjE4OSwtMT
+eyJoaXN0b3J5IjpbMTU2ODkwMzk2NywtMTY1MDA2NjE4OSwtMT
 cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
 MTQ0NDEwXX0=
 -->
