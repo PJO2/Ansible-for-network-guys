@@ -41,14 +41,19 @@ Nous pouvons représenter nos jedis par le fichier suivant :
     jedis:
         - obiwan:
           padawans:
-             - 
+             - anakin
+             - luke
+          master: yoda
+        - :
+          padawans:
+             
 	    
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjU1NDA2NSwtNTk4NzE4MDM1LDM0OD
+eyJoaXN0b3J5IjpbMTQ4NTE3MTc4OCwtNTk4NzE4MDM1LDM0OD
 I3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgs
 NzE3MjYxOTgyXX0=
 -->
