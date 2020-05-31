@@ -23,7 +23,7 @@ On peut, par exemple, regouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["planete"] = "tatooine"
-    jedis["obiwan"]["cote obscur"] = false
+    jedis["obiwan"]["master"] = "yoda"
     
 
 ## Les formats YAML / JSON
@@ -31,13 +31,13 @@ On peut, par exemple, regouper en une seule variable structurée nos données :
 Les formats YAML et JSON permettent d'enregistrer des variables structurées en listes ou en tableaux associatifs dans un fichier.
 
 Ansible a choisi le format YAML pour la plupart des données, notamment pour sa plus grande compacité.
-YAML est indenté, chaque niveau d'indentation indique une sous-structure. Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémenataire.
+YAML est indenté, chaque niveau d'indentation indique une sous-structure. Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire. Nous pouvons d
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4ODE2MTQ1LC01OTg3MTgwMzUsMzQ4Mj
-c4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3
-MTcyNjE5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ4Nzc4MzgsLTU5ODcxODAzNSwzND
+gyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4
+LDcxNzI2MTk4Ml19
 -->
