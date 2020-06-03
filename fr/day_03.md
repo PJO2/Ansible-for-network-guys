@@ -64,7 +64,8 @@ all étant un filtre sur les éléments présents dans l'inventaire. On aurait a
     $ ansible routers -i inv -m raw -a "show clock"
     $ ansible csrv1k-230 -i inv -m raw -a "show clock"
 
-Les paramètres contenus dans l'inventaire sont passés de manière implicite au module.
+Les paramètres contenus dans l'inventaire sont passés de manière implicite au module, comme schématisé ici :
+[ansible inventory](module002.png)
 
 Les variables communes peuvent être regroupées dans les sections [group:vars], par exemple, nous pouvons écrire l'inventaire de la façon suivante :
 
@@ -108,8 +109,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [next](interlude_01)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDA2OTE1NSwtMTUwNjIyMTMzMCwxNz
-QxMjQ5NjE4LC01MDQ0NjM3MTcsLTE2NTAwNjYxODksLTE3MTA3
-MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0ND
-QxMF19
+eyJoaXN0b3J5IjpbNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MT
+I0OTYxOCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMy
+ODY4LC0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MT
+BdfQ==
 -->
