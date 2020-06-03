@@ -52,15 +52,14 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             location: dagobah
 
 
-Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [[https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie ma syntaxe et montre les données dans un autre format.
-
-
+Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwOD
-I1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5
-MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LDg1NT
-g2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MD
+E5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4
+NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMD
+YyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNjE5ODJd
+fQ==
 -->
