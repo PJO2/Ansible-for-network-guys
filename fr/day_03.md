@@ -107,9 +107,9 @@ nous lançons une commande sur l'ensemble des hosts du groupe routers, soit 2 ro
 
 Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance jusqu'à 5 instances en même temps. Nous pouvons modifier ce comportement avec le paramètre *forks*.
 
-[next](interlude_01)
+[next](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzk1NjU3NCw2ODM0NjkwOSwtMTUwNj
+eyJoaXN0b3J5IjpbLTY3OTU1MjMxNSw2ODM0NjkwOSwtMTUwNj
 IyMTMzMCwxNzQxMjQ5NjE4LC01MDQ0NjM3MTcsLTE2NTAwNjYx
 ODksLTE3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzOD
 gsMTk2MDE0NDQxMF19
