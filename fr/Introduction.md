@@ -23,7 +23,7 @@ Cette série d&#39;articles vous propose de découvrir les bases d&#39;Ansible e
 
 Le but sera atteint si vous êtes devenus suffisamment autonomes pour poursuivre vous-mêmes l&#39;apprentissage d&#39;Ansible.
 
-
+[jour 1](day_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDUyNDY4OF19
+eyJoaXN0b3J5IjpbLTEzOTU4NzIyOSwxNDkwNTI0Njg4XX0=
 -->
