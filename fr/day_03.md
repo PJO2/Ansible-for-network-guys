@@ -8,7 +8,7 @@ Le module est l'entité d'Ansible qui effectue une tâche spécialisée. Nous av
 La plupart des modules effectue les actions sur le serveur distant. Nous avons vu le module *raw* qui se contente de lancer la commande donnée en paramètre (ici *show clock*), ce qui est intuitif. Beaucoup moins intuitif pour nous, le module *copy* (qui copie des fichiers) ou le module *template* (qui sera vu en dernière journée) sont exécutés par défaut sur le serveur distant. Et ce n'est pas ce nous voulons en réseau. Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
 D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur la station Ansible.
 
-La clef, c'est le paramètre --connection (ou -c) qui spécifie la portée du module. Par défaut, connection est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
+La clef, c'est le paramètre **--connection** (ou -c) qui spécifie la portée du module. Par défaut, connection est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
 
 En version 2.7, une troisième option est ajoutée : c'est la valeur *cli_connection* qui permet de contrôler un distant, via des commandes locales, à la manière du module raw.
 
@@ -74,7 +74,7 @@ Les variables communes peuvent être regroupées dans les sections [group:vars],
     [routers]
     csrv1k-230 ansible_host=10.0.0.230
 
-Une autre façon de rensigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis group_vars et hosts_vars. Ansible va y chercher les fichiers :
+Une autre façon de renseigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis *group_vars* et *hosts_vars*. Ansible va y chercher les fichiers :
 group_vars/all
 group_vars/routers
 hosts_var/csrv1k-230
@@ -112,7 +112,7 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzMxMzA4MywtNTA0NDYzNzE3LC0xNj
+eyJoaXN0b3J5IjpbMTc0MTI0OTYxOCwtNTA0NDYzNzE3LC0xNj
 UwMDY2MTg5LC0xNzEwNzMyODY4LC0xNTYwNjIwMzg0LC0yMDQ2
 MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
 -->
