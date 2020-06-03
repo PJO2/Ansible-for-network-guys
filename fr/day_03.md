@@ -75,9 +75,11 @@ Les variables communes peuvent être regroupées dans les sections [group:vars],
     csrv1k-230 ansible_host=10.0.0.230
 
 Une autre façon de renseigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis *group_vars* et *hosts_vars*. Ansible va y chercher les fichiers :
-group_vars/all
-group_vars/routers
-hosts_var/csrv1k-230
+
+    group_vars/all
+    group_vars/routers
+    hosts_var/csrv1k-230
+
 et intègre leur contenu aux données de notre routeur.
 
 Une autre façon d'écrire notre inventaire est la suivante :
@@ -112,7 +114,7 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTI0OTYxOCwtNTA0NDYzNzE3LC0xNj
-UwMDY2MTg5LC0xNzEwNzMyODY4LC0xNTYwNjIwMzg0LC0yMDQ2
-MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDYyMjEzMzAsMTc0MTI0OTYxOCwtNT
+A0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC0xNTYw
+NjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
 -->
