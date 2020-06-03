@@ -31,10 +31,10 @@ Nous pouvons par exemple organiser notre parc d'équipements réseau de la mani�
 
 ou avec une petite astuce de notation  :
 
-      [routers]
-      csrv1k-[230:231]
-      [switchs]
-      sw-[001:002]
+    [routers]
+    csrv1k-[230:231]
+    [switchs]
+    sw-[001:002]
 
 La sélection des hosts sur lesquels exécuter une commande est le seul paramètre d'Ansible qui n'a pas de préfixe. Les valeurs autorisées sont all, un nom de section ou un nom de host :
 
@@ -109,7 +109,7 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [next](interlude_01)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzkxNTg3NCw2ODM0NjkwOSwtMTUwNj
+eyJoaXN0b3J5IjpbLTcyMzk1NjU3NCw2ODM0NjkwOSwtMTUwNj
 IyMTMzMCwxNzQxMjQ5NjE4LC01MDQ0NjM3MTcsLTE2NTAwNjYx
 ODksLTE3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzOD
 gsMTk2MDE0NDQxMF19
