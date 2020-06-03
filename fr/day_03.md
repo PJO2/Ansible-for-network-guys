@@ -65,7 +65,7 @@ all étant un filtre sur les éléments présents dans l'inventaire. On aurait a
     $ ansible csrv1k-230 -i inv -m raw -a "show clock"
 
 Les paramètres contenus dans l'inventaire sont passés de manière implicite au module, comme schématisé ici :
-[ansible inventory](module002.png)
+[ansible inventory](../images/module002.png)
 
 Les variables communes peuvent être regroupées dans les sections [group:vars], par exemple, nous pouvons écrire l'inventaire de la façon suivante :
 
@@ -109,8 +109,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [next](interlude_01)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MT
-I0OTYxOCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMy
-ODY4LC0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MT
-BdfQ==
+eyJoaXN0b3J5IjpbMTI2MTIxMzA0NSw2ODM0NjkwOSwtMTUwNj
+IyMTMzMCwxNzQxMjQ5NjE4LC01MDQ0NjM3MTcsLTE2NTAwNjYx
+ODksLTE3MTA3MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzOD
+gsMTk2MDE0NDQxMF19
 -->
