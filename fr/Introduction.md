@@ -11,19 +11,19 @@ Ma méthode est de partir d&#39;une instruction élémentaire qui fonctionne, de
 
 Ansible est un des nombreux logiciels open source permettant de contrôler à distance un parc de serveurs. Toutefois, dans le domaine de l&#39;administration réseaux, Ansible a pris l&#39;ascendant sur ses concurrents : Chef, Puppet, Salt, …
 
-Pour nous, administrateurs réseaux, la principale force d&#39;Ansible est d&#39;être agentless : Ansible demande seulement aux serveurs distants d&#39;avoir un serveur SSH actif pour pouvoir fonctionner, contrairement à ses concurrents qui installent des relais (agents) sur les distants. Ansible adresse donc parfaitement le domaine des réseaux où les équipements s&#39;administrent en SSH, mais sur lesquels il est bien souvent impossible d&#39;installer un logiciel.
+Pour nous, administrateurs réseaux, la principale force d&#39;Ansible est d&#39;être **agentless** : Ansible demande seulement aux serveurs distants d&#39;avoir un serveur SSH actif pour pouvoir fonctionner, contrairement à ses concurrents qui installent des relais (agents) sur les distants. Ansible adresse donc parfaitement le domaine des réseaux où les équipements s&#39;administrent en SSH, mais sur lesquels il est bien souvent impossible d&#39;installer un logiciel.
 
-Une autre force d&#39;Ansible est d&#39;avoir choisi Jinja2 comme langage de templating. Nous le verrons plus en détail, mais ce langage est un bon compromis entre puissance et complexité. Son apprentissage est rapide et sa puissance suffisante.
+Une autre force d&#39;Ansible est d&#39;avoir choisi **Jinja2** comme langage de templating. Nous le verrons plus en détail, mais ce langage est un bon compromis entre puissance et complexité. Son apprentissage est rapide et sa puissance suffisante.
 
-Enfin, comme pour tout développement Open Source qui se démarque, un grand soin a été apporté à la documentation
+Enfin, comme pour tout développement Open Source qui se démarque, un grand soin a été apporté à la **documentation**
 
-Par la suite, de nombreux modules ont été développés pour administrer les équipements réseaux et maintenant, Ansible est devenu une option incontournable pour automatiser son administration ou son exploitation.
+Par la suite, de nombreux **modules** ont été développés pour administrer les équipements réseaux et maintenant, Ansible est devenu une option incontournable pour automatiser son administration ou son exploitation.
 
 Cette série d&#39;articles vous propose de découvrir les bases d&#39;Ansible en automatisant des tâches simples sur des routeurs Cisco. Nous allons nous lancer à l&#39;eau dès le premier article en exécutant une commande à distance sur un seul équipement, puis itérer cette commande sur plusieurs équipements, ajouter et organiser des paramètres, et enfin lier des commandes entre elles. 
 
-Le but sera atteint si vous êtes devenus suffisamment autonomes pour poursuivre vous-mêmes l&#39;apprentissage d&#39;Ansible.
+Mon but sera atteint si vous êtes devenus suffisamment autonomes pour poursuivre vous-mêmes l&#39;apprentissage d&#39;Ansible.
 
 [jour 1](day_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU4NzIyOSwxNDkwNTI0Njg4XX0=
+eyJoaXN0b3J5IjpbLTk4OTg3MzUzMiwxNDkwNTI0Njg4XX0=
 -->
