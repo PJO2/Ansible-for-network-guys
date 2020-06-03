@@ -49,20 +49,17 @@ Nous pouvons représenter nos jedis par le fichier suivant :
           - padawans:
             - dooku
             - windu
-            - Ki-Adi-Mudi
-            - Ikrit
-            master: N' Kata Del Gormo
             location: dagobah
 
 
-
+Je vous déconseille d'écrire du YAML depuis un  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4ND
-A1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAz
-NSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2OD
-Y5NTQ4LDcxNzI2MTk4Ml19
+eyJoaXN0b3J5IjpbLTY5MzA4NzkxOCw2NTAxOTkyNzIsLTEwOD
+I1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5
+MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LDg1NT
+g2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
 -->
