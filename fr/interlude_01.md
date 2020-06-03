@@ -19,7 +19,7 @@ De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce 
 
     padawans[obiwan] = [anakin, luke]
 
-On peut, par exemple, regouper en une seule variable structurée nos données :
+On peut, par exemple, regrouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["planete"] = "tatooine"
@@ -61,8 +61,8 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMj
-Y2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODky
-MywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3Mj
-YxOTgyXX0=
+eyJoaXN0b3J5IjpbNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4ND
+A1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAz
+NSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2OD
+Y5NTQ4LDcxNzI2MTk4Ml19
 -->
