@@ -52,14 +52,14 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             location: dagobah
 
 
-Je vous déconseille d'écrire du YAML depuis un  
+Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzA4NzkxOCw2NTAxOTkyNzIsLTEwOD
-I1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5
-MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LDg1NT
-g2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbMTgzODk4NjkzLDY1MDE5OTI3MiwtMTA4Mj
+UxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkx
+LC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMyOTYsODU1OD
+Y3NjcsMTAzNjg2OTU0OCw3MTcyNjE5ODJdfQ==
 -->
