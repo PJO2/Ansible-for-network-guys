@@ -74,19 +74,13 @@ Les variables communes peuvent être regroupées dans les sections [group:vars],
     [routers]
     csrv1k-230 ansible_host=10.0.0.230
 
-Une autre façon de renseigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis *group_vars* et *hosts_vars*. Ansible va y chercher les fichiers :
+Note: une autre façon de renseigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis *group_vars* et *hosts_vars*. Ansible va y chercher les fichiers :
 
     group_vars/all
     group_vars/routers
     hosts_var/csrv1k-230
 
-et intègre leur contenu aux données de notre routeur.
-
-Une autre façon d'écrire notre inventaire est la suivante :
-
-cat inv
-cat group_vars/all
-cat hosts_var
+et intègre leur contenu aux données de notre routeur. A la différence du fichier inventaire, ces fichiers doivent être écris en YAML.
 
 Dans tous les cas, la syntaxe Ansible est identique :
 
@@ -112,9 +106,10 @@ nous lançons une commande sur l'ensemble des hosts du groupe routers, soit 2 ro
 
 Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance jusqu'à 5 instances en même temps. Nous pouvons modifier ce comportement avec le paramètre *forks*.
 
-
+[next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYyMjEzMzAsMTc0MTI0OTYxOCwtNT
-A0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC0xNTYw
-NjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbMTUzNDE5NTMwOSwtMTUwNjIyMTMzMCwxNz
+QxMjQ5NjE4LC01MDQ0NjM3MTcsLTE2NTAwNjYxODksLTE3MTA3
+MzI4NjgsLTE1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0ND
+QxMF19
 -->
