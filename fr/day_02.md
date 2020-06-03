@@ -98,7 +98,8 @@ Les données (nom du routeur, adresse IP, compte, …) sont passées au module d
 
 
 
-[next](day_03.md)
+[jour 3](day_03.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzg1ODM5NSwtMjAyNzYzOTIwNF19
+eyJoaXN0b3J5IjpbLTE1MTg3OTc0MTUsLTIwMjc2MzkyMDRdfQ
+==
 -->
