@@ -15,7 +15,10 @@ D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur
 
 La clef, c'est le paramètre **--connection** (ou -c) qui spécifie la portée du module. Par défaut, connection est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
 
-En version 2.7, une troisième option est ajoutée : c'est la valeur *cli_connection* qui permet de contrôler un distant, via des commandes locales, à la manière du module raw.
+En version 2.7, une troisième option est ajoutée : c'est la valeur *network_cli* qui permet de contrôler un distant, via des commandes locales, à la manière du module raw, avec un meilleur formatage.
+
+
+
 
 ## Les données
 
@@ -114,8 +117,9 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODgyMzk3NSwxMDM5OTc2MDUxLDY4Mz
-Q2OTA5LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgsLTUwNDQ2Mzcx
-NywtMTY1MDA2NjE4OSwtMTcxMDczMjg2OCwtMTU2MDYyMDM4NC
-wtMjA0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
+eyJoaXN0b3J5IjpbLTE1NDMxMzQ1OCwtODg4ODIzOTc1LDEwMz
+k5NzYwNTEsNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYx
+OCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC
+0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
+
 -->
