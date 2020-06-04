@@ -82,9 +82,9 @@ Ici, le module répondra 'y' quand le routeur demandera si la configuration doit
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer une liste et un cadre ne peut pas faire de mal  pour éviter de tester 
+La journée prochaine sera consacrée au formalisme des données, ensuite nous arriv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTQzMTExNSwtMTY0MTc1MDYwMCwyMT
+eyJoaXN0b3J5IjpbMTM0Njk0NDgzOCwtMTY0MTc1MDYwMCwyMT
 A3MzE1MzAyLC0xNzI4ODI3NTY4LC00MTk1MTczNTgsMjAwNzYy
 NjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4Nz
 ksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
