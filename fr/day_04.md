@@ -82,9 +82,9 @@ Ici, le module répondra y quand le routeur demandera si la configuration doit �
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, 
+La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, on n'est pas sûr de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NzA2NDUxLC0xNjQxNzUwNjAwLDIxMD
+eyJoaXN0b3J5IjpbLTc0NzI2MDIwLC0xNjQxNzUwNjAwLDIxMD
 czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
 NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
 wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
