@@ -46,7 +46,7 @@ Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant
 Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de ansible_network_os.
 ![screenshot007](../images/screenshot007.png)
 
-Ici nous utilisons un Cisco classique, ansible_network_os sera positionné à "ios".
+Ici nous utilisons un routeur Cisco classique, ansible_network_os sera positionné à "ios".
  
  La commande devient :
 
@@ -59,7 +59,7 @@ Et là c'est gagné :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYyMDM0NDQsMjAwNzYyNjU0MCwtMT
-Y3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4NzksLTEzNjQy
-ODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
+eyJoaXN0b3J5IjpbLTQxOTUxNzM1OCwyMDA3NjI2NTQwLC0xNj
+cyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OSwtMTM2NDI4
+MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
