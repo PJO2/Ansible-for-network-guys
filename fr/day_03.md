@@ -9,8 +9,8 @@ La plupart des modules effectue les actions sur le serveur distant. Nous avons v
 Par exemple, voici ce qui arrive quand nous voulons lire le fichier "params.csv" avec le module *file* :
 ![screenshot006](../images/screenshoot006.png).
 
-Le module va chercher le fichier params.csv sur le host distant. Pourtant, nous savons bien d'une part que le fichier n'est pas sur le host distant et d'autre part que Ansible ne va pas trouver  
-Et ce n'est pas ce nous voulons en réseau. Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
+Le module va chercher le fichier params.csv sur le host distant. Pourtant, nous savons bien, d'une part, que le fichier n'est pas sur le host distant et, d'autre part, que Ansible ne va pas trouver d'interpréteur python sur mon routeur... 
+Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
 D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur la station Ansible.
 
 La clef, c'est le paramètre **--connection** (ou -c) qui spécifie la portée du module. Par défaut, connection est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
@@ -114,7 +114,7 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTg4ODE5OSwxMDM5OTc2MDUxLDY4Mz
+eyJoaXN0b3J5IjpbLTQwMTQ1NDAwOCwxMDM5OTc2MDUxLDY4Mz
 Q2OTA5LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgsLTUwNDQ2Mzcx
 NywtMTY1MDA2NjE4OSwtMTcxMDczMjg2OCwtMTU2MDYyMDM4NC
 wtMjA0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
