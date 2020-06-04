@@ -64,11 +64,14 @@ Ce module peut interpréter la réponse de l'équipement et répondre en fonctio
 
 ici nous envoyons un reload, puis annulons l'opération :  
 
-    :~$ ansible all -i inv -m cli_command -a "command='reload' prompt='confirm' answer=n"                                    -c network_cli -e "ansible_network_os=ios"
+    :~$ ansible all -i inv -m cli_command 
+                -a "command='reload' prompt='confirm' answer=n" 
+                -c network_cli -e "ansible_network_os=ios"
 
+
+Les paramètres prompt et answer peuvent être entrés sous forme de tableau si le dialogue entre le routeur et l'automate est un peu plus complexe   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzcwNTg2NSwtNDE5NTE3MzU4LDIwMD
-c2MjY1NDAsLTE2NzIwNjQ4MTMsLTY5OTQ2MTA2NiwxNDk2NjA2
-ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZdfQ
-==
+eyJoaXN0b3J5IjpbMzY5OTUwMzkyLC00MTk1MTczNTgsMjAwNz
+YyNjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4
+NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
 -->
