@@ -82,10 +82,12 @@ Ici, le module répondra 'y' quand le routeur demandera si la configuration doit
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données, ensuite nous arriv
+La journée prochaine sera consacrée au formalisme des données, ensuite nous arriverons au playbooks..
+
+[interlude_01](interlude_01)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Njk0NDgzOCwtMTY0MTc1MDYwMCwyMT
-A3MzE1MzAyLC0xNzI4ODI3NTY4LC00MTk1MTczNTgsMjAwNzYy
-NjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4Nz
-ksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
+eyJoaXN0b3J5IjpbMTY4OTEyMDE2LC0xNjQxNzUwNjAwLDIxMD
+czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
+NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
+wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
