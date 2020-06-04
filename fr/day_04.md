@@ -43,7 +43,9 @@ Première question : où va-t-on renseigner cette variable. Vous avez en tête l
 
 Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant, mais les autres choix sont respectables.
 
-Le problème, c'est surtout ce qu'on va mettre dans cette variable et la docum
+Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible. 
+
+
 
  
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
@@ -53,7 +55,7 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUyMDMyMDEsLTY5OTQ2MTA2NiwxND
-k2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4
-MTZdfQ==
+eyJoaXN0b3J5IjpbNzY4NjY3NTMsLTY5OTQ2MTA2NiwxNDk2Nj
+A2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZd
+fQ==
 -->
