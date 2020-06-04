@@ -77,14 +77,14 @@ Les paramètres *prompt* et *answer* peuvent être entrés sous forme de listes,
             prompt=Save,confirm answer=y,n check_all=True"     \
             -c network_cli -e "ansible_network_os=ios ansible_command_timeout=20"
 
-Ici, le module répondra y quand le routeur demandera si la configuration doit être sauvée avant le reboot, et répondra non pour confirmer le reboot.
+Ici, le module répondra 'y' quand le routeur demandera si la configuration doit être sauvée, et répondra 'n' pour confirmer le reboot.
 
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, avoir un cadre 
+La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer une liste et même si le format est intuitif, d'autres  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MjY4MDkwLC0xNjQxNzUwNjAwLDIxMD
+eyJoaXN0b3J5IjpbMjMwMDI5ODM0LC0xNjQxNzUwNjAwLDIxMD
 czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
 NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
 wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
