@@ -22,17 +22,7 @@ La clef, c'est le paramètre **--connection** (ou -c) qui spécifie la portée d
 Par défaut, **connection** est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
 
 En version 2.7, une troisième option est ajoutée : c'est la valeur *network_cli* qui, conjuguée au module *cli_command*, permet de contrôler un distant, via des commandes locales, à la manière du module raw, avec un meilleur formatage.
-
-### Le module cli_command
-Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement **réseau** distant. Il gère correctement les prompts routeurs, les confirmations, les pages écrans et formate correctement la sortie. En revanche, l'OS constructeur doit être connu et renseigné au préalable dans la variable *ansible_network_os*.
-
-Et comme vous êtes impatient d'essayer ce module qui est vraiment fait pour nous, on passe tout de suite à la pratique : 
-
-    ark@amp:~$ ansible all -i inv 
-                       -m cli_command -a "command='show clock'" 
-                       -c network_cli -e "ansible_network_os=ios"
-
-Sans supr
+ 
 
 ## Les données
 
@@ -131,9 +121,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjI3NzQwMywtODg4ODIzOTc1LDEwMz
-k5NzYwNTEsNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYx
-OCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC
-0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
-
+eyJoaXN0b3J5IjpbNDMwMjg2NDEsLTg4ODgyMzk3NSwxMDM5OT
+c2MDUxLDY4MzQ2OTA5LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgs
+LTUwNDQ2MzcxNywtMTY1MDA2NjE4OSwtMTcxMDczMjg2OCwtMT
+U2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
