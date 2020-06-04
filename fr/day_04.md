@@ -84,10 +84,11 @@ Ici, le module répondra 'y' quand le routeur demandera si la configuration doit
 
 La journée prochaine sera consacrée au formalisme des données, ensuite nous arriverons au playbooks..
 
-[interlude_01](interlude_01)
+[interlude_01](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTEyMDE2LC0xNjQxNzUwNjAwLDIxMD
-czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
-NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
-wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
+eyJoaXN0b3J5IjpbMzYxNDgyNDcsMTY4OTEyMDE2LC0xNjQxNz
+UwNjAwLDIxMDczMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1
+OCwyMDA3NjI2NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMT
+Q5NjYwNjg3OSwtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0
+ODE2XX0=
 -->
