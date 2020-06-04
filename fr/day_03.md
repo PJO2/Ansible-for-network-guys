@@ -26,7 +26,7 @@ En version 2.7, une troisième option est ajoutée : c'est la valeur *network_cl
 ### Le module cli_command
 Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement **réseau** distant. Il gère correctement les prompts routeurs, les confirmations, les pages écrans et formate correctement la sortie. En revanche, l'OS constructeur doit être connu et renseigné au préalable dans la variable *ansible_network_os*.
 
-Et comme vous êtes impatient d'essayer ce module qui est vraiment fait pour nous, on y a va tout de sui 
+Et comme vous êtes impatient d'essayer ce module qui est vraiment fait pour nous, on passe tout de suite à la pratique : 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
 
@@ -127,9 +127,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjA2MDMwNywtODg4ODIzOTc1LDEwMz
-k5NzYwNTEsNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYx
-OCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC
-0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
-
+eyJoaXN0b3J5IjpbNzY4NDI5MzAxLC04ODg4MjM5NzUsMTAzOT
+k3NjA1MSw2ODM0NjkwOSwtMTUwNjIyMTMzMCwxNzQxMjQ5NjE4
+LC01MDQ0NjM3MTcsLTE2NTAwNjYxODksLTE3MTA3MzI4NjgsLT
+E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
