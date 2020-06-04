@@ -19,7 +19,16 @@ Les arguments à passer à Ansible commencent à prendre forme :
 On n'oubliera pas le paramètre **connection** :
  - -c : network_cli (nécessaire au module cli_command)
 
-Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque routeur :
+Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque routeur 
+
+    ark@amp-ansible:~$ cat inv
+    [all:vars]
+    ansible_user=cisco
+    ansible_ssh_pass=cisco
+    
+    [mon_reseau]
+    mon_routeur ansible_host=10.112.83.230
+    ark@amp-ansible:~$
 
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
@@ -31,6 +40,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NjQ2NTUxLC0xMzY0MjgyMTQ0LDc3Mj
+eyJoaXN0b3J5IjpbMTM1OTE0NzM2LC0xMzY0MjgyMTQ0LDc3Mj
 c4OTIxOCwxMzcxMjQ4MTZdfQ==
 -->
