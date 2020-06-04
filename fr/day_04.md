@@ -33,7 +33,8 @@ Et je lance ma commande :
 
 Caramba encore raté !
 
-En revanche, nous avons un message d'erreur tout à fait explicite (ce qui n'est pas toujours le cas avec Ansible !) : il manque la variable ansible_network_os 
+En revanche, nous avons un message d'erreur tout à fait explicite (ce qui n'est pas toujours le cas avec Ansible !) : il manque la variable *ansible_network_os*.  
+
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -42,6 +43,7 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTQ2MTA2NiwxNDk2NjA2ODc5LC0xMz
-Y0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZdfQ==
+eyJoaXN0b3J5IjpbMTU2ODU5NzAwNiwtNjk5NDYxMDY2LDE0OT
+Y2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgx
+Nl19
 -->
