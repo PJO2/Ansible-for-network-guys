@@ -6,11 +6,12 @@ Aujourd'hui: petite journée, puisque nous allons la passer à découvrir un seu
 La documentation du module est disponible ici :
 [https://docs.ansible.com/ansible/latest/modules/cli_command_module.html](https://docs.ansible.com/ansible/latest/modules/cli_command_module.html)
 
-Nous regardons attentivement le tableau **Parameters** qui  liste les paramètres attendus par le module, à passer en ligne de commande via --args ou -a. 
+Nous regardons attentivement le tableau **Parameters** qui  liste les données attendues par le module, qu'on passera via le paramètre --args ou -a. 
 
 Pour cli_command, le seul paramètre obligatoire est *command*, et précise la commande à exécuter.
 
 Les arguments à passer à Ansible commencent à prendre forme :
+
  - la sélection des routeurs  
  - -i le fichier inventaire 
  - -m le nom du module : cli_command
@@ -35,6 +36,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTM0NzA2OSwtMTM2NDI4MjE0NCw3Nz
+eyJoaXN0b3J5IjpbLTQ5NTQ3MDMxMiwtMTM2NDI4MjE0NCw3Nz
 I3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
