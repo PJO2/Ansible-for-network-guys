@@ -43,8 +43,8 @@ Première question : où va-t-on renseigner cette variable. Vous avez en tête l
 
 Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant, mais les autres choix sont respectables.
 
-Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible. 
-
+Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible. Pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network
+![
 
 
  
@@ -55,7 +55,7 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4NjY3NTMsLTY5OTQ2MTA2NiwxNDk2Nj
-A2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZd
-fQ==
+eyJoaXN0b3J5IjpbLTUwMDUxNDU0NSwtNjk5NDYxMDY2LDE0OT
+Y2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgx
+Nl19
 -->
