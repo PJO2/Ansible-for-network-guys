@@ -6,7 +6,7 @@ Comme tout automate digne de ce nom, Ansible cloisonne les actions et les donné
 Le module est l'entité d'Ansible qui effectue une tâche spécialisée. Nous avons vu qu'il y a des milliers de modules disponibles et nous allons en étudier 3.
 
 La plupart des modules effectue les actions sur le serveur distant. Nous avons vu le module *raw* qui se contente de lancer la commande donnée en paramètre (ici *show clock*), ce qui est intuitif. Beaucoup moins intuitif pour nous, le module *copy* (qui copie des fichiers) ou le module *template* (qui sera vu en dernière journée) sont exécutés par défaut sur le serveur distant. 
-Par exemple, si nou
+Par exemple, nous voulons lire le fichier params.csv 
 
 Et ce n'est pas ce nous voulons en réseau. Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
 D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur la station Ansible.
@@ -112,8 +112,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjQ4MzE3MiwxMDM5OTc2MDUxLDY4Mz
-Q2OTA5LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgsLTUwNDQ2Mzcx
-NywtMTY1MDA2NjE4OSwtMTcxMDczMjg2OCwtMTU2MDYyMDM4NC
-wtMjA0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
+eyJoaXN0b3J5IjpbLTE3OTgxNTg5NTgsMTAzOTk3NjA1MSw2OD
+M0NjkwOSwtMTUwNjIyMTMzMCwxNzQxMjQ5NjE4LC01MDQ0NjM3
+MTcsLTE2NTAwNjYxODksLTE3MTA3MzI4NjgsLTE1NjA2MjAzOD
+QsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
