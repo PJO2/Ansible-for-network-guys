@@ -35,6 +35,11 @@ Caramba encore raté !
 
 En revanche, nous avons un message d'erreur tout à fait explicite (ce qui n'est pas toujours le cas avec Ansible !) : il manque la variable *ansible_network_os*.  
 
+Première question : où va-t-on renseigner cette variable. Vous avez en tête les différentes possibilités :
+
+ - en global dans le fichier inventaire
+ - pour chaque host du fichier inventaire
+ - en ligne de commande avec le paramètre extra-vars 
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -43,7 +48,7 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODU5NzAwNiwtNjk5NDYxMDY2LDE0OT
-Y2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgx
-Nl19
+eyJoaXN0b3J5IjpbLTE0Njk3NDE5OTUsLTY5OTQ2MTA2NiwxND
+k2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4
+MTZdfQ==
 -->
