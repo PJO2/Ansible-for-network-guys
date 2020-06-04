@@ -11,14 +11,17 @@ Nous regardons attentivement le tableau **Parameters** qui  liste les données a
 Pour cli_command, le seul paramètre obligatoire est *command*, et précise la commande à exécuter.
 
 Les arguments à passer à Ansible commencent à prendre forme :
-
- - la sélection des routeurs  
- - -i le fichier inventaire 
- - -m le nom du module : cli_command
- - -a  les paramètres du module: command='ma commande'
+|||
+|-|-|
+||la sélection des routeurs|
+|-i| le fichier inventaire |
+|-m| le nom du module : cli_command|
+|-a|  les paramètres du module: command='ma commande'|
 
 On n'oubliera pas le paramètre **connection** :
- - -c : network_cli (nécessaire au module cli_command)
+|||
+|-|-|
+|-c|network_cli (nécessaire au module cli_command)|
 
 Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque routeur : 
 
@@ -36,6 +39,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTQ3MDMxMiwtMTM2NDI4MjE0NCw3Nz
+eyJoaXN0b3J5IjpbMjA1NjUzNDI1OSwtMTM2NDI4MjE0NCw3Nz
 I3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
