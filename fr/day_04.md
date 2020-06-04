@@ -14,6 +14,9 @@ Notre syntaxe se précise donc :
  - -m le nom du module : cli_command
  - -a  les paramètres du module: command='ma commande'
 
+On n'oubliera pas le paramètre **connection** :
+ - -c : network_cli (nécessaire 
+
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
@@ -23,6 +26,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjU1Njk5OCw3NzI3ODkyMTgsMTM3MT
-I0ODE2XX0=
+eyJoaXN0b3J5IjpbNjA1NTI1OTU0LDc3Mjc4OTIxOCwxMzcxMj
+Q4MTZdfQ==
 -->
