@@ -46,16 +46,21 @@ Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant
 Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de ansible_network_os.
 ![screenshot007](../images/screenshot007.png)
 
-Ici nous utilisons un Cisco
+Ici nous utilisons un Cisco classique, ansible_network_os sera positionné à "ios".
  
-ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
+ La commande devient :
+
+    ark@amp-ansible:~$ ansible all -i inv 
+          -m cli_command -a "command='show clock'" 
+          -c network_cli -e "ansible_network_os=ios"
 
 Les paramètres :
 
 Le show interfaces {{ wan }}
 ``````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzQyNjI2MywtNjk5NDYxMDY2LDE0OT
-Y2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgx
-Nl19
+eyJoaXN0b3J5IjpbLTE2NzIwNjQ4MTMsLTY5OTQ2MTA2NiwxND
+k2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4
+MTZdfQ==
 -->
