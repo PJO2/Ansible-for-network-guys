@@ -55,11 +55,11 @@ Ici nous utilisons un Cisco classique, ansible_network_os sera positionné à "i
           -c network_cli -e "ansible_network_os=ios"
 
 Et là c'est gagné :
-![screenshot007](../images/screenshot007.png)
+![screenshot008](../images/screenshot008.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzYyNjU0MCwtMTY3MjA2NDgxMywtNj
-k5NDYxMDY2LDE0OTY2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5
-MjE4LDEzNzEyNDgxNl19
+eyJoaXN0b3J5IjpbLTE5MTYyMDM0NDQsMjAwNzYyNjU0MCwtMT
+Y3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4NzksLTEzNjQy
+ODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
 -->
