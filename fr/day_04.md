@@ -69,9 +69,11 @@ ici nous envoyons un reload, puis annulons l'opération :
                 -c network_cli -e "ansible_network_os=ios"
 
 
-Les paramètres prompt et answer peuvent être entrés sous forme de tableau si le dialogue entre le routeur et l'automate est un peu plus complexe   
+Les paramètres prompt et answer peuvent être entrés sous forme de tableau si le dialogue entre le routeur et l'automate est un peu plus complexe :
+  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5OTUwMzkyLC00MTk1MTczNTgsMjAwNz
-YyNjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4
-NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
+eyJoaXN0b3J5IjpbLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMD
+A3NjI2NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYw
+Njg3OSwtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX
+0=
 -->
