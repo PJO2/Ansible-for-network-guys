@@ -70,7 +70,7 @@ ici nous envoyons un reload, puis annulons l'opération :
                 -c network_cli -e "ansible_network_os=ios"
 
 
-Les paramètres prompt et answer peuvent être entrés sous forme de listes, si le dialogue entre le routeur et l'automate est un peu plus complexe :
+Les paramètres *prompt* et *answer* peuvent être entrés sous forme de listes, si le dialogue entre le routeur et l'automate est un peu plus complexe :
   
 
     ansible all -i inv -m cli_command -a "command='reload in 30' \
@@ -82,10 +82,10 @@ Ici, le module répondra y quand le routeur demandera si la configuration doit �
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, on n'est pas sûr de 
+La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, avoir un cadre 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzI2MDIwLC0xNjQxNzUwNjAwLDIxMD
-czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
-NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
-wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
+eyJoaXN0b3J5IjpbLTk0MzY3NjU1NiwtMTY0MTc1MDYwMCwyMT
+A3MzE1MzAyLC0xNzI4ODI3NTY4LC00MTk1MTczNTgsMjAwNzYy
+NjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4Nz
+ksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
 -->
