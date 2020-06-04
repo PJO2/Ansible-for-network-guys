@@ -42,6 +42,9 @@ Première question : où va-t-on renseigner cette variable. Vous avez en tête l
  - en ligne de commande avec le paramètre --extra-vars 
 
 Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant, mais les autres choix sont respectables.
+
+Le problème, c'est surtout ce qu'on va mettre dans cette variable et la docum
+
  
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -50,7 +53,7 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzIzNzI1OCwtNjk5NDYxMDY2LDE0OT
-Y2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgx
-Nl19
+eyJoaXN0b3J5IjpbLTExNTUyMDMyMDEsLTY5OTQ2MTA2NiwxND
+k2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4
+MTZdfQ==
 -->
