@@ -36,15 +36,15 @@ Caramba encore raté !
 
 En revanche, nous avons un message d'erreur tout à fait explicite (ce qui n'est pas toujours le cas avec Ansible !) : il manque la variable *ansible_network_os*.  
 
-Première question : où va-t-on renseigner cette variable. Vous avez en tête les différentes possibilités :
+Première question : où va-t-on renseigner cette variable. Vous avez, bien sûr, en tête les différentes possibilités :
 
  - en global dans le fichier inventaire
  - pour chaque host du fichier inventaire
  - en ligne de commande avec le paramètre --extra-vars 
 
-Ici je vais choisir le paramètre extra-vars pour mettre cette variable en avant, mais les autres choix sont respectables.
+Ici je vais choisir le paramètre extra-vars qui a l'avantage d'être explicite, mais les autres choix sont respectables.
 
-Le problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de ansible_network_os.
+Le vrai problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de ansible_network_os.
 ![screenshot007](../images/screenshot007.png)
 
 Ici nous utilisons un routeur Cisco classique, ansible_network_os sera positionné à "ios".
@@ -84,8 +84,8 @@ Ici, le module répondra y quand le routeur demandera si la configuration doit �
 
 La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer des listes et même si le format est intuitif, avoir un cadre 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzY3NjU1NiwtMTY0MTc1MDYwMCwyMT
-A3MzE1MzAyLC0xNzI4ODI3NTY4LC00MTk1MTczNTgsMjAwNzYy
-NjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4Nz
-ksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
+eyJoaXN0b3J5IjpbOTM0MjY4MDkwLC0xNjQxNzUwNjAwLDIxMD
+czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
+NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
+wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
