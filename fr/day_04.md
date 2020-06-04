@@ -54,13 +54,12 @@ Ici nous utilisons un Cisco classique, ansible_network_os sera positionné à "i
           -m cli_command -a "command='show clock'" 
           -c network_cli -e "ansible_network_os=ios"
 
-Les paramètres :
+Et là c'est gagné :
+![screenshot007](screenshot007.png)
 
-Le show interfaces {{ wan }}
-``````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzIwNjQ4MTMsLTY5OTQ2MTA2NiwxND
-k2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTgxOTU0NjQ1MiwtMTY3MjA2NDgxMywtNj
+k5NDYxMDY2LDE0OTY2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5
+MjE4LDEzNzEyNDgxNl19
 -->
