@@ -60,12 +60,15 @@ Et là c'est gagné :
 
 ## Utilisation avancée
 
-Ce module peut interpréter la réponse de l'équipement et répondre   
-:~$ ansible all -i inv -m cli_command -a "command='reload' prompt='confirm' answer=n"                                    -c network_cli -e "ansible_network_os=ios" -vvvvv
+Ce module peut interpréter la réponse de l'équipement et répondre en fonction :
+
+ici nous envoyons un reload, puis annulons l'opération :  
+
+    :~$ ansible all -i inv -m cli_command -a "command='reload' prompt='confirm' answer=n"                                    -c network_cli -e "ansible_network_os=ios"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwMzk3MDEsLTQxOTUxNzM1OCwyMD
-A3NjI2NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYw
-Njg3OSwtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX
-0=
+eyJoaXN0b3J5IjpbLTM0MzcwNTg2NSwtNDE5NTE3MzU4LDIwMD
+c2MjY1NDAsLTE2NzIwNjQ4MTMsLTY5OTQ2MTA2NiwxNDk2NjA2
+ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZdfQ
+==
 -->
