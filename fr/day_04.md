@@ -70,15 +70,17 @@ ici nous envoyons un reload, puis annulons l'opération :
                 -c network_cli -e "ansible_network_os=ios"
 
 
-Les paramètres prompt et answer peuvent être entrés sous forme de tableau si le dialogue entre le routeur et l'automate est un peu plus complexe :
+Les paramètres prompt et answer peuvent être entrés sous forme de listes, si le dialogue entre le routeur et l'automate est un peu plus complexe :
   
 
-      ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command=reload prompt=['confirm','Save'] answer=['n','yes']"         
-    -c network_cli -e "ansible_network_os=ios" -vvvvv
+    ansible all -i inv -m cli_command -a "command='reload in 30' \
+            prompt=Save,confirm answer=y,n check_all=True"     \
+            -c network_cli -e "ansible_network_os=ios ansible_command_timeout=20"
 
+Ici, le module répondra y quand le routeur demandera si la configuration doit être sauvée avant le reboot, et répondra non à la question s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE3NTA2MDAsMjEwNzMxNTMwMiwtMT
-cyODgyNzU2OCwtNDE5NTE3MzU4LDIwMDc2MjY1NDAsLTE2NzIw
-NjQ4MTMsLTY5OTQ2MTA2NiwxNDk2NjA2ODc5LC0xMzY0MjgyMT
-Q0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjQ2MDY1MywtMTY0MTc1MDYwMCwyMT
+A3MzE1MzAyLC0xNzI4ODI3NTY4LC00MTk1MTczNTgsMjAwNzYy
+NjU0MCwtMTY3MjA2NDgxMywtNjk5NDYxMDY2LDE0OTY2MDY4Nz
+ksLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNzEyNDgxNl19
 -->
