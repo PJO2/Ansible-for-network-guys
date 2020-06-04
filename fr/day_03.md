@@ -7,7 +7,7 @@ Le module est l'entité d'Ansible qui effectue une tâche spécialisée. Nous av
 
 La plupart des modules effectue les actions sur le serveur distant. Nous avons vu le module *raw* qui se contente de lancer la commande donnée en paramètre (ici *show clock*), ce qui est intuitif. Beaucoup moins intuitif pour nous, le module *copy* (qui copie des fichiers) ou le module *template* (qui sera vu en dernière journée) sont exécutés par défaut sur le serveur distant. 
 Par exemple, voici ce qui arrive quand nous voulons lire le fichier "params.csv" avec le module *file* :
-![screenshot005](../images/screenshoot005.png).
+![screenshot005](../images/screenshot005.png).
 
 Le module va chercher le fichier params.csv sur le host distant. Pourtant, nous savons bien, d'une part, que le fichier n'est pas sur le host distant et, d'autre part, que Ansible ne va pas trouver d'interpréteur python sur mon routeur... 
 Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
@@ -114,8 +114,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNzQ2MDU4LDEwMzk5NzYwNTEsNjgzND
-Y5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYxOCwtNTA0NDYzNzE3
-LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC0xNTYwNjIwMzg0LC
-0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
+eyJoaXN0b3J5IjpbLTg4ODgyMzk3NSwxMDM5OTc2MDUxLDY4Mz
+Q2OTA5LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgsLTUwNDQ2Mzcx
+NywtMTY1MDA2NjE4OSwtMTcxMDczMjg2OCwtMTU2MDYyMDM4NC
+wtMjA0NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
