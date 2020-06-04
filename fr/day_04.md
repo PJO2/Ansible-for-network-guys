@@ -31,6 +31,7 @@ Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque r
 Et je lance ma commande :
 ![screenshot006](screenshot006.png)
 
+Caramba encore raté !
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -39,6 +40,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjUzNDI1OSwtMTM2NDI4MjE0NCw3Nz
+eyJoaXN0b3J5IjpbMTQ5NjYwNjg3OSwtMTM2NDI4MjE0NCw3Nz
 I3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
