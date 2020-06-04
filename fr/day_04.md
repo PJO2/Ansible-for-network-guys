@@ -19,7 +19,7 @@ Les arguments à passer à Ansible vont être :
 On n'oubliera pas le paramètre **connection** :
  - -c : network_cli (nécessaire au module cli_command)
 
-
+Dans le fichier inventaire, nous 
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -30,6 +30,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjc2NjQ0OSw3NzI3ODkyMTgsMTM3MT
-I0ODE2XX0=
+eyJoaXN0b3J5IjpbLTEzNjQyODIxNDQsNzcyNzg5MjE4LDEzNz
+EyNDgxNl19
 -->
