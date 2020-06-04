@@ -29,7 +29,7 @@ Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque r
  - la résolution nom vers adresse IP, puisque mes équipements ne sont pas connus par le DNS 
 
 Et je lance ma commande :
-![screenshot006](screenshot006.png)
+![screenshot006](../images/screenshot006.png)
 
 Caramba encore raté !
 
@@ -55,11 +55,11 @@ Ici nous utilisons un Cisco classique, ansible_network_os sera positionné à "i
           -c network_cli -e "ansible_network_os=ios"
 
 Et là c'est gagné :
-![screenshot007](screenshot007.png)
+![screenshot007](../images/screenshot007.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTU0NjQ1MiwtMTY3MjA2NDgxMywtNj
+eyJoaXN0b3J5IjpbMjAwNzYyNjU0MCwtMTY3MjA2NDgxMywtNj
 k5NDYxMDY2LDE0OTY2MDY4NzksLTEzNjQyODIxNDQsNzcyNzg5
 MjE4LDEzNzEyNDgxNl19
 -->
