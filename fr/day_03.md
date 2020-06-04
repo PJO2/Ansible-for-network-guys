@@ -15,16 +15,16 @@ Le module va chercher le fichier params.csv sur le host distant. Pourtant, nous 
 Je radote encore, mais Ansible a été écrit pour administrer des serveurs, pas des routeurs. Bref, c'est nous, administrateurs réseaux, qui avons dévoyé l'usage d'Ansible.
 D'ailleurs, il y a même un module nommé *local* pour effectuer des actions sur la station Ansible.
 
-### Le paramètre connection
+### Le paramètre *connection*
 
 La clef, c'est le paramètre **--connection** (ou -c) qui spécifie la portée du module. Et le temps qu'il m'a fait perdre vaut bien que je lui consacre un chapitre !
 
-Par défaut, connection est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
+Par défaut, **connection** est positionné à *ssh*, mais nous pouvons aussi préciser *local*, pour que l'action soit faite localement par la station Ansible. Nous pouvons finalement utiliser des templates, copier des fichiers, sans demander à nos routeurs des fonctionnalités Unix.
 
 En version 2.7, une troisième option est ajoutée : c'est la valeur *network_cli* qui, conjuguée au module *cli_command*, permet de contrôler un distant, via des commandes locales, à la manière du module raw, avec un meilleur formatage.
 
 ### Le module cli_command
-Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement 
+Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement **réseau** distant. Il gère correctement les prompts routeurs, 
 
 
 
@@ -125,7 +125,7 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjI2MDQ2MSwtODg4ODIzOTc1LDEwMz
+eyJoaXN0b3J5IjpbMTA0OTUwNzI3MywtODg4ODIzOTc1LDEwMz
 k5NzYwNTEsNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYx
 OCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC
 0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
