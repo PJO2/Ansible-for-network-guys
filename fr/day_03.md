@@ -24,7 +24,7 @@ Par défaut, **connection** est positionné à *ssh*, mais nous pouvons aussi pr
 En version 2.7, une troisième option est ajoutée : c'est la valeur *network_cli* qui, conjuguée au module *cli_command*, permet de contrôler un distant, via des commandes locales, à la manière du module raw, avec un meilleur formatage.
 
 ### Le module cli_command
-Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement **réseau** distant. Il gère correctement les prompts routeurs, 
+Ce module récent permet - comme son nom l'indique - de passer des commandes de type CLI à un équipement **réseau** distant. Il gère correctement les prompts routeurs, les confirmations, les pages écrans et formate correctement la sortie. En revanche, 
 
 
 
@@ -125,9 +125,8 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTUwNzI3MywtODg4ODIzOTc1LDEwMz
-k5NzYwNTEsNjgzNDY5MDksLTE1MDYyMjEzMzAsMTc0MTI0OTYx
-OCwtNTA0NDYzNzE3LC0xNjUwMDY2MTg5LC0xNzEwNzMyODY4LC
-0xNTYwNjIwMzg0LC0yMDQ2MzY1Mzg4LDE5NjAxNDQ0MTBdfQ==
-
+eyJoaXN0b3J5IjpbNzUzNzk1MDM3LC04ODg4MjM5NzUsMTAzOT
+k3NjA1MSw2ODM0NjkwOSwtMTUwNjIyMTMzMCwxNzQxMjQ5NjE4
+LC01MDQ0NjM3MTcsLTE2NTAwNjYxODksLTE3MTA3MzI4NjgsLT
+E1NjA2MjAzODQsLTIwNDYzNjUzODgsMTk2MDE0NDQxMF19
 -->
