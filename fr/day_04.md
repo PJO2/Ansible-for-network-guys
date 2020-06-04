@@ -71,9 +71,13 @@ ici nous envoyons un reload, puis annulons l'opération :
 
 Les paramètres prompt et answer peuvent être entrés sous forme de tableau si le dialogue entre le routeur et l'automate est un peu plus complexe :
   
+
+      ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command=reload prompt=['confirm','Save'] answer=['n','yes']"         
+    -c network_cli -e "ansible_network_os=ios" -vvvvv
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMD
-A3NjI2NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYw
-Njg3OSwtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX
-0=
+eyJoaXN0b3J5IjpbMjEwNzMxNTMwMiwtMTcyODgyNzU2OCwtND
+E5NTE3MzU4LDIwMDc2MjY1NDAsLTE2NzIwNjQ4MTMsLTY5OTQ2
+MTA2NiwxNDk2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOC
+wxMzcxMjQ4MTZdfQ==
 -->
