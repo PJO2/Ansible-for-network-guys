@@ -44,10 +44,10 @@ Première question : où va-t-on renseigner cette variable. Vous avez, bien sûr
 
 Ici je vais choisir le paramètre extra-vars qui a l'avantage d'être explicite, mais les autres choix sont respectables.
 
-Le vrai problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de ansible_network_os.
+Le vrai problème, c'est surtout ce qu'on va mettre dans cette variable et la documentation n'aide pas franchement. Les différents OS supportés se retrouvent dans les plugins python installés par Ansible: pour initialiser le terminal ssh, le module appelle le fichier python <ansible_network_os>.py. Il suffit (!) donc de regarder les fichiers disponibles, ce sont toutes les valeurs possibles de la variable.
 ![screenshot007](../images/screenshot007.png)
 
-Ici nous utilisons un routeur Cisco classique, ansible_network_os sera positionné à "ios".
+Ici nous utilisons un routeur Cisco classique, *ansible_network_os* sera positionné à "ios".
  
  La commande devient :
 
@@ -82,9 +82,9 @@ Ici, le module répondra 'y' quand le routeur demandera si la configuration doit
 ![screenshot009](../images/screenshot009.png)
 
 
-La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer une liste et même si le format est intuitif, d'autres  
+La journée prochaine sera consacrée au formalisme des données. On l'a bien vu avec cet exemple, il a fallu entrer une liste et le format choisu 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMDI5ODM0LC0xNjQxNzUwNjAwLDIxMD
+eyJoaXN0b3J5IjpbMTkxOTc0MjY0LC0xNjQxNzUwNjAwLDIxMD
 czMTUzMDIsLTE3Mjg4Mjc1NjgsLTQxOTUxNzM1OCwyMDA3NjI2
 NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OS
 wtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
