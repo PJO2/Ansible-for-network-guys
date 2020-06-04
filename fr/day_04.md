@@ -56,6 +56,7 @@ Ici nous utilisons un routeur Cisco classique, ansible_network_os sera positionn
           -c network_cli -e "ansible_network_os=ios"
 
 Et là c'est gagné :
+
 ![screenshot008](../images/screenshot008.png)
 
 ## Utilisation avancée
@@ -76,8 +77,8 @@ Les paramètres prompt et answer peuvent être entrés sous forme de tableau si 
     -c network_cli -e "ansible_network_os=ios" -vvvvv
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzMxNTMwMiwtMTcyODgyNzU2OCwtND
-E5NTE3MzU4LDIwMDc2MjY1NDAsLTE2NzIwNjQ4MTMsLTY5OTQ2
-MTA2NiwxNDk2NjA2ODc5LC0xMzY0MjgyMTQ0LDc3Mjc4OTIxOC
-wxMzcxMjQ4MTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDE3NTA2MDAsMjEwNzMxNTMwMiwtMT
+cyODgyNzU2OCwtNDE5NTE3MzU4LDIwMDc2MjY1NDAsLTE2NzIw
+NjQ4MTMsLTY5OTQ2MTA2NiwxNDk2NjA2ODc5LC0xMzY0MjgyMT
+Q0LDc3Mjc4OTIxOCwxMzcxMjQ4MTZdfQ==
 -->
