@@ -24,16 +24,9 @@ Dans le fichier inventaire, nous plaçons les variables spécifiques à chaque r
  - les identifiants de connexion qui sont communs à notre parc
  - la résolution nom vers adresse IP, puisque mes équipements ne sont pas connus par le DNS 
 
-    ark@amp-ansible:~$ cat inv
-    [all:vars]
-    ansible_user=cisco
-    ansible_ssh_pass=cisco
-    [mon_reseau]
-    mon_routeur ansible_host=10.112.83.230
-    ark@amp-ansible:~$
+Et je lance ma commande :
+![screenshot006](screenshot006.png)
 
-
-ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
 ark@amp-ansible:~$ ansible all -i inv -m cli_command -a "command='show clock'" -c network_cli -e "ansible_network_os=ios"
 
@@ -42,6 +35,6 @@ Les paramètres :
 Le show interfaces {{ wan }}
 ``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNjUwNTc3LC0xMzY0MjgyMTQ0LDc3Mj
-c4OTIxOCwxMzcxMjQ4MTZdfQ==
+eyJoaXN0b3J5IjpbMTU0NTM0NzA2OSwtMTM2NDI4MjE0NCw3Nz
+I3ODkyMTgsMTM3MTI0ODE2XX0=
 -->
