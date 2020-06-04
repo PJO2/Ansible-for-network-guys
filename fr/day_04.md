@@ -2,6 +2,7 @@
 
 Aujourd'hui: petite journée, puisque nous allons la passer à découvrir un seul module. Mais elle va nous servir à consolider tout ce que nous avons vu jusqu'ici. 
 
+## Remplacement de raw
 
 La documentation du module est disponible ici :
 [https://docs.ansible.com/ansible/latest/modules/cli_command_module.html](https://docs.ansible.com/ansible/latest/modules/cli_command_module.html)
@@ -57,9 +58,14 @@ Ici nous utilisons un routeur Cisco classique, ansible_network_os sera positionn
 Et là c'est gagné :
 ![screenshot008](../images/screenshot008.png)
 
+## Utilisation avancée
+
+Ce module peut interpréter la réponse de l'équipement et répondre   
+:~$ ansible all -i inv -m cli_command -a "command='reload' prompt='confirm' answer=n"                                    -c network_cli -e "ansible_network_os=ios" -vvvvv
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTUxNzM1OCwyMDA3NjI2NTQwLC0xNj
-cyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYwNjg3OSwtMTM2NDI4
-MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX0=
+eyJoaXN0b3J5IjpbLTE5MjIwMzk3MDEsLTQxOTUxNzM1OCwyMD
+A3NjI2NTQwLC0xNjcyMDY0ODEzLC02OTk0NjEwNjYsMTQ5NjYw
+Njg3OSwtMTM2NDI4MjE0NCw3NzI3ODkyMTgsMTM3MTI0ODE2XX
+0=
 -->
