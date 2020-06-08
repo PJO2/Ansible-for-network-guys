@@ -83,9 +83,11 @@ Nous pouvons également lancer cette même commande en mode verbose, en ajoutant
 
 Nous voyons bien notre commande exécutée correctement même si la mise en forme de la réponse nous déçoit un peu.
 
+Ceux qui n'ont pas un routeur ou switch Cisco physique ou virtuel, peuvent suivre ce tutoriel 
 
 
 [jour 2](day_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc3MDgwNTIsNjAwNzU5NjkyXX0=
+eyJoaXN0b3J5IjpbMzg0NDAzNiwtMTczNzcwODA1Miw2MDA3NT
+k2OTJdfQ==
 -->
