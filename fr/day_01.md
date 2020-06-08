@@ -85,12 +85,12 @@ Nous voyons bien notre commande exécutée correctement même si la mise en form
 
 ### Installer son lab avec VyOS
 
-Ceux qui n'ont pas d'équipements Cisco sous la main, peuvent suivre ce tutoriel en installant une machine virtuelle VyOS. C'est un routeur open source dont seul le support est payant.  
-
+Ceux qui n'ont pas d'équipements Cisco sous la main, peuvent suivre ce tutoriel en installant une machine virtuelle VyOS. C'est un routeur open source dont seul le support est payant et il est possible de télécharger des machines virtuelles pré installées en format VDI (virtualbox) ou   
+Je vous laisse installer l
 
 
 [jour 2](day_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg3OTM0NTAsLTE3Mzc3MDgwNTIsNj
-AwNzU5NjkyXX0=
+eyJoaXN0b3J5IjpbLTg4MDU5NzE0MSwtMTczNzcwODA1Miw2MD
+A3NTk2OTJdfQ==
 -->
