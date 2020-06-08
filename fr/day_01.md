@@ -83,14 +83,8 @@ Nous pouvons également lancer cette même commande en mode verbose, en ajoutant
 
 Nous voyons bien notre commande exécutée correctement même si la mise en forme de la réponse nous déçoit un peu.
 
-### Installer son lab avec VyOS
-
-Ceux qui n'ont pas d'équipements Cisco sous la main, peuvent suivre ce tutoriel en installant une machine virtuelle VyOS. C'est un routeur open source dont seul le support est payant et il est possible de télécharger des machines virtuelles pré installées en format VDI (virtualbox) ou VMWare (OVA).  
-Le lien https://www.tech2tech.fr/installation-dun-routeur-virtuel-leger-avec-vyos/ indique comment installer VyOS, puis comment configurer une adresse IP  
-
-
 [jour 2](day_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTM5MjQsLTE3Mzc3MDgwNTIsNjAwNz
-U5NjkyXX0=
+eyJoaXN0b3J5IjpbMjE3NDAyMTgzLC0xNzM3NzA4MDUyLDYwMD
+c1OTY5Ml19
 -->
