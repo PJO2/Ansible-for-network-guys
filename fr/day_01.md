@@ -83,11 +83,13 @@ Nous pouvons également lancer cette même commande en mode verbose, en ajoutant
 
 Nous voyons bien notre commande exécutée correctement même si la mise en forme de la réponse nous déçoit un peu.
 
-Ceux qui n'ont pas un routeur ou switch Cisco physique ou virtuel, peuvent suivre ce tutoriel 
+### Installer son lab avec VyOS
+
+Ceux qui n'ont pas d'équipements Cisco sous la main, peuvent suivre ce tutoriel en installant
 
 
 [jour 2](day_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NDAzNiwtMTczNzcwODA1Miw2MDA3NT
-k2OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQwMDk3NzIsLTE3Mzc3MDgwNTIsNj
+AwNzU5NjkyXX0=
 -->
