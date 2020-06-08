@@ -32,7 +32,7 @@ Evidemment, toutes ces informations devront être passées en paramètre à Ansi
 Je vais passer rapidement sur l&#39;installation d&#39;Ansible, car cette partie est très bien documentée par ailleurs, et, à part peut-être montrer comment installer une version spécifique, ma valeur ajoutée devrait être faible.
 
 ### L&#39;installation
-Il faut disposer a minima d&#39;un linux en mode serveur. Si vous ne pouvez pas installer une VM sous vmWare, une excellente alternative est d&#39;installer VirtualBox sur un PC Windows ou sur un MacBook et de créer sa VM sous VirtualBox. Pour des tests, un système avec 2gb de RAM et 16Gb de disque suffit amplement. Attention de sélectionnel
+Il faut disposer a minima d&#39;un linux en mode serveur. Si vous ne pouvez pas installer une VM sous vmWare, une excellente alternative est d&#39;installer VirtualBox sur un PC Windows ou sur un MacBook et de créer sa VM sous VirtualBox. Pour des tests, un système avec 2gb de RAM et 16Gb de disque suffit amplement. Attention de sélectionner un réseau en mode pont (Bridged Adapter), plutôt que NAT.
 
 Par ~~fainéantise~~ habitude, j&#39;utilise la distribution debian, mais ubuntu convient également et CentOS est probablement le meilleur choix, puisque Ansible, comme CentOS sont maintenus par la même société.
 
@@ -88,8 +88,9 @@ Nous voyons bien notre commande exécutée correctement même si la mise en form
 Ceux qui n'ont pas d'équipements Cisco sous la main, peuvent suivre ce tutoriel en installant une machine virtuelle VyOS. C'est un routeur open source dont seul le support est payant.  
 
 
+
 [jour 2](day_02.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI5MjQ4NDksLTE3Mzc3MDgwNTIsNj
+eyJoaXN0b3J5IjpbLTEwNjg3OTM0NTAsLTE3Mzc3MDgwNTIsNj
 AwNzU5NjkyXX0=
 -->
