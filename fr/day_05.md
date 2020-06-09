@@ -3,6 +3,8 @@
 Nous avons vu comment lancer une commande, comment organiser les données. Continuons notre voyage avec l'organisation des actions.
 
 Et oui, derrière ansible, il y a ansible-playbook qui permet d'exécuter une succession d'actions, appartenant à différents modules.
+
+Et si je vous demande sous quelle forme va être écrit le playbook ? Eh oui : c'est du YAML, d'où le détour par lesu 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAzMDA2NDhdfQ==
+eyJoaXN0b3J5IjpbMzM5MzIwNjg5XX0=
 -->
