@@ -47,11 +47,11 @@ Ensuite, nous complétons le playbook avec la commande validée lors de notre es
 Alors voyons voir le résultat :
 
 
-Bon ça fonctionne, mais la mise en forme du r 
+Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie du switch. C'est le rôle de la commande register qui   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjAwMjY4NywtMTU0MTQ2MzgwMiw5MT
+eyJoaXN0b3J5IjpbLTk3ODU2NTIwMywtMTU0MTQ2MzgwMiw5MT
 EyNzYyNDJdfQ==
 -->
