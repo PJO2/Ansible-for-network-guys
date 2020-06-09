@@ -54,11 +54,14 @@ Elle s'utilise conjointement avec un module :
 Maintenant nous avons affecté une variable qui sera globale au reste du playbook.
 Elle peu s'utiliser avec le pseudo-module debug pour l'afficher, avec le module template pour la consommer ou avec les filtres when pour conditionner la suite du playbook.
 
-Ici, nous affichons le retour de la commande en debug et retournons un success seulemen   
+Ici, nous affichons le retour de la commande en debug et retournons un success seulement pour l'équipement qui  possède cette adresse MAC.
 
+## Les autres paramètres d'un playbook  
+
+D'autres possibilités sont of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTYzNTgyNSwtMTU0MTQ2MzgwMiw5MT
+eyJoaXN0b3J5IjpbMTI0NjcxOTEzMSwtMTU0MTQ2MzgwMiw5MT
 EyNzYyNDJdfQ==
 -->
