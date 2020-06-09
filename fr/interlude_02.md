@@ -8,13 +8,19 @@ Jinja2 est un langage d'écriture de  templates intégré à python et développ
 
 En Jinja2, les éléments placés entre une double accolade sont interprétés. Par exemple le petit template suivant 
 
+Hello {{name}}
 
- 
-Jinja2 consomme des variables structurées de type Json ou Yaml
+rendra 
+
+Hello Aline
+
+si name vaut Aline. 
+  
+ Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les 
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5Njk0MTU2LDQ5NzI4MDMzNSw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMTcyNDU5ODMwMSw0OTcyODAzMzUsNzMwOT
+k4MTE2XX0=
 -->
