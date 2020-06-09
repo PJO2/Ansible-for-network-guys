@@ -27,10 +27,13 @@ donnera :
 
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
 
+Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme filtre est peut-être mal choisi, mais c'est le terme utilisé par Jinja2 !).
+
+Ainsi, si on souhaite saluer  
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgxNDYzNzMsNDk3MjgwMzM1LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTcwNDgxMjM1OCw0OTcyODAzMzUsNzMwOT
+k4MTE2XX0=
 -->
