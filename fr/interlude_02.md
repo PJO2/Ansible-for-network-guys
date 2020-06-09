@@ -16,11 +16,17 @@ Hello Aline
 
 si name vaut Aline. 
   
- Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les 
+ Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les combinant par un point.
+
+Si 
+
+alors
+
+Hello {{ jedis["
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDU5ODMwMSw0OTcyODAzMzUsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbNzkzNDcyMDU1LDQ5NzI4MDMzNSw3MzA5OT
+gxMTZdfQ==
 -->
