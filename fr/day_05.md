@@ -12,12 +12,22 @@ D'abord, l'en-tête du playbook décrit les paramètres globaux. Ensuite, le cha
 
 Chaque action comporte au moins les champs module, et je vous conseille d'ajouter le champ name. Ce dernier est optionnel, mais il augmente la lisibilité du playbook et apparaît également dans l'exécution du playbook.
 
-Bref, notre playbook deviant :
+Bref, notre playbook devient :
 
 
-Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansi
+Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
+L'inventaire s'écrit :
+
+et le playbook :
+(ansible_user en global)
+ou encore
+(ansible_user dans tasks)
+
+
+Le playbook se lance par la simple commande :
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzcyMjAwOSw5MTEyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDY4NjAzNzYsOTExMjc2MjQyXX0=
 -->
