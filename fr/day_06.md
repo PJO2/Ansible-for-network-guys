@@ -12,7 +12,18 @@ Par exemple, notre playbook show clock peut être écrit de la façon suivante :
 
 Comme attendu le module template permet de croiser un template texte avec des variables.
 
-Ici nous allons configurer une adresse IP sur 'linterface 
+Ici nous allons configurer une adresse IP sur l'interface  LAN du routeur.
+
+Bien sûr le template ne connaît pas l'interface et l'adresse IP.
+
+Le template est :
+
+
+
+Pour appeler le module template, il faut le fichier template et 
+
+
+Et ça ne marche pas. La faut au paramètre connection. Le template doit être généré localement, pas sur le 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwODk5MTc2XX0=
+eyJoaXN0b3J5IjpbLTIyMzY4MzIwN119
 -->
