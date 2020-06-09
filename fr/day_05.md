@@ -58,10 +58,15 @@ Ici, nous affichons le retour de la commande en debug et retournons un success s
 
 ## Les autres paramètres d'un playbook  
 
-D'autres possibilités sont of
+D'autres possibilités sont offertes par Ansible. Parmi elles : 
+|||
+|-|-|
+|block|définit un bloc d'action, permet de conditionner une suite d'actions|
+|tag|conditionne une action ou un bloc par un tag qui est passé en paramètre à ansible-playbook|
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjcxOTEzMSwtMTU0MTQ2MzgwMiw5MT
+eyJoaXN0b3J5IjpbMTQ2OTM1NzE3OCwtMTU0MTQ2MzgwMiw5MT
 EyNzYyNDJdfQ==
 -->
