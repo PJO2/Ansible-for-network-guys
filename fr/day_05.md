@@ -27,7 +27,14 @@ ou encore
 Le playbook se lance par la simple commande :
 
 
+Si nous voulons enchaîner avec la commande show version, cette fois rien de plus simple, nous ajoutons une tâche :
+
+## Niveau 2 : intercepter la sortie
+
+C'est 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4NjAzNzYsOTExMjc2MjQyXX0=
+eyJoaXN0b3J5IjpbMTEzNzMwNDcxMSw5MTEyNzYyNDJdfQ==
 -->
