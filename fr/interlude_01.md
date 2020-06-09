@@ -54,12 +54,12 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
-[jour 4](day_04.md)
+[jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxOD
-k4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1
-NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMz
-Q4Mjc4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0
-OCw3MTcyNjE5ODJdfQ==
+eyJoaXN0b3J5IjpbMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMD
+E2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1
+ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNT
+k4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3
+LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
 -->
