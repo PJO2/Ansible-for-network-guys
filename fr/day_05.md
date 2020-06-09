@@ -33,12 +33,14 @@ Si nous voulons enchaîner avec la commande show version, cette fois rien de plu
 
 Maintenant, prenons un vrai use-case : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port en access.
 
-Bravo à ceux qui 
+Bravo à ceux qui pensent à écrire l'inventaire ou veulent mettre un show mac address-table dans un module cli_command : le métier rentre.
 
-Je vous félicite pour  
+Les plus prudents commenceront pourtant à faire l'opération à la main pour s'assurer d'utiliser les bonnes commandes.
+
+ 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTAxNzM2OCw5MTEyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbLTE1NDE0NjM4MDIsOTExMjc2MjQyXX0=
 -->
