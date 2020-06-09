@@ -31,10 +31,14 @@ Si nous voulons enchaîner avec la commande show version, cette fois rien de plu
 
 ## Niveau 2 : intercepter la sortie
 
-Maintenant, prenons un vrai use-case : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port  
+Maintenant, prenons un vrai use-case : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port en access.
+
+Bravo à ceux qui 
+
+Je vous félicite pour  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkxNTQzODgsOTExMjc2MjQyXX0=
+eyJoaXN0b3J5IjpbLTUyNTAxNzM2OCw5MTEyNzYyNDJdfQ==
 -->
