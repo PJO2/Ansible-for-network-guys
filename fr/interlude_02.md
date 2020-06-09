@@ -19,9 +19,9 @@ si name vaut Aline.
  Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les combinant par un point.
 
 Si 
-jedis["obiwans"]["master"]  vaut yoda
+jedis["obiwan"]["master"]  vaut yoda
 alors
-Hello {{ jedis.obiwans.master }}
+Hello {{ jedis.obiwan.master }}
 donnera :
 
 
@@ -29,11 +29,22 @@ La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est e
 
 Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme filtre est peut-être mal choisi, mais c'est le terme utilisé par Jinja2 !).
 
-Ainsi, si on souhaite saluer  
+Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
+Hello {{ jedis.obiwan.padawans }}
+ 
+ on écrira plutôt :
+ Hello {{ jedis.obiwan.padawans | join(',') }}
+
+Et n'oubliez pas de transmettre mes amitiés à Darth Vador !
+
+
+
+
+ 
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDgxMjM1OCw0OTcyODAzMzUsNzMwOT
+eyJoaXN0b3J5IjpbLTQ4MDYwODQyNyw0OTcyODAzMzUsNzMwOT
 k4MTE2XX0=
 -->
