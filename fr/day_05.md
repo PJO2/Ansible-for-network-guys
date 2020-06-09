@@ -38,9 +38,20 @@ Bravo à ceux qui pensent à écrire l'inventaire ou veulent mettre un show mac 
 Les plus prudents commenceront pourtant à faire l'opération à la main pour s'assurer d'utiliser les bonnes commandes.
 
  
+ Maintenant, on peut écrire l'inventaire par exemple de la façon suivante :
+
+
+Ensuite, nous complétons le playbook avec la commande validée lors de notre essai.
+
+
+Alors voyons voir le résultat :
+
+
+Bon ça fonctionne, mais la mise en forme du r 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE0NjM4MDIsOTExMjc2MjQyXX0=
+eyJoaXN0b3J5IjpbLTM5NjAwMjY4NywtMTU0MTQ2MzgwMiw5MT
+EyNzYyNDJdfQ==
 -->
