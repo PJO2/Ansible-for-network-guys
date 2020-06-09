@@ -63,10 +63,13 @@ D'autres possibilités sont offertes par Ansible. Parmi elles :
 |-|-|
 |block|définit un bloc d'action, permet de conditionner une suite d'actions|
 |tag|conditionne une action ou un bloc par un tag qui est passé en paramètre à ansible-playbook|
-|gather_facts|défini en en-tête, il demande à Ansible de réc
+|gather_facts|défini en en-tête, il demande à Ansible de récupérer des renseignements sur le host.|
+
+
+Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez commencer à naviguer  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcxNDY3NDIsLTE1NDE0NjM4MDIsOT
-ExMjc2MjQyXX0=
+eyJoaXN0b3J5IjpbMTU5NDg3Njk5NSwtMTU0MTQ2MzgwMiw5MT
+EyNzYyNDJdfQ==
 -->
