@@ -38,6 +38,8 @@ Hello {{ jedis.obiwan.padawans }}
 Et n'oubliez pas de transmettre mes amitiés à Darth Vador !
 
 
+Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre les scripts qui  
+
 
 
  
@@ -45,6 +47,6 @@ Et n'oubliez pas de transmettre mes amitiés à Darth Vador !
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDYwODQyNyw0OTcyODAzMzUsNzMwOT
+eyJoaXN0b3J5IjpbMTQxMDU3OTY3Nyw0OTcyODAzMzUsNzMwOT
 k4MTE2XX0=
 -->
