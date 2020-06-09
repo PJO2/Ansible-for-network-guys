@@ -52,11 +52,13 @@ Elle s'utilise conjointement avec un module :
 
 
 Maintenant nous avons affecté une variable qui sera globale au reste du playbook.
-Le pseudo-module debug permet de l'afficher, les sous-commandes when perm   
+Elle peu s'utiliser avec le pseudo-module debug pour l'afficher, avec le module template pour la consommer ou avec les filtres when pour conditionner la suite du playbook.
+
+Ici, nous affichons le retour de la commande en debug et retournons un success seulemen   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1MzQwODI1LC0xNTQxNDYzODAyLDkxMT
-I3NjI0Ml19
+eyJoaXN0b3J5IjpbMTcxOTYzNTgyNSwtMTU0MTQ2MzgwMiw5MT
+EyNzYyNDJdfQ==
 -->
