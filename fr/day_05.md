@@ -10,9 +10,14 @@ Commençons par réécrire notre show clock en playbook.
 
 D'abord, l'en-tête du playbook décrit les paramètres globaux. Ensuite, le champ tasks décrit la successions d'actions. 
 
-Chaque action comporte au moins les champs module, et je vous conseille d'
+Chaque action comporte au moins les champs module, et je vous conseille d'ajouter le champ name. Ce dernier est optionnel, mais il augmente la lisibilité du playbook et apparaît également dans l'exécution du playbook.
+
+Bref, notre playbook deviant :
+
+
+Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDYwNDk2NSw5MTEyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbMTE1NzcyMjAwOSw5MTEyNzYyNDJdfQ==
 -->
