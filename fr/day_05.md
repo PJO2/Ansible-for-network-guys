@@ -8,7 +8,11 @@ Et si je vous demande sous quelle forme va être écrit le playbook ? Eh oui : c
 
 Commençons par réécrire notre show clock en playbook.
 
-D'abord, l'en-tête du playbook décrit les paramètres globaux au playbook. Ensuite, le
+D'abord, l'en-tête du playbook décrit les paramètres globaux. Ensuite, le champ tasks décrit la successions d'actions. 
+
+Chaque action comporte au moins les champs module, et je vous conseille d'
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjI4ODY3OSw5MTEyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbMTQ3NDYwNDk2NSw5MTEyNzYyNDJdfQ==
 -->
