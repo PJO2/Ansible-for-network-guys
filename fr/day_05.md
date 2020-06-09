@@ -63,10 +63,10 @@ D'autres possibilités sont offertes par Ansible. Parmi elles :
 |-|-|
 |block|définit un bloc d'action, permet de conditionner une suite d'actions|
 |tag|conditionne une action ou un bloc par un tag qui est passé en paramètre à ansible-playbook|
-
+|gather_facts|défini en en-tête, il demande à Ansible de réc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTM1NzE3OCwtMTU0MTQ2MzgwMiw5MT
-EyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODcxNDY3NDIsLTE1NDE0NjM4MDIsOT
+ExMjc2MjQyXX0=
 -->
