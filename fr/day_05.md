@@ -47,11 +47,16 @@ Ensuite, nous complétons le playbook avec la commande validée lors de notre es
 Alors voyons voir le résultat :
 
 
-Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie du switch. C'est le rôle de la commande register qui   
+Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie du switch. C'est le rôle de la commande register !
+Elle s'utilise conjointement avec un module :
+
+
+Maintenant nous avons affecté une variable qui sera globale au reste du playbook.
+Le pseudo-module debug permet de l'afficher, les sous-commandes when perm   
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODU2NTIwMywtMTU0MTQ2MzgwMiw5MT
-EyNzYyNDJdfQ==
+eyJoaXN0b3J5IjpbNjU1MzQwODI1LC0xNTQxNDYzODAyLDkxMT
+I3NjI0Ml19
 -->
