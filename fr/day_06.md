@@ -28,8 +28,11 @@ Et ça ne marche pas. La faut au paramètre connection. Le template doit être g
 
 C'est bon pour le template, mais il va falloir l'envoyer sur le routeur. Heureusement, il y un module copy qui va s'en charger ... si on l'exécute encore une fois en local....
 
-Et voilà un moyen de changer facilement la configuration 
+Et voilà un moyen de changer facilement la configuration des interfaces des 2 routeurs qui composent mon site.
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2MzQyMjk4XX0=
+eyJoaXN0b3J5IjpbNDQ2MzgwMTExXX0=
 -->
