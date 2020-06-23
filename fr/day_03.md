@@ -7,7 +7,7 @@ Comme tout automate digne de ce nom, Ansible cloisonne les actions et les donné
 ### Les modules dans Ansible
 Le module est l'entité d'Ansible qui effectue une tâche spécialisée. Nous avons vu qu'il y a des milliers de modules disponibles et nous allons en étudier 3.
 
-La plupart des modules effectue les actions sur le serveur distant. Nous avons vu le module *raw* qui se contente de lancer la commande donnée en paramètre (ici *show clock*), ce qui est intuitif. Beaucoup moins intuitif pour nous, le module *copy* (qui copie des fichiers) ou le module *template* (qui sera vu en dernière journée) sont exécutés par défaut sur le serveur distant. 
+La plupart des modules effectuent les actions sur le serveur distant. Nous avons vu le module *raw* qui se contente de lancer la commande donnée en paramètre (ici *show clock*), ce qui est intuitif. Beaucoup moins intuitif pour nous, le module *copy* (qui copie des fichiers) ou le module *template* (qui sera vu en dernière journée) sont exécutés par défaut sur le serveur distant. 
 Par exemple, voici ce qui arrive quand nous voulons lire le fichier "params.csv" avec le module *file* :
 ![screenshot005](../images/screenshot005.png).
 
@@ -87,6 +87,7 @@ Les variables communes peuvent être regroupées dans les sections [group:vars],
     [routers]
     csrv1k-230 ansible_host=10.0.0.230
 
+Le bon sens voulant que les données soient factorisées au maximum afin qu'une modification unitaire suffise à mettre à jour l'inventaire.
 Note: une autre façon de renseigner les variables relatives aux hosts est d'utiliser les répertoires pré-définis *group_vars* et *hosts_vars*. Ansible va y chercher les fichiers :
 
     group_vars/all
@@ -121,9 +122,9 @@ Notons que l'exécution se déroule en parallèle et, par défaut, ansible lance
 
 [interlude 1](interlude_01.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAwMjE0NjMsNDMwMjg2NDEsLTg4OD
-gyMzk3NSwxMDM5OTc2MDUxLDY4MzQ2OTA5LC0xNTA2MjIxMzMw
-LDE3NDEyNDk2MTgsLTUwNDQ2MzcxNywtMTY1MDA2NjE4OSwtMT
-cxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0NjM2NTM4OCwxOTYw
-MTQ0NDEwXX0=
+eyJoaXN0b3J5IjpbLTIxMTY3Mjk4OTgsLTIwNDAwMjE0NjMsND
+MwMjg2NDEsLTg4ODgyMzk3NSwxMDM5OTc2MDUxLDY4MzQ2OTA5
+LC0xNTA2MjIxMzMwLDE3NDEyNDk2MTgsLTUwNDQ2MzcxNywtMT
+Y1MDA2NjE4OSwtMTcxMDczMjg2OCwtMTU2MDYyMDM4NCwtMjA0
+NjM2NTM4OCwxOTYwMTQ0NDEwXX0=
 -->
