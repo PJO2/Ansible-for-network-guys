@@ -20,8 +20,8 @@
 
 [Journée V](day_05.md)
 : les templates
-<![endif]--> [cliquez ici / click here](https://coopnet.multimedia-conference.orange-business.com/?c=2wk1L8CmjBaC4f6G)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTY4MTU2LDE5NDA0MzkyMDIsMTk0MD
-QzOTIwMiwtNTg5NDA0NDE1LDExOTAxMTQ0NzldfQ==
+eyJoaXN0b3J5IjpbMTk0MDQzOTIwMiwxOTQwNDM5MjAyLDE5ND
+A0MzkyMDIsLTU4OTQwNDQxNSwxMTkwMTE0NDc5XX0=
 -->
