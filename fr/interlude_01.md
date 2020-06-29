@@ -96,11 +96,12 @@ Le Robert donne les définitions suivantes :
 
 Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
 
-> Comme principe général, on retiendra que la structure de données doit rendre leur utilisation la plus naturelle possible, tout en évitant au maximum leur redondance.
+> Comme principe fondateur, on retiendra que la structure des données doit rendre leur utilisation la plus naturelle possible, tout en évitant au maximum leur redondance.
 
 C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier l'ordre d'imbrication des données.
 
-## Tester 
+
+## Ecrire ses données 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -110,11 +111,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MT
-YzNTgwNywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4
-MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC
-0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3
-MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3My
-wtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUw
-MTk5MjcyXX0=
+eyJoaXN0b3J5IjpbMjE0NTU0NjY1MCwtOTQ5OTA5MDY3LC05Nj
+E3MzU2MTAsOTcxNjM1ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4
+MywtMTc0NDg5MjgyMCwtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OS
+wxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIy
+MzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNT
+csMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5
+ODQ0ODQyOF19
 -->
