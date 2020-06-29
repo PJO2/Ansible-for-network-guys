@@ -3,7 +3,7 @@
 
 Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données et en particulier du langage YAML.
 
-L'effort est nécessaire car les playbooks Ansible que nous allons étudier au prochain chapitre sont rédigés en YAML. Il est aussi libérateur, car il n'y a pas de bonne automa
+L'effort est nécessaire car les playbooks Ansible que nous allons étudier au prochain chapitre sont rédigés en YAML. Il est aussi libérateur, car il n'y a pas de bonne automatisation sans une structure de données adéquate.
 
 
 ## Le hash dans les langages récents
@@ -27,7 +27,7 @@ Ce nouveau type de données est devenu très rapidement populaire, il est intég
 
 Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
-La valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
+La valeur est de type quelconque et peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
 
     padawans[obiwan] = [anakin, luke]
 
@@ -35,9 +35,9 @@ On peut, par exemple, regrouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["location"] = "tatooine"
-    jedis["obiwan"]["master"] = "yoda"
+    jedis["obiwan"]["master"] = "qui-gon"
 
-Le lecteur attentif aura noté la marque du pluriel (ie: le s), qui permet de repérer plus facilement les listes et les tableaux des variables simples.
+Le lecteur attentif aura noté la marque du pluriel (ie: le 's'), qui permet de repérer plus facilement les listes et les tableaux des variables simples.
  
 
 ## Les formats YAML / JSON
@@ -72,7 +72,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
     jedis:
         - obiwan:
-            master: yoda
+            master: qui-gon
             location: tatooine
             padawans:
              - anakin
@@ -94,7 +94,7 @@ Le Robert donne les définitions suivantes :
 
 Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
 
-> Comme principe général, on retiendra que les données initiales ne doivent pas être  redondantes et que leur utilisation doit être le plus naturel possible.
+> Comme principe général, on retiendra que la structure de données doit rendre leur utilisation le plus naturel possible, tout en évitant au maximum leur redondance.
 
 C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier l'ordre d'imbrication des données.
 
@@ -108,11 +108,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNjM1ODA3LC0xOTM2NjgzMTUsLTExOT
-M2NDU4MywtMTc0NDg5MjgyMCwtMTAxMzA3NjgxNSwtMTMxMjM1
-NDI4OSwxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLT
-EwODIyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQy
-MjExNTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOT
-QsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0
-MDU5NTUzN119
+eyJoaXN0b3J5IjpbLTk2MTczNTYxMCw5NzE2MzU4MDcsLTE5Mz
+Y2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2
+ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLD
+E1MTgyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4
+NjUzMjUsLTk2NDIyMTE1NywzMzI0NDgxNzMsLTEzNjMxMTU1Mz
+csMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4
+MjUxMDU4Nl19
 -->
