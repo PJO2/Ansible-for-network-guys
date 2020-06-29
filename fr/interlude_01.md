@@ -62,7 +62,7 @@ soit en créant un niveau d'indentation supplémentaire qui correspond à la com
     padawans:
          - obiwan: 
               - anakin
-                luke
+              - luke
 
 
 Nous pouvons représenter nos jedis par le fichier suivant :
@@ -102,11 +102,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDcyODk5MSwtMTAxMzA3NjgxNSwtMT
-MxMjM1NDI4OSwxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5
-NDIsLTEwODIyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC
-05NjQyMjExNTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2
-ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1OD
-YsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4
-NzE4MDM1XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLT
+EzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1
+OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNS
+wtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAx
+NjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNT
+g2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5
+ODcxODAzNV19
 -->
