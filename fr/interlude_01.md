@@ -1,7 +1,9 @@
 
 # Interlude  : les formats de données complexes 
 
-Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données.  Cela nous permettra d'utiliser des données complexes dans nos scripts.
+Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données.  
+
+Cela nous permettra d'utiliser des données complexes dans nos scripts.
 
 ## Le hash dans les langages récents
 
@@ -105,7 +107,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg4OTEyODQsLTE5MzY2ODMxNSwtMT
+eyJoaXN0b3J5IjpbLTIwMDkxNTY1MzYsLTE5MzY2ODMxNSwtMT
 E5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEy
 MzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLDE1MTgyNTk0Mi
 wtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2
