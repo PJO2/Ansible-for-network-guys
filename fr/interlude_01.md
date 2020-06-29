@@ -5,7 +5,7 @@ Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une pr
 
 ## Le hash dans les langages récents
 
-Les langages Perl et Java ont popularisé un nouveau format de données : le tableau associatif (appelé encore hash, ou dictionnaire). C'est un ensemble de clefs associées à des valeurs, ou encore un tableau dont les indices sont des chaînes de caractères.
+Les langages Perl et PHP ont popularisé un nouveau format de données : le tableau associatif (appelé encore hash, ou dictionnaire). C'est un ensemble de clefs associées à des valeurs, ou encore un tableau dont les indices sont des chaînes de caractères.
 
 Par exemple, on peut écrire
 
@@ -62,9 +62,9 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ4Njc2NDQsMzMyNDQ4MTczLC0xMz
-YzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTky
-NzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LD
-Q5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2Mjkz
-Mjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbNDgxMDkxNDQ4LDMzMjQ0ODE3MywtMTM2Mz
+ExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5Mjcy
+LC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OT
+E5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5
+Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNzI2MTk4Ml19
 -->
