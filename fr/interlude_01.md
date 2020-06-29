@@ -10,7 +10,7 @@ L'effort est nécessaire car les playbooks Ansible que nous allons étudier au p
 
 Les langages Perl et PHP ont popularisé un nouveau format de données : le tableau associatif (appelé encore hash, ou dictionnaire). C'est un ensemble de clefs associées à des valeurs, ou encore un tableau dont les indices sont des chaînes de caractères.
 
-Par exemple, on peut écrire
+Par exemple, nous pouvons écrire
 
     adresse["obiwan"] = "tatooine"
 
@@ -111,11 +111,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTU0NjY1MCwtOTQ5OTA5MDY3LC05Nj
-E3MzU2MTAsOTcxNjM1ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4
-MywtMTc0NDg5MjgyMCwtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OS
-wxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIy
-MzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNT
-csMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5
-ODQ0ODQyOF19
+eyJoaXN0b3J5IjpbMTQwMzgwODA2LDIxNDU1NDY2NTAsLTk0OT
+kwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgwNywtMTkzNjY4MzE1
+LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLT
+EzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1
+OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNS
+wtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAx
+NjgyMzk0XX0=
 -->
