@@ -50,7 +50,7 @@ Si nous reprenons nos premiers exemples,
 adresse["obiwan"] = "tatooine" s'écrit  : 
 
     adresse:
-      - obiwan: tatooine
+      obiwan: tatooine
 
  et padawans[obiwan] = [anakin, luke] s'écrit soit directement :
   
@@ -102,11 +102,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLT
-EzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1
-OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNS
-wtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAx
-NjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNT
-g2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5
-ODcxODAzNV19
+eyJoaXN0b3J5IjpbLTExOTM2NDU4MywtMTc0NDg5MjgyMCwtMT
+AxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEzOTY0
+MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1MjMsMTQzMTcwNDc4My
+wxMTA5ODY1MzI1LC05NjQyMjExNTcsMzMyNDQ4MTczLC0xMzYz
+MTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNz
+IsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5
+MTkwNjU5MV19
 -->
