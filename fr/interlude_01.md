@@ -39,14 +39,14 @@ Le lecteur attentif aura noté la marque du pluriel (ie: le s), qui permet de re
 Les formats YAML et JSON permettent de décrire des variables structurées en listes ou en tableaux associatifs dans un format texte, souvent un fichier.
 
 Ansible a choisi le format YAML pour décrire la plupart des données, notamment pour sa lisibilité et sa compacité. 
-En effet, les niveau d'imbrications sont représentés par l'indentation, chaque niveau d'indentation indique une sous-structure. De plus, les guillemets sont  optionnels.
+Coté lisibilité, les niveau d'imbrications sont représentés par l'indentation, chaque niveau d'indentation indique une sous-structure. Coté compacité,  la ponctuation est seulement composée des signes deux-points et tiret. Les accoladeles guillemets sont  optionnels.
 
 Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire. 
 
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     ---
-    jedis :
+    jedis:
         obiwan:
           - master: yoda
             location: tatooine
@@ -65,11 +65,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTg5NTc5MCwxNTE4MjU5NDIsLTEwOD
-IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
-NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
-g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
-NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LD
-M0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1
-NDhdfQ==
+eyJoaXN0b3J5IjpbNTc3MDQwMzE1LDE1MTgyNTk0MiwtMTA4Mj
+IzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2NDIyMTE1
+NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxOD
+k4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1
+NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMz
+Q4Mjc4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0
+OF19
 -->
