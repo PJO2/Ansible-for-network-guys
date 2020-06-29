@@ -57,7 +57,7 @@ adresse["obiwan"] = "tatooine" s'écrit  :
 padawans:
  - obiwan: [anakin, luke]
   
-soit en créant un niveau d'indentation supplémentaire qui correspond bien à la complexité de nos données :
+soit en créant un niveau d'indentation supplémentaire qui correspond à la complexité de nos données :
 
     padawans:
          - obiwan: 
@@ -84,7 +84,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 ## Structurer ses données
 
-J'en profite pour 
+Une des tâches qui incombera à 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -92,11 +92,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA4NDQxMTAsMTUxODI1OTQyLC0xMD
-gyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIx
-MTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LD
-E4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1
-OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNS
-wzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5
-NTQ4XX0=
+eyJoaXN0b3J5IjpbLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwOD
+IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
+NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
+g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
+NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LD
+M0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1
+NDhdfQ==
 -->
