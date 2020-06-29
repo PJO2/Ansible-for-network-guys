@@ -67,16 +67,15 @@ soit en créant un niveau d'indentation supplémentaire qui correspond mieux à 
 
 Nous pouvons représenter nos jedis par le fichier suivant :
 
-    ---
     jedis:
-        obiwan:
-          - master: yoda
+        - obiwan:
+            master: yoda
             location: tatooine
             padawans:
              - anakin
              - luke
-        yoda:
-          - padawans:
+        - yoda:
+            padawans:
             - dooku
             - windu
             location: dagobah
@@ -102,11 +101,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjM0MzQxLC0xMTkzNjQ1ODMsLTE3ND
-Q4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5
-ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLD
-E0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0
-ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0Mj
-gsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2
-NjI1Mjg0Nl19
+eyJoaXN0b3J5IjpbMTY5MzA0MzQyMCwtMTE5MzY0NTgzLC0xNz
+Q0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1
+OTg3MCwtMTM5NjQzNTYxLDE1MTgyNTk0MiwtMTA4MjIzNTUyMy
+wxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2NDIyMTE1NywzMzI0
+NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4ND
+I4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0y
+NjYyNTI4NDZdfQ==
 -->
