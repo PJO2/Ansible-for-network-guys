@@ -28,7 +28,7 @@ La valeur peut elle-même être une liste ou un tableau associatif, ce qui perme
 On peut, par exemple, regrouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
-    jedis["obiwan"]["planete"] = "tatooine"
+    jedis["obiwan"]["adresse"] = "tatooine"
     jedis["obiwan"]["master"] = "yoda"
     
 
@@ -63,10 +63,10 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMj
-Q0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0
-MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLT
-I2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5
-MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNz
-I2MTk4Ml19
+eyJoaXN0b3J5IjpbMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05Nj
+QyMjExNTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIz
+OTQsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMT
+g0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4
+MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMz
+Y4Njk1NDgsNzE3MjYxOTgyXX0=
 -->
