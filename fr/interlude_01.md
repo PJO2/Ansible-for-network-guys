@@ -57,7 +57,7 @@ adresse["obiwan"] = "tatooine" s'écrit  :
 padawans:
  - obiwan: [anakin, luke]
   
-soit en créant un niveau d'indentation supplémentaire qui correspond à la complexité de nos données :
+soit en créant un niveau d'indentation supplémentaire qui correspond mieux à la complexité de nos données :
 
     padawans:
          - obiwan: 
@@ -102,11 +102,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM2NDU4MywtMTc0NDg5MjgyMCwtMT
-AxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEzOTY0
-MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1MjMsMTQzMTcwNDc4My
-wxMTA5ODY1MzI1LC05NjQyMjExNTcsMzMyNDQ4MTczLC0xMzYz
-MTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNz
-IsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5
-MTkwNjU5MV19
+eyJoaXN0b3J5IjpbMTY5NjM0MzQxLC0xMTkzNjQ1ODMsLTE3ND
+Q4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5
+ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLD
+E0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0
+ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0Mj
+gsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2
+NjI1Mjg0Nl19
 -->
