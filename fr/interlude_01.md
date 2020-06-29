@@ -14,13 +14,13 @@ Par exemple, on peut écrire
 ici, la variable est adresse, la clef est "obiwan", la valeur "tatooine". 
 
 Ce nouveau type de données est devenu très rapidement populaire, il est  intégré par tous les langages un peu récents :
-python	dictionnary
+Python	dictionnary
 Go	map
-ruby	hash
+Ruby	hash
 
 Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
-De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
+La valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
 
     padawans[obiwan] = [anakin, luke]
 
@@ -62,9 +62,9 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMDkxNDQ4LDMzMjQ0ODE3MywtMTM2Mz
-ExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5Mjcy
-LC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OT
-E5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5
-Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNzI2MTk4Ml19
+eyJoaXN0b3J5IjpbLTk2NDIyMTE1NywzMzI0NDgxNzMsLTEzNj
+MxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3
+MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsND
+kxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMy
+OTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNjE5ODJdfQ==
 -->
