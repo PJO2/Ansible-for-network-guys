@@ -14,7 +14,7 @@ Par exemple, on peut écrire
 ici, la variable est adresse, la clef est "obiwan", la valeur "tatooine". 
 
 
-Ce nouveau type de données est devenu très rapidement populaire, il est  intégré par tous les langages un peu récents :
+Ce nouveau type de données est devenu très rapidement populaire, il est intégré par tous les langages un peu récents :
 Python	dictionnary
 Go	map
 Ruby	hash
@@ -89,7 +89,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg0ODAyMSwxNTE4MjU5NDIsLTEwOD
+eyJoaXN0b3J5IjpbMTQ3OTM3NTk3MSwxNTE4MjU5NDIsLTEwOD
 IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
 NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
 g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
