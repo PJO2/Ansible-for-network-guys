@@ -43,6 +43,12 @@ Coté lisibilité, les niveau d'imbrications sont représentés par l'indentatio
 
 Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire de la variable ou de la liste en cours . 
 
+Si nous reprenons nos premiers exemples, 
+adresse["obiwan"] = "tatooine" s'écrit :
+adresse:
+ - obiwan: tatooine
+
+
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     ---
@@ -65,11 +71,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxOTg0NTIzLDE1MTgyNTk0MiwtMTA4Mj
-IzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2NDIyMTE1
-NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxOD
-k4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1
-NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMz
-Q4Mjc4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0
-OF19
+eyJoaXN0b3J5IjpbLTgyNTM3NTI5MywxNTE4MjU5NDIsLTEwOD
+IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
+NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
+g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
+NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LD
+M0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1
+NDhdfQ==
 -->
