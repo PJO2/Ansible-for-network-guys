@@ -84,12 +84,13 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 ## Structurer ses données
 
-Alors que nous venons d'apprendre à décrire des données complexes, il est nécessaire de distinguer clairement complexe et compliqué.
-Mon Robert donne les définitions suivantes :
+Alors que nous venons d'apprendre à décrire des données complexes, il est nécessaire de distinguer clairement le complexe du compliqué.
 
+Mon Robert donne les définitions suivantes :
 > Complexe: qui contient, qui réunit plusieurs éléments différents
-> Compliqué: 
->  Qui est difficile à appréhender, analyser et comprendre. 
+> Compliqué:   Qui est difficile à appréhender, analyser et comprendre. 
+
+Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué ! 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -99,11 +100,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMz
-k2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3
-ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMT
-M2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5
-MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Ni
-w0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5
-MzI5Nl19
+eyJoaXN0b3J5IjpbMTgwMzIyMzU1MCwtMTMxMjM1NDI4OSwxNz
+UxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1
+MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNTcsMz
+MyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0
+ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNy
+wtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3
+ODkyM119
 -->
