@@ -46,8 +46,11 @@ Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est un
 Si nous reprenons nos premiers exemples, 
 adresse["obiwan"] = "tatooine" s'écrit :
 
-    > adresse:
-    >  - obiwan: tatooine
+    adresse:
+      - obiwan: tatooine
+
+  padawans[obiwan] = [anakin, luke] s'écrit soit directement :
+  
 
 
 Nous pouvons représenter nos jedis par le fichier suivant :
@@ -72,7 +75,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTg5MzY1MSwxNTE4MjU5NDIsLTEwOD
+eyJoaXN0b3J5IjpbLTk3MDk2MzMzMiwxNTE4MjU5NDIsLTEwOD
 IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
 NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
 g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
