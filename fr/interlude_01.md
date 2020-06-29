@@ -13,7 +13,8 @@ Par exemple, on peut écrire
 
 ici, la variable est adresse, la clef est "obiwan", la valeur "tatooine". 
 
-Ce type
+Ce nouveau type de données est devenu très rapidement populaire, il est  intégré par tous les langages un peu récents :
+
 Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
 De plus, la valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
@@ -58,7 +59,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDI5NzE1MCwzMzI0NDgxNzMsLTEzNj
+eyJoaXN0b3J5IjpbLTIxNzkzMjU5NCwzMzI0NDgxNzMsLTEzNj
 MxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3
 MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsND
 kxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMy
