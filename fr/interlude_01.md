@@ -93,6 +93,8 @@ Bref, il est possible de faire moins compliqué en rendant plus complexe [mais d
 
 > Comme principe général, on retiendra que les données initiales ne doivent pas être  redondantes et que leur utilisation doit être le plus naturel possible.
 
+C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier 
+
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
 [jour 5](day_05.md)
@@ -101,7 +103,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTM3NDgwOSwtMTkzNjY4MzE1LC0xMT
+eyJoaXN0b3J5IjpbMTcwOTY4MDEwMCwtMTkzNjY4MzE1LC0xMT
 kzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIz
 NTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC
 0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0
