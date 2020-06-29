@@ -1,11 +1,11 @@
 
 # Interlude  : les formats de données complexes 
 
-Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données.  
+Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données.  Cela nous permtt
 
 ## Le hash dans les langages récents
 
-Les langages Perl et Java ont popularisé un nouveau format de données : le tableau associatif (appelé encore hash, ou dictionnaire). C'est un ensemble de clefs associées à des valeurs. On peut le voir comme un tableau dont les indices sont des chaînes de caractères.
+Les langages Perl et Java ont popularisé un nouveau format de données : le tableau associatif (appelé encore hash, ou dictionnaire). C'est un ensemble de clefs associées à des valeurs, ou encore un tableau dont les indices sont des chaînes de caractères.
 
 Par exemple, on peut écrire
 
@@ -57,9 +57,9 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjQxNzkyNiwzMzI0NDgxNzMsLTEzNj
-MxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3
-MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsND
-kxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMy
-OTYsODU1ODY3NjcsMTAzNjg2OTU0OCw3MTcyNjE5ODJdfQ==
+eyJoaXN0b3J5IjpbLTIxMzMwNDczMzksMzMyNDQ4MTczLC0xMz
+YzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTky
+NzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LD
+Q5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2Mjkz
+Mjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
 -->
