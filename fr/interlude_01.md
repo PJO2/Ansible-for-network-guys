@@ -93,7 +93,9 @@ Bref, il est possible de faire moins compliqué en rendant plus complexe [mais d
 
 > Comme principe général, on retiendra que les données initiales ne doivent pas être  redondantes et que leur utilisation doit être le plus naturel possible.
 
-C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier 
+C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier l'ordre d'imbrication des données.
+
+## Tester 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -103,11 +105,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTY4MDEwMCwtMTkzNjY4MzE1LC0xMT
-kzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIz
-NTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC
-0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0
-MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMz
-k0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4
-NDA1OTU1MzddfQ==
+eyJoaXN0b3J5IjpbLTE4Mjg4OTEyODQsLTE5MzY2ODMxNSwtMT
+E5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEy
+MzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLDE1MTgyNTk0Mi
+wtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2
+NDIyMTE1NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4Mj
+M5NCwxODk4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4Niwx
+ODQwNTk1NTM3XX0=
 -->
