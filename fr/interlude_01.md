@@ -57,10 +57,12 @@ adresse["obiwan"] = "tatooine" s'écrit  :
 
  et padawans[obiwan] = [anakin, luke] s'écrit soit directement :
   
-padawans:
- - obiwan: [anakin, luke]
+
+    padawans:
+     - obiwan: [anakin, luke]
+
   
-soit en créant un niveau d'indentation supplémentaire qui correspond mieux à la complexité de nos données :
+soit en créant un niveau d'indentation supplémentaire, ce qui correspond mieux à la complexité de nos données :
 
     padawans:
          - obiwan: 
@@ -94,7 +96,7 @@ Le Robert donne les définitions suivantes :
 
 Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
 
-> Comme principe général, on retiendra que la structure de données doit rendre leur utilisation le plus naturel possible, tout en évitant au maximum leur redondance.
+> Comme principe général, on retiendra que la structure de données doit rendre leur utilisation la plus naturelle possible, tout en évitant au maximum leur redondance.
 
 C'est dans cet objectif que les différents renseignements ont été regroupés dans la structure commune *jedis*, quitte à modifier l'ordre d'imbrication des données.
 
@@ -108,11 +110,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTczNTYxMCw5NzE2MzU4MDcsLTE5Mz
-Y2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2
-ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLD
-E1MTgyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4
-NjUzMjUsLTk2NDIyMTE1NywzMzI0NDgxNzMsLTEzNjMxMTU1Mz
-csMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4
-MjUxMDU4Nl19
+eyJoaXN0b3J5IjpbLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MT
+YzNTgwNywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4
+MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC
+0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3
+MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3My
+wtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUw
+MTk5MjcyXX0=
 -->
