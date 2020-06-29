@@ -2,7 +2,7 @@
 # Interlude  : les formats de données complexes 
 
 Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données.  
-
+L'effort est nécessaire car les playbooks Ansible 
 Cela nous permettra d'utiliser des données complexes dans nos scripts.
 
 ## Le hash dans les langages récents
@@ -107,11 +107,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkxNTY1MzYsLTE5MzY2ODMxNSwtMT
-E5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEy
-MzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLDE1MTgyNTk0Mi
-wtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2
-NDIyMTE1NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4Mj
-M5NCwxODk4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4Niwx
-ODQwNTk1NTM3XX0=
+eyJoaXN0b3J5IjpbLTI3MTA2MDkxMywtMTkzNjY4MzE1LC0xMT
+kzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIz
+NTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC
+0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0
+MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMz
+k0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4
+NDA1OTU1MzddfQ==
 -->
