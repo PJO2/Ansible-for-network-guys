@@ -22,7 +22,6 @@ Ce nouveau type de données est devenu très rapidement populaire, il est intég
 |Ruby| hash|
 |Go|map|
 
-
 Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
 La valeur peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
@@ -93,11 +92,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzA4MjkyLDE1MTgyNTk0MiwtMTA4Mj
-IzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2NDIyMTE1
-NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxOD
-k4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1
-NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkxLC01OTg3MTgwMzUsMz
-Q4Mjc4OTIzLC0yMDYyOTMyOTYsODU1ODY3NjcsMTAzNjg2OTU0
-OF19
+eyJoaXN0b3J5IjpbLTE1MDA4NDQxMTAsMTUxODI1OTQyLC0xMD
+gyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIx
+MTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LD
+E4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1
+OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNS
+wzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5
+NTQ4XX0=
 -->
