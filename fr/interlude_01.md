@@ -85,7 +85,8 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 ## Structurer ses données
 
 Alors que nous venons d'apprendre à décrire des données complexes, il est nécessaire de distinguer clairement complexe et compliqué.
-Le 
+Mon Robert donne les définitions suivantes :
+Complexe: qui contient, 
 
 >  Qui est difficile à appréhender, analyser et comprendre. 
 
@@ -95,11 +96,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxOD
-I1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMy
-NSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMT
-AxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEw
-NTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLT
-U5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2
-N119
+eyJoaXN0b3J5IjpbNzIwMzUyODkxLDE3NTE1OTg3MCwtMTM5Nj
+QzNTYxLDE1MTgyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0Nzgz
+LDExMDk4NjUzMjUsLTk2NDIyMTE1NywzMzI0NDgxNzMsLTEzNj
+MxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3
+MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsND
+kxOTA2NTkxLC01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMy
+OTZdfQ==
 -->
