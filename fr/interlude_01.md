@@ -31,7 +31,7 @@ La valeur peut elle-même être une liste ou un tableau associatif, ce qui perme
 On peut, par exemple, regrouper en une seule variable structurée nos données :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
-    jedis["obiwan"]["adresse"] = "tatooine"
+    jedis["obiwan"]["location"] = "tatooine"
     jedis["obiwan"]["master"] = "yoda"
 
 Le lecteur attentif aura noté la marque du pluriel (ie: le s), qui permet de repérer plus facilement les listes et les tableaux des variables simples.
@@ -90,7 +90,8 @@ Mon Robert donne les définitions suivantes :
 > Complexe: qui contient, qui réunit plusieurs éléments différents
 > Compliqué:   Qui est difficile à appréhender, analyser et comprendre. 
 
-Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué ! 
+Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
+
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -100,11 +101,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzIyMzU1MCwtMTMxMjM1NDI4OSwxNz
-UxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1
-MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNTcsMz
-MyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0
-ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNy
-wtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3
-ODkyM119
+eyJoaXN0b3J5IjpbLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMT
+c1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1
+NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LD
+MzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0
+NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1Mz
+csLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgy
+Nzg5MjNdfQ==
 -->
