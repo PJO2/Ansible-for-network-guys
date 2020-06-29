@@ -44,14 +44,21 @@ Coté lisibilité, les niveau d'imbrications sont représentés par l'indentatio
 Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire de la variable ou de la liste en cours . 
 
 Si nous reprenons nos premiers exemples, 
-adresse["obiwan"] = "tatooine" s'écrit :
+adresse["obiwan"] = "tatooine" s'écrit  : 
 
     adresse:
       - obiwan: tatooine
 
-  padawans[obiwan] = [anakin, luke] s'écrit soit directement :
+ et padawans[obiwan] = [anakin, luke] s'écrit soit directement :
   
-
+padawans:
+ - obiwan: [anakin, luke]
+  
+soit en créant un niveau d'indenda
+    padawans:
+     - obiwan: 
+          - anakin
+            luke
 
 Nous pouvons représenter nos jedis par le fichier suivant :
 
@@ -75,11 +82,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDk2MzMzMiwxNTE4MjU5NDIsLTEwOD
-IyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjEx
-NTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMT
-g5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5
-NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LD
-M0ODI3ODkyMywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMjc4MDMzNzAsMTUxODI1OTQyLC0xMD
+gyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIx
+MTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LD
+E4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1
+OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNS
+wzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5
+NTQ4XX0=
 -->
