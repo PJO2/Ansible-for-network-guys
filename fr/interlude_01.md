@@ -93,6 +93,7 @@ Mon Robert donne les définitions suivantes :
 Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
 
 
+
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
 [jour 5](day_05.md)
@@ -101,11 +102,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMT
-c1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1
-NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LD
-MzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0
-NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1Mz
-csLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgy
-Nzg5MjNdfQ==
+eyJoaXN0b3J5IjpbMTY4MDcyODk5MSwtMTAxMzA3NjgxNSwtMT
+MxMjM1NDI4OSwxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5
+NDIsLTEwODIyMzU1MjMsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC
+05NjQyMjExNTcsMzMyNDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2
+ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLTEwODI1MTA1OD
+YsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4
+NzE4MDM1XX0=
 -->
