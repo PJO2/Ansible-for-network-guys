@@ -90,8 +90,7 @@ Le Robert donne les définitions suivantes :
 > Compliqué:   Qui est difficile à appréhender, analyser et comprendre. 
 
 Bref, il est possible de faire moins compliqué en rendant plus complexe [mais dans tous les cas, on fera pas plus simple, car simple est l'antonyme de complexe et de compliqué, d'où les confusions !]. 
-Et il est donc légitime de créer des données complexes si on 
-
+Comme principe général, on retiendra que  
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -101,11 +100,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTU0MTk3MiwtMTE5MzY0NTgzLC0xNz
-Q0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1
-OTg3MCwtMTM5NjQzNTYxLDE1MTgyNTk0MiwtMTA4MjIzNTUyMy
-wxNDMxNzA0NzgzLDExMDk4NjUzMjUsLTk2NDIyMTE1NywzMzI0
-NDgxNzMsLTEzNjMxMTU1MzcsMTEwMTY4MjM5NCwxODk4NDQ4ND
-I4LDY1MDE5OTI3MiwtMTA4MjUxMDU4NiwxODQwNTk1NTM3LC0y
-NjYyNTI4NDZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTY0NTAwOTQsLTExOTM2NDU4MywtMT
+c0NDg5MjgyMCwtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUx
+NTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1Mj
+MsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNTcsMzMy
+NDQ4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0OD
+QyOCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywt
+MjY2MjUyODQ2XX0=
 -->
