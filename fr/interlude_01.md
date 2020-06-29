@@ -28,10 +28,11 @@ Ce nouveau type de données est devenu très rapidement populaire, il est intég
 Ces langages relèguent les tableaux classiques, à indices numériques, au rang de liste.
 
 La valeur est de type quelconque et peut elle-même être une liste ou un tableau associatif, ce qui permet de travailler facilement et lisiblement avec des formats de données complexes.
+Ici nous créons une valeur de type liste :
 
     padawans[obiwan] = [anakin, luke]
 
-On peut, par exemple, regrouper en une seule variable structurée nos données :
+Ici, nous avons regroupé nos données en une seule variable structurée  :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["location"] = "tatooine"
@@ -111,11 +112,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzgwODA2LDIxNDU1NDY2NTAsLTk0OT
-kwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgwNywtMTkzNjY4MzE1
-LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLT
-EzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1
-OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMyNS
-wtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMTAx
-NjgyMzk0XX0=
+eyJoaXN0b3J5IjpbLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxND
+U1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgw
+NywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLT
+EwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2
+NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3OD
+MsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2
+MzExNTUzN119
 -->
