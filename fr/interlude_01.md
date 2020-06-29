@@ -88,7 +88,7 @@ Alors que nous venons d'apprendre à décrire des données complexes, il est né
 Mon Robert donne les définitions suivantes :
 
 > Complexe: qui contient, qui réunit plusieurs éléments différents
-> 
+> Compliqué: 
 >  Qui est difficile à appréhender, analyser et comprendre. 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
@@ -99,11 +99,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDYxODg3NiwxNzUxNTk4NzAsLTEzOT
-Y0MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1MjMsMTQzMTcwNDc4
-MywxMTA5ODY1MzI1LC05NjQyMjExNTcsMzMyNDQ4MTczLC0xMz
-YzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTky
-NzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LD
-Q5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2Mjkz
-Mjk2XX0=
+eyJoaXN0b3J5IjpbLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMz
+k2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3
+ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMT
+M2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5
+MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Ni
+w0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5
+MzI5Nl19
 -->
