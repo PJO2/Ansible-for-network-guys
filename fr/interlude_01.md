@@ -31,7 +31,7 @@ On peut, par exemple, regrouper en une seule variable structurée nos données :
     jedis["obiwan"]["adresse"] = "tatooine"
     jedis["obiwan"]["master"] = "yoda"
 
-Le lecteur attentif aura noté la marque du pluriel (ie: le s), qui distingue les listes et les tableaux des variables simples.
+Le lecteur attentif aura noté la marque du pluriel (ie: le s), qui permet de repérer plus facilement les listes et les tableaux des variables simples.
  
 
 ## Les formats YAML / JSON
@@ -65,10 +65,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIyMzU1MjMsMTQzMTcwNDc4MywxMT
-A5ODY1MzI1LC05NjQyMjExNTcsMzMyNDQ4MTczLC0xMzYzMTE1
-NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQyOCw2NTAxOTkyNzIsLT
-EwODI1MTA1ODYsMTg0MDU5NTUzNywtMjY2MjUyODQ2LDQ5MTkw
-NjU5MSwtNTk4NzE4MDM1LDM0ODI3ODkyMywtMjA2MjkzMjk2LD
-g1NTg2NzY3LDEwMzY4Njk1NDgsNzE3MjYxOTgyXX0=
+eyJoaXN0b3J5IjpbMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0Mz
+E3MDQ3ODMsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3
+MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0MjgsNj
+UwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLTI2NjI1
+Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5MjMsLT
+IwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNzI2MTk4
+Ml19
 -->
