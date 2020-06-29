@@ -86,7 +86,8 @@ Nous pouvons représenter nos jedis par le fichier suivant :
 
 Alors que nous venons d'apprendre à décrire des données complexes, il est nécessaire de distinguer clairement complexe et compliqué.
 Le 
-"[Qui](https://www.linternaute.fr/dictionnaire/fr/definition/qui/) [est](https://www.linternaute.fr/dictionnaire/fr/definition/est/) [**difficile**](https://www.linternaute.fr/dictionnaire/fr/definition/difficile/) [à](https://www.linternaute.fr/dictionnaire/fr/definition/a-1/) [appréhender](https://www.linternaute.fr/dictionnaire/fr/definition/apprehender/), [analyser](https://www.linternaute.fr/dictionnaire/fr/definition/analyser/) [et](https://www.linternaute.fr/dictionnaire/fr/definition/et/) [comprendre](https://www.linternaute.fr/dictionnaire/fr/definition/comprendre/)."
+
+>  Qui est difficile à appréhender, analyser et comprendre. 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
@@ -94,11 +95,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTg1MTYwNCwtMTM5NjQzNTYxLDE1MT
-gyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDExMDk4NjUz
-MjUsLTk2NDIyMTE1NywzMzI0NDgxNzMsLTEzNjMxMTU1MzcsMT
-EwMTY4MjM5NCwxODk4NDQ4NDI4LDY1MDE5OTI3MiwtMTA4MjUx
-MDU4NiwxODQwNTk1NTM3LC0yNjYyNTI4NDYsNDkxOTA2NTkxLC
-01OTg3MTgwMzUsMzQ4Mjc4OTIzLC0yMDYyOTMyOTYsODU1ODY3
-NjddfQ==
+eyJoaXN0b3J5IjpbMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxOD
+I1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEwOTg2NTMy
+NSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2MzExNTUzNywxMT
+AxNjgyMzk0LDE4OTg0NDg0MjgsNjUwMTk5MjcyLC0xMDgyNTEw
+NTg2LDE4NDA1OTU1MzcsLTI2NjI1Mjg0Niw0OTE5MDY1OTEsLT
+U5ODcxODAzNSwzNDgyNzg5MjMsLTIwNjI5MzI5Niw4NTU4Njc2
+N119
 -->
