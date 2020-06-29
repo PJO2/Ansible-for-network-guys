@@ -11,7 +11,8 @@ Par exemple, on peut écrire
 
     adresse["obiwan"] = "tatooine"
 
-ici, la variable est adresse, la clef est "obiwan", la valeur "tatooine". Les types des éléments est défini 
+ici, la variable est adresse, la clef est "obiwan", la valeur "tatooine". Les types des éléments est défini par leur utilisation :
+Les guillemets entourant "tatooine" et "obiwan" en font des chaînes de caractères, la syntaxe adresse["obiwan"] indique à l'interpréteur que a
 
 Ce nouveau type de données est devenu très rapidement populaire, il est  intégré par tous les langages un peu récents :
 Python	dictionnary
@@ -62,10 +63,10 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 [jour 5](day_05.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTEzNTgxNiwtOTY0MjIxMTU3LDMzMj
-Q0ODE3MywtMTM2MzExNTUzNywxMTAxNjgyMzk0LDE4OTg0NDg0
-MjgsNjUwMTk5MjcyLC0xMDgyNTEwNTg2LDE4NDA1OTU1MzcsLT
-I2NjI1Mjg0Niw0OTE5MDY1OTEsLTU5ODcxODAzNSwzNDgyNzg5
-MjMsLTIwNjI5MzI5Niw4NTU4Njc2NywxMDM2ODY5NTQ4LDcxNz
-I2MTk4Ml19
+eyJoaXN0b3J5IjpbMjk0OTE3ODEzLC05NjQyMjExNTcsMzMyND
+Q4MTczLC0xMzYzMTE1NTM3LDExMDE2ODIzOTQsMTg5ODQ0ODQy
+OCw2NTAxOTkyNzIsLTEwODI1MTA1ODYsMTg0MDU5NTUzNywtMj
+Y2MjUyODQ2LDQ5MTkwNjU5MSwtNTk4NzE4MDM1LDM0ODI3ODky
+MywtMjA2MjkzMjk2LDg1NTg2NzY3LDEwMzY4Njk1NDgsNzE3Mj
+YxOTgyXX0=
 -->
