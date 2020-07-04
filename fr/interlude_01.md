@@ -32,7 +32,7 @@ Ici nous créons une valeur de type liste :
 
     padawans[obiwan] = [anakin, luke]
 
-Ici, nous avons regroupé nos données en une seule variable structurée  :
+Ici, nous avons regroup nos donnéeser en une seule variable structurée  :
 
     jedis["obiwan"]["padawans"] = ["anakin", "luke"]
     jedis["obiwan"]["location"] = "tatooine"
@@ -74,13 +74,13 @@ soit en créant un niveau d'indentation supplémentaire, ce qui correspond mieux
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     jedis:
-        - obiwan:
+        obiwan:
             master: qui-gon
             location: tatooine
             padawans:
              - anakin
              - luke
-        - yoda:
+        yoda:
             padawans:
             - dooku
             - windu
@@ -106,17 +106,23 @@ C'est dans cet objectif que les différents renseignements ont été regroupés 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
-[jour 5](day_05.md)
+[jour 5](day_05.md)- Ki-Adi-Mudi
+            - Ikrit
+            master: N' Kata Del Gormo
+            location: dagobah
+
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxND
-U1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgw
-NywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLT
-EwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2
-NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3OD
-MsMTEwOTg2NTMyNSwtOTY0MjIxMTU3LDMzMjQ0ODE3MywtMTM2
-MzExNTUzN119
+eyJoaXN0b3J5IjpbMTAwODI3MDM0NCwtMTU4NjQ2MDc2MCwxND
+AzODA4MDYsMjE0NTU0NjY1MCwtOTQ5OTA5MDY3LC05NjE3MzU2
+MTAsOTcxNjM1ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4MywtMT
+c0NDg5MjgyMCwtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUx
+NTk4NzAsLTEzOTY0MzU2MSwxNTE4MjU5NDIsLTEwODIyMzU1Mj
+MsMTQzMTcwNDc4MywxMTA5ODY1MzI1LC05NjQyMjExNTcsMzMy
+NDQ4MTczXX0=
 -->
