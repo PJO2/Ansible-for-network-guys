@@ -23,7 +23,7 @@ Le template est :
 Pour appeler le module template, il faut le fichier template et 
 
 
-Et ça ne marche pas. La faut au paramètre connection. Le template doit être généré localement, pas sur le router (qui aura du mal à en faire quelquechose). 
+Et ça ne marche pas. La faute au paramètre connection. Le template doit être généré localement, pas sur le router (qui aura du mal à en faire quelquechose). 
 
 
 C'est bon pour le template, mais il va falloir l'envoyer sur le routeur. Heureusement, il y un module copy qui va s'en charger ... si on l'exécute encore une fois en local....
@@ -34,5 +34,5 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
