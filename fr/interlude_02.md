@@ -8,26 +8,26 @@ Un template ou Gabarit est un modèle qui permet de structurer un objet (pour no
 Jinja2 est un langage d'écriture de  templates intégré à python et développé pour des écrires des pages HTML  ! Mais comme il est puissant et générique, nous allons l'utiliser pour écrire des configurations de routeurs...
 
 ## Les variables
-En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template. Par exemple le petit template suivant 
+En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template. Par exemple le petit template suivant :
 
-> Hello {{ name }}
+    Hello {{ name }}
 
 rendra 
 
-> Hello Aline
+    Hello Aline
 
 si name vaut Aline. 
   
  Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les combinant par un point.
 
-Si jedis["obiwan"]["master"]  vaut yoda
+Si jedis["obiwan"]["master"]  vaut qui-gon
 alors
 
-Hello {{ jedis.obiwan.master }}
+    Hello {{ jedis.obiwan.master }}
 
 donnera :
 
-> Hello yoda
+    Hello yoda
 
 Remplacer le point . par des crochets []  permet d'interpréter ce qu'il y a à l'intérieur des crochets :
 Si jedi vaut obiwan, alors
@@ -69,7 +69,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE1OTM1MjQsLTE3OTA0MjQ1MzIsLT
+eyJoaXN0b3J5IjpbLTEwNzYyODQxNTUsLTE3OTA0MjQ1MzIsLT
 Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
 MzM1LDczMDk5ODExNl19
 -->
