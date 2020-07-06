@@ -6,13 +6,13 @@ Un template ou Gabarit est un modèle qui permet de structurer un objet (pour no
 
 Jinja2 est un langage d'écriture de  templates intégré à python et développé pour des écrires des pages HTML  ! Mais comme il est puissant et générique, nous allons l'utiliser pour écrire des configurations de routeurs...
 
-En Jinja2, les éléments placés entre une double accolade sont interprétés. Par exemple le petit template suivant 
+En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template. Par exemple le petit template suivant 
 
-Hello {{name}}
+> Hello {{ name }}
 
 rendra 
 
-Hello Aline
+> Hello Aline
 
 si name vaut Aline. 
   
@@ -50,6 +50,6 @@ Les instructions {% %}
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTc5NDMwNCwxNjAwMjU1MDQ0LDIxMj
-kyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNzk4MDk2NjIsMTYwMDI1NTA0NCwyMT
+I5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
