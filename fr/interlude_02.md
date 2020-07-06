@@ -71,14 +71,14 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
      {% for jedi in jedis %} 
      {% endfor %}
 
-
+Cette structure peut  également accepter des filtres, par exemple, 
 
  
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OT
-A0MjQ1MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1
-NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTc4NTczNjYwMyw1MDQ3MjI3OTAsLTk4OD
+Q2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUw
+NDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
 -->
