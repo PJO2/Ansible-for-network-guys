@@ -86,7 +86,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             - windu
             location: dagobah
 
-Enfin, onous 
+Enfin, il est  
 
 ## Structurer ses données
 
@@ -115,11 +115,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTA3ODA2NSwxMzExMzM3MjkyLDEyNz
-E4NDMwMDMsLTE2MTQxNzQ5NTcsLTM5MzY1MTk4MCwxMDA4Mjcw
-MzQ0LC0xNTg2NDYwNzYwLDE0MDM4MDgwNiwyMTQ1NTQ2NjUwLC
-05NDk5MDkwNjcsLTk2MTczNTYxMCw5NzE2MzU4MDcsLTE5MzY2
-ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEzMDc2OD
-E1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNTYxLDE1
-MTgyNTk0Ml19
+eyJoaXN0b3J5IjpbLTYzMzU3NjgsMTMxMTMzNzI5MiwxMjcxOD
+QzMDAzLC0xNjE0MTc0OTU3LC0zOTM2NTE5ODAsMTAwODI3MDM0
+NCwtMTU4NjQ2MDc2MCwxNDAzODA4MDYsMjE0NTU0NjY1MCwtOT
+Q5OTA5MDY3LC05NjE3MzU2MTAsOTcxNjM1ODA3LC0xOTM2Njgz
+MTUsLTExOTM2NDU4MywtMTc0NDg5MjgyMCwtMTAxMzA3NjgxNS
+wtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEzOTY0MzU2MSwxNTE4
+MjU5NDJdfQ==
 -->
