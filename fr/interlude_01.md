@@ -86,7 +86,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             - windu
             location: dagobah
 
-La structure utilisée est du type hashs imbriqués. Une autre représentation, pour laquelle les itérations seront plus faciles,  utilise des listes  avec un label de type *name*.
+La structure utilisée est du type hashs imbriqués. Une autre représentation utilise des listes de hashs possédant des champs clef identiques. Cette 
 
     jedis:
         - name: obiwan
@@ -135,11 +135,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTE3MDE2NCwxODQ5NzU3NjAsMTMxMT
-MzNzI5MiwxMjcxODQzMDAzLC0xNjE0MTc0OTU3LC0zOTM2NTE5
-ODAsMTAwODI3MDM0NCwtMTU4NjQ2MDc2MCwxNDAzODA4MDYsMj
-E0NTU0NjY1MCwtOTQ5OTA5MDY3LC05NjE3MzU2MTAsOTcxNjM1
-ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4MywtMTc0NDg5MjgyMC
-wtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEz
-OTY0MzU2MV19
+eyJoaXN0b3J5IjpbLTUxMDQ2NDI0MiwxODAxMTcwMTY0LDE4ND
+k3NTc2MCwxMzExMzM3MjkyLDEyNzE4NDMwMDMsLTE2MTQxNzQ5
+NTcsLTM5MzY1MTk4MCwxMDA4MjcwMzQ0LC0xNTg2NDYwNzYwLD
+E0MDM4MDgwNiwyMTQ1NTQ2NjUwLC05NDk5MDkwNjcsLTk2MTcz
+NTYxMCw5NzE2MzU4MDcsLTE5MzY2ODMxNSwtMTE5MzY0NTgzLC
+0xNzQ0ODkyODIwLC0xMDEzMDc2ODE1LC0xMzEyMzU0Mjg5LDE3
+NTE1OTg3MF19
 -->
