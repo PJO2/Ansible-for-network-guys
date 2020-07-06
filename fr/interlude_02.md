@@ -69,7 +69,7 @@ Jinja2 possède un mécanisme de test et un mécanisme de boucle. Ces instructio
 Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 
 > {% for jedi in jedis %} 
-> {% endfor %}`
+> {% endfor %}
 
 
 
@@ -78,7 +78,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk3OTg5ODIsLTE3OTA0MjQ1MzIsLT
-Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
-MzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNj
+YxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAz
+MzUsNzMwOTk4MTE2XX0=
 -->
