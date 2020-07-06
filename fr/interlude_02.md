@@ -54,7 +54,11 @@ Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
 
  
  on écrira plutôt :
->  Hello {{ jedis.obiwan.padawans | join(',') }}
+
+    Hello {{ jedis.obiwan.padawans | join(', ') }}
+pour avoir 
+
+    Hello anakin, luke
 
 Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre ipaddr qui  permet de faire des opérations sur les adresses IP.
 
@@ -74,7 +78,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY1ODY3OTYsLTE3OTA0MjQ1MzIsLT
+eyJoaXN0b3J5IjpbLTEwMTk3OTg5ODIsLTE3OTA0MjQ1MzIsLT
 Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
 MzM1LDczMDk5ODExNl19
 -->
