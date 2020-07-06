@@ -27,7 +27,7 @@ alors
 
 donnera :
 
-    Hello yoda
+    Hello qui-gon
 
 Remplacer le point . par des crochets []  permet d'interpréter ce qu'il y a à l'intérieur des crochets :
 Si jedi vaut obiwan, alors
@@ -35,7 +35,6 @@ Si jedi vaut obiwan, alors
     Hello {{ jedis[jedi].master }} 
  donnera :
  
-
     Hello qui-gon
 
 
@@ -46,7 +45,13 @@ Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme fil
 
 Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
 
-> Hello {{ jedis.obiwan.padawans }}
+    Hello {{ jedis.obiwan.padawans }}
+
+ qui donne : 
+ 
+
+    Hello ['anakin', 'luke']
+
  
  on écrira plutôt :
 >  Hello {{ jedis.obiwan.padawans | join(',') }}
@@ -69,7 +74,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYyODQxNTUsLTE3OTA0MjQ1MzIsLT
+eyJoaXN0b3J5IjpbLTE0MTY1ODY3OTYsLTE3OTA0MjQ1MzIsLT
 Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
 MzM1LDczMDk5ODExNl19
 -->
