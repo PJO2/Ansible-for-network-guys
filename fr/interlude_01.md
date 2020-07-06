@@ -101,12 +101,14 @@ Ou encore par celui-ci :
                 - windu
                 location: dagobah
 
-Dans le premier exemple, nous avons des hashs imbriqués, on accède à la location par :
+Dans le premier exemple, nous avons des hashs imbriqués, on accède à la localisation par :
 
 > jedis['obiwan']['location']
 
-Dans le second, nous avons une liste de hash 
- 
+Dans le second, nous avons une liste de hashs, la localisation est lue par :
+> jedis[0]['location']
+
+ Les 2 
 
 Enfin, il est préférable de débuter un fichier YAML par une première ligne composée de 3 tirets :
 
@@ -142,7 +144,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI4NDA5NTUsMTg0OTc1NzYwLDEzMT
+eyJoaXN0b3J5IjpbLTE1NzA2ODM4NzMsMTg0OTc1NzYwLDEzMT
 EzMzcyOTIsMTI3MTg0MzAwMywtMTYxNDE3NDk1NywtMzkzNjUx
 OTgwLDEwMDgyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LD
 IxNDU1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYz
