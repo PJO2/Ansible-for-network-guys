@@ -106,11 +106,7 @@ C'est dans cet objectif que les différents renseignements ont été regroupés 
 
 Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erreurs sont peu visibles (erreurs d'indentation,  oubli de l'espace entre le tiret et la clef, ...). En général, j'utilise un convertisseur en ligne YAML vers JSON, par exemple [https://www.json2yaml.com/](https://www.json2yaml.com/), qui vérifie la syntaxe et montre les données dans un autre format.
 
-[jour 5](day_05.md)- Ki-Adi-Mudi
-            - Ikrit
-            master: N' Kata Del Gormo
-            location: dagobah
-
+[jour 5](day_05.md)
 
 
 
@@ -118,11 +114,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQxNzQ5NTcsLTM5MzY1MTk4MCwxMD
-A4MjcwMzQ0LC0xNTg2NDYwNzYwLDE0MDM4MDgwNiwyMTQ1NTQ2
-NjUwLC05NDk5MDkwNjcsLTk2MTczNTYxMCw5NzE2MzU4MDcsLT
-E5MzY2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEz
-MDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNT
-YxLDE1MTgyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDEx
-MDk4NjUzMjVdfQ==
+eyJoaXN0b3J5IjpbMTI3MTg0MzAwMywtMTYxNDE3NDk1NywtMz
+kzNjUxOTgwLDEwMDgyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgw
+ODA2LDIxNDU1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLD
+k3MTYzNTgwNywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4
+OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5OD
+cwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0
+MzE3MDQ3ODNdfQ==
 -->
