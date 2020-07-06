@@ -2,7 +2,7 @@
 # Interlude  : les templates Jinja2
 
 
-Un template ou Gabarit est un modèle qui permet de structurer un objet (pour nos un fichier texte) sans que les variables soient présentes.
+Un template ou Gabarit est un modèle qui permet de structurer un objet (pour nous un fichier texte) sans que les variables soient définies.
 
 Jinja2 est un langage d'écriture de  templates intégré à python et développé pour des écrires des pages HTML  ! Mais comme il est puissant et générique, nous allons l'utiliser pour écrire des configurations de routeurs...
 
@@ -50,6 +50,6 @@ Les instructions {% %}
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5Nz
+I4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
