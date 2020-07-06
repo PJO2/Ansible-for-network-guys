@@ -21,13 +21,16 @@ si name vaut Aline.
 Si 
 jedis["obiwan"]["master"]  vaut yoda
 alors
-Hello {{ jedis.obiwan.master }}
+
+> Hello {{ jedis.obiwan.master }}
+
 donnera :
 
+> Hello yoda
 
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
 
-Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme filtre est peut-être mal choisi, mais c'est le terme utilisé par Jinja2 !).
+Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme filtre est sans doute mal choisi, mais c'est le terme utilisé par Jinja2 !).
 
 Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
 Hello {{ jedis.obiwan.padawans }}
@@ -50,6 +53,6 @@ Les instructions {% %}
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk4MDk2NjIsMTYwMDI1NTA0NCwyMT
+eyJoaXN0b3J5IjpbLTE1NzI1MjU1NDUsMTYwMDI1NTA0NCwyMT
 I5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
