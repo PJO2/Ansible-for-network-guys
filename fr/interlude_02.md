@@ -23,16 +23,20 @@ si name vaut Aline.
 Si jedis["obiwan"]["master"]  vaut yoda
 alors
 
-> Hello {{ jedis.obiwan.master }}
+Hello {{ jedis.obiwan.master }}
 
 donnera :
 
 > Hello yoda
 
-Remplacer le point . par des crochets []  permet d'interpréter ce qu'il y a dans les crochets :
+Remplacer le point . par des crochets []  permet d'interpréter ce qu'il y a à l'intérieur des crochets :
 Si jedi vaut obiwan, alors
 
-    Hello {{ jedis[jedi].master
+    Hello {{ jedis[jedi].master }} 
+ donnera :
+ 
+
+    Hello qui-gon
 
 
 ## Les filtres
@@ -65,7 +69,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4NDY2NDUsLTE3OTA0MjQ1MzIsLTY2MT
-k5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExNjE1OTM1MjQsLTE3OTA0MjQ1MzIsLT
+Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
+MzM1LDczMDk5ODExNl19
 -->
