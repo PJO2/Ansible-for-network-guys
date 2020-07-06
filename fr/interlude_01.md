@@ -86,7 +86,20 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             - windu
             location: dagobah
 
-Une autre représentation, plu 
+Une autre représentation, pour laquelle les itération seront plus faciles,  utilise des listes  avec un label 
+
+    jedis:
+        - name: obiwan
+          master: qui-gon
+          location: tatooine
+          padawans:
+             - anakin
+             - luke
+        - name: yoda
+          padawans:
+            - dooku
+            - windu
+          location: dagobah
 
 Enfin, il est préférable de débuter un fichier YAML par une première ligne composée de 3 tirets :
 
@@ -122,11 +135,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MjMyMjQ5LDE4NDk3NTc2MCwxMzExMz
-M3MjkyLDEyNzE4NDMwMDMsLTE2MTQxNzQ5NTcsLTM5MzY1MTk4
-MCwxMDA4MjcwMzQ0LC0xNTg2NDYwNzYwLDE0MDM4MDgwNiwyMT
-Q1NTQ2NjUwLC05NDk5MDkwNjcsLTk2MTczNTYxMCw5NzE2MzU4
-MDcsLTE5MzY2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC
-0xMDEzMDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5
-NjQzNTYxXX0=
+eyJoaXN0b3J5IjpbLTg1OTk2MzAxMiwxODQ5NzU3NjAsMTMxMT
+MzNzI5MiwxMjcxODQzMDAzLC0xNjE0MTc0OTU3LC0zOTM2NTE5
+ODAsMTAwODI3MDM0NCwtMTU4NjQ2MDc2MCwxNDAzODA4MDYsMj
+E0NTU0NjY1MCwtOTQ5OTA5MDY3LC05NjE3MzU2MTAsOTcxNjM1
+ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4MywtMTc0NDg5MjgyMC
+wtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEz
+OTY0MzU2MV19
 -->
