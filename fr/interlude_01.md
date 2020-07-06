@@ -90,7 +90,7 @@ Enfin, il est préférable de débuter un fichier YAML par une première ligne c
 
     ---
     
-Cette marque indique le début d'un nouveau fichier YAML
+Cette marque indique le début d'un nouveau contenu YAML. Elle est implicite au démarrage d'un fichier, mais YAML prévoit qu'un fichier texte puisse regrouper plusieurs contenus.
  
 
 ## Structurer ses données
@@ -120,7 +120,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDQyMTgzLDEzMTEzMzcyOTIsMTI3MT
+eyJoaXN0b3J5IjpbMTg0OTc1NzYwLDEzMTEzMzcyOTIsMTI3MT
 g0MzAwMywtMTYxNDE3NDk1NywtMzkzNjUxOTgwLDEwMDgyNzAz
 NDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxNDU1NDY2NTAsLT
 k0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgwNywtMTkzNjY4
