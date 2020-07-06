@@ -18,10 +18,9 @@ rendra
 
 si name vaut Aline. 
   
- Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les combinant par un point.
+ Un peu plus compliqué, Jinja2 consomme des variables structurées en les combinant par un point.
 
-Si jedis["obiwan"]["master"]  vaut qui-gon
-alors
+Si jedis["obiwan"]["master"] vaut qui-gon (en prenant la syntaxe python), alors
 
     Hello {{ jedis.obiwan.master }}
 
@@ -80,7 +79,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0ODU0NjI5LDUwNDcyMjc5MCwtOTg4ND
-Y1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0
-NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ0OTQ5Mzg4OCw1MDQ3MjI3OTAsLTk4OD
+Q2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUw
+NDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
 -->
