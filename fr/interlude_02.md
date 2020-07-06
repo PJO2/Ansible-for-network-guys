@@ -42,10 +42,15 @@ Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
  on écrira plutôt :
 >  Hello {{ jedis.obiwan.padawans | join(',') }}
 
-Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre netfilter? qui  permet de faire des opérations sur les adresses IP.
+Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre ipaddr qui  permet de faire des opérations sur les adresses IP.
 
+## Les structures de contrôle
 
-Les instructions {% %}
+Jinja2 possède un mécanisme de test et un mécanisme de boucle. Ces instructions sont placés entre les signes {% et  %}.
+
+Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
+{% for jedi in jedis %}
+{% endfor %}
 
 
 
@@ -54,6 +59,6 @@ Les instructions {% %}
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxMjg4NTczLDE2MDAyNTUwNDQsMjEyOT
-IzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMj
+kyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
 -->
