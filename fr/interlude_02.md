@@ -49,8 +49,9 @@ Les filtres peuvent être étendus en écrivant des procédures python. Ansible 
 Jinja2 possède un mécanisme de test et un mécanisme de boucle. Ces instructions sont placés entre les signes {% et  %}.
 
 Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
-{% for jedi in jedis %}
-{% endfor %}
+
+> {% for jedi in jedis %} 
+> {% endfor %}`
 
 
 
@@ -59,6 +60,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMj
-kyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNj
+AwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODEx
+Nl19
 -->
