@@ -29,7 +29,11 @@ donnera :
 
 > Hello yoda
 
-Remplacer le point . par des crochets []  va intéerpréter 
+Remplacer le point . par des crochets []  permet d'interpréter ce qu'il y a dans les crochets :
+Si jedi vaut obiwan, alors
+
+    Hello {{ jedis[jedi].master
+
 
 ## Les filtres
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
@@ -61,7 +65,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzM1Njk2NCwtMTc5MDQyNDUzMiwtNj
-YxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAz
-MzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjQ4NDY2NDUsLTE3OTA0MjQ1MzIsLTY2MT
+k5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1
+LDczMDk5ODExNl19
 -->
