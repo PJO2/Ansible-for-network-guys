@@ -46,9 +46,10 @@ Le lecteur attentif aura noté la marque du pluriel (ie: le 's'), convention d'�
 Les formats YAML et JSON permettent de décrire des variables structurées en listes ou en tableaux associatifs dans un format texte, souvent un fichier.
 
 Ansible a choisi le format YAML pour décrire la plupart des données, notamment pour sa lisibilité et sa compacité. 
+
 Coté lisibilité, les niveaux d'imbrications sont représentés par l'indentation, chaque niveau d'indentation indique une sous-structure. Coté compacité,  la ponctuation est seulement composée des signes deux-points et tiret. Les accolades du JSON n'existent pas et les guillemets sont  optionnels.
 
-Une indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire de la variable ou de la liste en cours . 
+Un changement d'indentation qui commence par un tiret est une nouvelle liste, sinon c'est une entrée clef/valeur supplémentaire de la variable ou de la liste en cours . 
 
 Si nous reprenons nos premiers exemples, 
 adresse["obiwan"] = "tatooine" s'écrit  : 
@@ -74,13 +75,13 @@ soit en créant un niveau d'indentation supplémentaire, ce qui correspond mieux
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     jedis:
-        obiwan:
+        - obiwan:
             master: qui-gon
             location: tatooine
             padawans:
              - anakin
              - luke
-        yoda:
+        - yoda:
             padawans:
             - dooku
             - windu
@@ -114,11 +115,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTg0MzAwMywtMTYxNDE3NDk1NywtMz
-kzNjUxOTgwLDEwMDgyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgw
-ODA2LDIxNDU1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLD
-k3MTYzNTgwNywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4
-OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5OD
-cwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0
-MzE3MDQ3ODNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjcwMzEzNTMsMTI3MTg0MzAwMywtMT
+YxNDE3NDk1NywtMzkzNjUxOTgwLDEwMDgyNzAzNDQsLTE1ODY0
+NjA3NjAsMTQwMzgwODA2LDIxNDU1NDY2NTAsLTk0OTkwOTA2Ny
+wtOTYxNzM1NjEwLDk3MTYzNTgwNywtMTkzNjY4MzE1LC0xMTkz
+NjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MTUsLTEzMTIzNT
+QyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUxODI1OTQyLC0x
+MDgyMjM1NTIzXX0=
 -->
