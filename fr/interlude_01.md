@@ -86,29 +86,7 @@ Nous pouvons représenter nos jedis par le fichier suivant :
             - windu
             location: dagobah
 
-Ou encore par celui-ci :
- 
-    jedis:
-           - obiwan:
-                master: qui-gon
-                location: tatooine
-                padawans:
-                 - anakin
-                 - luke
-          - yoda:
-                padawans:
-                - dooku
-                - windu
-                location: dagobah
 
-Dans le premier exemple, nous avons des hashs imbriqués, on accède à la localisation par :
-
-> jedis['obiwan']['location']
-
-Dans le second, nous avons une liste de hashs, la localisation est lue par :
-> jedis[0]['location']
-
- Les 2 choix sont valables, mais Ansible utilise en interne le second format, qui  
 
 Enfin, il est préférable de débuter un fichier YAML par une première ligne composée de 3 tirets :
 
@@ -144,11 +122,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1MzE3NzU4LDE4NDk3NTc2MCwxMzExMz
-M3MjkyLDEyNzE4NDMwMDMsLTE2MTQxNzQ5NTcsLTM5MzY1MTk4
-MCwxMDA4MjcwMzQ0LC0xNTg2NDYwNzYwLDE0MDM4MDgwNiwyMT
-Q1NTQ2NjUwLC05NDk5MDkwNjcsLTk2MTczNTYxMCw5NzE2MzU4
-MDcsLTE5MzY2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC
-0xMDEzMDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5
-NjQzNTYxXX0=
+eyJoaXN0b3J5IjpbLTIxMTQ0ODAxNzIsMTg0OTc1NzYwLDEzMT
+EzMzcyOTIsMTI3MTg0MzAwMywtMTYxNDE3NDk1NywtMzkzNjUx
+OTgwLDEwMDgyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LD
+IxNDU1NDY2NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYz
+NTgwNywtMTkzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4Mj
+AsLTEwMTMwNzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC0x
+Mzk2NDM1NjFdfQ==
 -->
