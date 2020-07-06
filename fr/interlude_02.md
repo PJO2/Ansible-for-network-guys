@@ -71,6 +71,8 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
      {% for jedi in jedis %} 
      {% endfor %}
 
+Supposons que notre structure de données 
+
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
  
@@ -78,7 +80,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzE2MTAwMiw1MDQ3MjI3OTAsLTk4OD
-Q2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUw
-NDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDg0ODU0NjI5LDUwNDcyMjc5MCwtOTg4ND
+Y1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0
+NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
