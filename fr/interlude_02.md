@@ -40,7 +40,7 @@ Si jedi vaut obiwan, alors
 ## Les filtres
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
 
-Le filtre peut préciser une mise en forme ou un calcul. (Alors oui le terme filtre est sans doute mal choisi, mais c'est le terme utilisé par Jinja2 !).
+Le filtre peut préciser une sélection, une mise en forme ou un calcul. (Oui, le terme filtre est sans doute mal choisi, mais c'est le terme choisi par Jinja2 !).
 
 Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
 
@@ -79,7 +79,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTQ5Mzg4OCw1MDQ3MjI3OTAsLTk4OD
-Q2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUw
-NDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4ND
+Y1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0
+NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
