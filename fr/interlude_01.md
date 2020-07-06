@@ -74,17 +74,34 @@ soit en créant un niveau d'indentation supplémentaire, ce qui, visuellement, c
 Nous pouvons représenter nos jedis par le fichier suivant :
 
     jedis:
-        - obiwan:
+        obiwan:
             master: qui-gon
             location: tatooine
             padawans:
              - anakin
              - luke
-        - yoda:
+        yoda:
             padawans:
             - dooku
             - windu
             location: dagobah
+
+Ou encore par celui-ci :
+ 
+    jedis:
+           - obiwan:
+                master: qui-gon
+                location: tatooine
+                padawans:
+                 - anakin
+                 - luke
+          - yoda:
+                padawans:
+                - dooku
+                - windu
+                location: dagobah
+
+Dans le premier exemple, nous avons un 
 
 Enfin, il est préférable de débuter un fichier YAML par une première ligne composée de 3 tirets :
 
@@ -120,11 +137,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTc1NzYwLDEzMTEzMzcyOTIsMTI3MT
-g0MzAwMywtMTYxNDE3NDk1NywtMzkzNjUxOTgwLDEwMDgyNzAz
-NDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxNDU1NDY2NTAsLT
-k0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgwNywtMTkzNjY4
-MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMwNzY4MT
-UsLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1NjEsMTUx
-ODI1OTQyXX0=
+eyJoaXN0b3J5IjpbMTAwNjIzMzgwNSwxODQ5NzU3NjAsMTMxMT
+MzNzI5MiwxMjcxODQzMDAzLC0xNjE0MTc0OTU3LC0zOTM2NTE5
+ODAsMTAwODI3MDM0NCwtMTU4NjQ2MDc2MCwxNDAzODA4MDYsMj
+E0NTU0NjY1MCwtOTQ5OTA5MDY3LC05NjE3MzU2MTAsOTcxNjM1
+ODA3LC0xOTM2NjgzMTUsLTExOTM2NDU4MywtMTc0NDg5MjgyMC
+wtMTAxMzA3NjgxNSwtMTMxMjM1NDI4OSwxNzUxNTk4NzAsLTEz
+OTY0MzU2MV19
 -->
