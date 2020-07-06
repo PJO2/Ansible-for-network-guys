@@ -38,7 +38,7 @@ Ici, nous regroupons nos données en une seule variable structurée  :
     jedis["obiwan"]["location"] = "tatooine"
     jedis["obiwan"]["master"] = "qui-gon"
 
-Le lecteur attentif aura noté la marque du pluriel (ie: le 's'), convention d'équi permet de repérer plus facilement les listes et les tableaux des variables simples.
+Le lecteur attentif aura noté la marque du pluriel (ie: le 's'), convention d'écriture qui permet de repérer plus facilement les listes et les tableaux des variables simples.
  
 
 ## Les formats YAML / JSON
@@ -118,11 +118,11 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDQ0OTc5MywtMzkzNjUxOTgwLDEwMD
-gyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxNDU1NDY2
-NTAsLTk0OTkwOTA2NywtOTYxNzM1NjEwLDk3MTYzNTgwNywtMT
-kzNjY4MzE1LC0xMTkzNjQ1ODMsLTE3NDQ4OTI4MjAsLTEwMTMw
-NzY4MTUsLTEzMTIzNTQyODksMTc1MTU5ODcwLC0xMzk2NDM1Nj
-EsMTUxODI1OTQyLC0xMDgyMjM1NTIzLDE0MzE3MDQ3ODMsMTEw
-OTg2NTMyNV19
+eyJoaXN0b3J5IjpbLTE2MTQxNzQ5NTcsLTM5MzY1MTk4MCwxMD
+A4MjcwMzQ0LC0xNTg2NDYwNzYwLDE0MDM4MDgwNiwyMTQ1NTQ2
+NjUwLC05NDk5MDkwNjcsLTk2MTczNTYxMCw5NzE2MzU4MDcsLT
+E5MzY2ODMxNSwtMTE5MzY0NTgzLC0xNzQ0ODkyODIwLC0xMDEz
+MDc2ODE1LC0xMzEyMzU0Mjg5LDE3NTE1OTg3MCwtMTM5NjQzNT
+YxLDE1MTgyNTk0MiwtMTA4MjIzNTUyMywxNDMxNzA0NzgzLDEx
+MDk4NjUzMjVdfQ==
 -->
