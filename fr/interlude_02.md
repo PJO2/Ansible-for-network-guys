@@ -20,8 +20,7 @@ si name vaut Aline.
   
  Un peu plus compliqué, Jinja2 consomme des variables structurées de type Json ou Yaml, en les combinant par un point.
 
-Si 
-jedis["obiwan"]["master"]  vaut yoda
+Si jedis["obiwan"]["master"]  vaut yoda
 alors
 
 > Hello {{ jedis.obiwan.master }}
@@ -29,6 +28,8 @@ alors
 donnera :
 
 > Hello yoda
+
+Remplacer le point . par des crochets []  va intéerpréter 
 
 ## Les filtres
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
@@ -60,7 +61,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNj
-AwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbMTM1MzM1Njk2NCwtMTc5MDQyNDUzMiwtNj
+YxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAz
+MzUsNzMwOTk4MTE2XX0=
 -->
