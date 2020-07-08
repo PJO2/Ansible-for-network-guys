@@ -132,12 +132,21 @@ Si nos données sont structurées sous forme de listes :
 	   - name: yoda
 	     location: dagobah
 
-La variable jedi dans la boucle contient le hash composé des champs name et location. Aussi le template doit être modifié :
+La variable jedi dans la boucle contient cette fois le hash composé des champs name et location. Aussi le template doit être modifié :
   
     <table>
     <tr><th>name</th><th>location</th></tr>
     {%- for jedi in jedis %}
         <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
+    {%- endfor %}
+    </table>
+
+ou encore 
+
+    <table>
+    <tr><th>name</th><th>location</th></tr>
+    {%- for jedi in jedis %}
+        <tr><td>{{ [jedi.name, jedi.location] | join('</td> }}</td></tr>
     {%- endfor %}
     </table>
 
@@ -188,9 +197,9 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgzOTE0NTMsLTE0OTQ1NTUyMzAsLT
-E4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkx
-MjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMi
-wtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcy
-ODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTkyMDc1NDc0MCwtMTU0ODM5MTQ1MywtMT
+Q5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4
+NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC
+0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5
+MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
