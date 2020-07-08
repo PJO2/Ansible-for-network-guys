@@ -107,7 +107,7 @@ qui donne :
     
     </table>
 
-Pas mal du tout, à part les lignes vides. Elles viennent des lignes d'instructions {% %} qui sont terminées par un saut de ligne que Jinja2 nous 
+Pas mal du tout, à part les lignes vides. Elles proviennent des lignes d'instructions {% %} qui sont terminées par un saut de ligne que Jinja2 nous 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -116,8 +116,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTYwOTc2NTAsMTU2MTg1NTkyMCwzNz
-Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
-MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
-k3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTM5NDM2Mjk5LDE1NjE4NTU5MjAsMzc0OT
+EyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMy
+LC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5Nz
+I4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
