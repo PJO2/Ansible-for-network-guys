@@ -158,12 +158,12 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
     {%- endfor %}
     </table>
 
-ou encore pour les plus audacieux :
+ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeurs, on peut arriver à une description  :
 
-     <table>
-           <tr><th>name</th><th>location</th></tr>
+    <table>
+        <tr><th>{{ (["name"] + jedis[jedis | first].keys()) | join('</th><th>') }}</th></tr>
     {%- for jedi,jedi_data in jedis.iteritems() %}
-           <tr><td>{{ jedi }}</td><td>{{ jedi_data.values() | join('</td><td>') }}</td></tr>
+        <tr><td>{{ ([jedi] + jedi_data.values()) | join('</td><td>') }}</td></tr>
     {%- endfor %}
     </table>
 
@@ -200,10 +200,10 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMT
-A1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0
-MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LD
-UwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC02NjE5
-OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNS
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDM4ODIxMjksMzUyNzk3NjYxLDE4OT
+kzNDcxMDQsLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1
+NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5Mj
+AsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkw
+NDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NT
+c3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
