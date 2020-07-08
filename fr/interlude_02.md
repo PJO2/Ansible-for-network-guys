@@ -147,11 +147,11 @@ En python, comme dans de nombreux langages interprétés, les données sont typ�
 Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
 Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs {name, location} un par un.
 
-Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  elle est utilisée avec 2 arguments. Le template peut aussi s'écrire :
+Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  le hash est décomposé par la méthode iteritems. Le template peut aussi s'écrire :
 
     <table>
            <tr><th>name</th><th>location</th></tr>
-    {%- for jedi,jedi_data in jedis %}
+    {%- for jedi,jedi_data in jedis.iteritems() %}
            <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
     {%- endfor %}
     </table>
@@ -163,8 +163,8 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3ND
-kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
-MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
-cyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2Njk1OTUwMjAsLTc0Mzg5NDQxNiwxNT
+YxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYw
+OCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMj
+EyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
 -->
