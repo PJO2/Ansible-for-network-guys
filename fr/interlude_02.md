@@ -146,7 +146,7 @@ ou encore
     <table>
     <tr><th>name</th><th>location</th></tr>
     {%- for jedi in jedis %}
-        <tr><td>{{ [jedi.name, jedi.location] | join('</td> }}</td></tr>
+        <tr><td>{{ [jedi.name, jedi.location] | join('</td><td>') }}</td></tr>
     {%- endfor %}
     </table>
 
@@ -197,9 +197,9 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDc1NDc0MCwtMTU0ODM5MTQ1MywtMT
-Q5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4
-NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC
-0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5
-MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjA1NjcyMzIsLTE1NDgzOTE0NTMsLT
+E0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYx
+ODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOC
+wtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEy
+OTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
 -->
