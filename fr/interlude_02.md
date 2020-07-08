@@ -147,7 +147,7 @@ En python, comme dans de nombreux langages interprétés, les données sont typ�
 Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
 Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs {name, location} un par un.
 
-Dans le premier cas, l'instruction for peut également renvoyer le couple clef/valeur si  elle est utilisée avec 2 arguments. Le template peut aussi s'écrire :
+Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  elle est utilisée avec 2 arguments. Le template peut aussi s'écrire :
 
     <table>
            <tr><th>name</th><th>location</th></tr>
@@ -156,12 +156,13 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple clef/v
     {%- endfor %}
     </table>
 
+
  
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjMzNjg3NSwxNTYxODU1OTIwLDM3ND
+eyJoaXN0b3J5IjpbLTUxNjAwMTkyNSwxNTYxODU1OTIwLDM3ND
 kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
 MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
 cyODAzMzUsNzMwOTk4MTE2XX0=
