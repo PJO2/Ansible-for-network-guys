@@ -146,9 +146,10 @@ ou encore
     <table>
     <tr><th>name</th><th>location</th></tr>
     {%- for jedi in jedis %}
-        <tr><td>{{ [jedi.name, jedi.location] | join('</td><td>') }}</td></tr>
+        <tr><td>{{ jedi.name, jedi.location] | join('</td><td>') }}</td></tr>
     {%- endfor %}
     </table>
+
 
 ### Pourquoi cette différence ?
 En python, comme dans de nombreux langages interprétés, les données sont typées et les instructions s'adaptent aux types des données.
@@ -197,7 +198,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA1NjcyMzIsLTE1NDgzOTE0NTMsLT
+eyJoaXN0b3J5IjpbLTEzNDQ0NDY5NjksLTE1NDgzOTE0NTMsLT
 E0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYx
 ODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOC
 wtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEy
