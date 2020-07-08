@@ -145,9 +145,9 @@ La variable jedi dans la boucle contient le hash composé des champs name et loc
 En python, comme dans de nombreux langages interprétés, les données sont typées et les instructions s'adaptent aux types des données.
 
 Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
-Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs [name, location] un par un.
+Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs {name, location} un par un.
 
-
+Dans le premier cas, l'instruction for peut également renvoyer le couple clef 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -156,7 +156,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2Njk5NjY4LDE1NjE4NTU5MjAsMzc0OT
+eyJoaXN0b3J5IjpbODQxNTcwMTQ3LDE1NjE4NTU5MjAsMzc0OT
 EyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMy
 LC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5Nz
 I4MDMzNSw3MzA5OTgxMTZdfQ==
