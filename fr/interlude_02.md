@@ -142,7 +142,8 @@ La variable jedi dans la boucle contient le hash composé des champs name et loc
     </table>
 
 Pourquoi cette différence ?
-Un des principes de p 
+En python, comme dans de nombreux langages interprétés, les données sont typées et les instructions s'adaptent aux types des données.
+Dans le second cas, la variable j 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -151,8 +152,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzgzMzIxNCwxNTYxODU1OTIwLDM3ND
-kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
-MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
-cyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4MjMzNTY5NTAsMTU2MTg1NTkyMCwzNz
+Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
+MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
+k3MjgwMzM1LDczMDk5ODExNl19
 -->
