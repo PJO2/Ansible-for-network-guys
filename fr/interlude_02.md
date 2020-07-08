@@ -132,7 +132,14 @@ Si nos données sont structurées sous forme de listes :
 	   - name: yoda
 	     location: dagobah
 
-La variable jedi dans la boucle contient le hash complet, et le template doit être modif  
+La variable jedi dans la boucle contient le hash composé des champs name et location. Aussi le template doit être modifié :
+  
+    <table>
+    <tr><th>name</th><th>location</th></tr>
+    {%- for jedi in jedis %}
+        <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
+    {%- endfor %}
+    </table>
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -142,7 +149,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjUyMTI0LDE1NjE4NTU5MjAsMzc0OT
+eyJoaXN0b3J5IjpbMTc5MjU4NDc5LDE1NjE4NTU5MjAsMzc0OT
 EyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMy
 LC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5Nz
 I4MDMzNSw3MzA5OTgxMTZdfQ==
