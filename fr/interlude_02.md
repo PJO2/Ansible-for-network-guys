@@ -91,11 +91,22 @@ Nous pouvons utiliser le template Jinja2 :
 
     <table>
        <tr><th>name</th><th>location</th></tr>
-    {% for jedis in jedi %}
+    {% for jedi in jedis %}
        <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
     {% endfor %}
     </table>
     
+qui donne :
+
+    <table>
+    <tr><th>name</th><th>location</th></tr>
+
+    <tr><td>obiwan</td><td>tatooine</td></tr>
+
+    <tr><td>yoda</td><td>dagobah</td></tr>
+    
+    </table>
+
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -105,8 +116,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDcwOTY1NiwxNTYxODU1OTIwLDM3ND
-kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
-MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
-cyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNDQ4Njg2NTMsMTU2MTg1NTkyMCwzNz
+Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
+MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
+k3MjgwMzM1LDczMDk5ODExNl19
 -->
