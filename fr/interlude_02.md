@@ -158,13 +158,14 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
 
 ## La structure de contrôle if
  
- Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in,
+ Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in)
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNT
-YxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYw
-OCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMj
-EyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLT
+c0Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3
+OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LD
+E2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4
+MTE2XX0=
 -->
