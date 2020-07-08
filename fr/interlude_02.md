@@ -70,7 +70,16 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
      {% for jedi in jedis %} 
      {% endfor %}
 
-Supposons que notre structure de données 
+Supposons que notre structure de données soit :
+
+    ---
+    jedis:
+        obiwan:
+            location: tatooine
+        yoda:
+             location: ```
+dagobah
+```
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -79,7 +88,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4ND
-Y1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0
-NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MDc4MDQ3NiwzNzQ5MTIwNjksNTA0Nz
+IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
+NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
+k5ODExNl19
 -->
