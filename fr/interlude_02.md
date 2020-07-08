@@ -173,14 +173,17 @@ Ce petit exemple nous montre l'utilisation d'un premier if pour créer les en-t�
     </table>
     {% endif %}
 
-## Com
+## Combiner filtres et instructions
+
+Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instruction Jinja2. 
+
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMzcyMzkzLC0xNDk0NTU1MjMwLC0xOD
-c2MzQxMzM5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIw
-NjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLT
-Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
-MzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE1MjQ5MTk4NTIsLTE0OTQ1NTUyMzAsLT
+E4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkx
+MjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMi
+wtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcy
+ODAzMzUsNzMwOTk4MTE2XX0=
 -->
