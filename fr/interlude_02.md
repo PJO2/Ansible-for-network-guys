@@ -149,7 +149,7 @@ En python, comme dans de nombreux langages interprétés, les données sont typ�
 Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
 Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs {name, location} un par un.
 
-Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  le hash est décomposé par la méthode *iteritems*. Le template peut alors s'écrire :
+Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  le hash est décomposé par la méthode *iteritems()*. Le template peut alors s'écrire :
 
     <table>
            <tr><th>name</th><th>location</th></tr>
@@ -192,9 +192,9 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4ODkyNzA1LC0xNTQ4MzkxNDUzLC0xND
-k0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4OTQ0MTYsMTU2MTg1
-NTkyMCwzNzQ5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLT
-E3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjky
-Mzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMT
+Q5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4
+NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC
+0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5
+MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
