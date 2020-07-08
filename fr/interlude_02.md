@@ -63,7 +63,7 @@ pour avoir
 
 Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre ipaddr qui  permet de faire des opérations sur les adresses IP.
 
-## Les structures de contrôle
+## Les structures de boucles
 
 Jinja2 possède un mécanisme de test et un mécanisme de boucle. Ces instructions sont placés entre les signes {% et  %}.
 
@@ -151,20 +151,18 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple clef/v
 
     <table>
            <tr><th>name</th><th>location</th></tr>
-    {%- for jedi,data in jedis %}
-           <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
+    {%- for jedi,jedi_data in jedis %}
+           <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
     {%- endfor %}
     </table>
-
-Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
  
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIyNzAwNDAsMTU2MTg1NTkyMCwzNz
-Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
-MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
-k3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTM4MjMzNjg3NSwxNTYxODU1OTIwLDM3ND
+kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
+MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
+cyODAzMzUsNzMwOTk4MTE2XX0=
 -->
