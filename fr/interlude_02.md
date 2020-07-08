@@ -158,14 +158,27 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
 
 ## La structure de contrôle if
  
- Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in)
+ Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in) ou logiques (true, false).
+
+    {%- if jedis %}
+    <table>
+       <tr><th>name</th><th>location</th></tr>
+	{%- for jedi,jedi_data in jedis.iteritems() %}
+	   {%- if jedi in ["obiwan", "luke"] %}
+       <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
+    {%- endif %}
+{%- endfor %}
+</table>
+{% endif %}
+
+
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLT
-c0Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3
-OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LD
-E2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTgxMDI0OTU1NSwtMTQ5NDU1NTIzMCwtMT
+g3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEy
+MDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC
+02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4
+MDMzNSw3MzA5OTgxMTZdfQ==
 -->
