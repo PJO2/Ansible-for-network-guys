@@ -158,7 +158,7 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
     {%- endfor %}
     </table>
 
-ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeurs, on peut arriver à un template qui   :
+ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeurs, on arrive à un template qui apprend les champs à travers la structure de données  :
 
     <table>
         <tr><th>{{ (["name"] + jedis[jedis | first].keys()) | join('</th><th>') }}</th></tr>
@@ -200,11 +200,11 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE5MTk5MzEsLTE0NDM4ODIxMjksMz
-UyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1ODE3NiwtMTU0ODM5
-MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0ND
-E2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4
-NDY1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NT
-A0NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
-
+eyJoaXN0b3J5IjpbMTE0OTk4NzcxNywtMTMyMTkxOTkzMSwtMT
+Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
+MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
+M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
+NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MD
+MyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDcz
+MDk5ODExNl19
 -->
