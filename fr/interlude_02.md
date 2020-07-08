@@ -209,16 +209,20 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 
 ## Tester les templates
 
- 
+Certains sites permettant de tester ses templates en ligne, parmi eux 
+[http://jinja.quantprogramming.com/](http://jinja.quantprogramming.com/).
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkzMjE4MTUsLTEzMjE5MTk5MzEsLT
-E0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1
-ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MT
-MzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUw
-NDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC02NjE5OT
-AzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQzNjYwMzY2NiwtMTMyMTkxOTkzMSwtMT
+Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
+MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
+M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
+NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MD
+MyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDcz
+MDk5ODExNl19
 -->
