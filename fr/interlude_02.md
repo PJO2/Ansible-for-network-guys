@@ -175,22 +175,22 @@ Ce petit exemple nous montre l'utilisation d'un premier if pour créer les en-t�
 
 ## Combiner filtres et instructions
 
-Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instruction Jinja2. Ainsi, nous pouvons supprimer le test if ci-dessus en écrivant le template de la façon suivante :
+Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instruction Jinja2. Ainsi, nous pouvons supprimer le test *if* ci-dessus en écrivant le template de la façon suivante :
 
     <table>
-      <tr><th>name</th><th>location</th></tr>
-   {%- for jedi in jedis | selectattr ("name", "in", "[obiwan, luke]") %}
-    <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
-{%- endfor %}
-</table>
+       <tr><th>name</th><th>location</th></tr>
+    {%- for jedi in jedis | selectattr ("name", "in", "[obiwan, luke]") %}
+       <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
+    {%- endfor %}
+    </table>
 
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDM5Mjc0OSwtMTQ5NDU1NTIzMCwtMT
-g3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEy
-MDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC
-02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4
-MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDgzOTE0NTMsLTE0OTQ1NTUyMzAsLT
+E4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkx
+MjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMi
+wtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcy
+ODAzMzUsNzMwOTk4MTE2XX0=
 -->
