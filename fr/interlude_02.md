@@ -89,12 +89,13 @@ Et que nous voulons créer la table HTML suivante :
 
 Nous pouvons utiliser le template Jinja2 :
 
-
     <table>
     <tr><th>name</th><th>location</th></tr>
     {% for jedis in jedi %}
     <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
-    {% endfor *
+    {% endfor %}
+    </table>
+    
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -104,7 +105,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTg2ODYxNSwzNzQ5MTIwNjksNTA0Nz
+eyJoaXN0b3J5IjpbMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0Nz
 IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
 NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
 k5ODExNl19
