@@ -160,23 +160,25 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
  
  Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in) ou logiques (true, false).
 
+Ce petit exemple nous montre l'utilisation d'un premier if pour créer les en-têtes de tableaux seulement si la structure *jedis* n'est pas vide, puis limite l'affichage aux jedis obiwan et luke.
+
     {%- if jedis %}
     <table>
        <tr><th>name</th><th>location</th></tr>
-	{%- for jedi,jedi_data in jedis.iteritems() %}
+	{%- for jedi in jedis.iteritems() %}
 	   {%- if jedi in ["obiwan", "luke"] %}
        <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
-    {%- endif %}
-{%- endfor %}
-</table>
-{% endif %}
+           {%- endif %}
+        {%- endfor %}
+    </table>
+    {% endif %}
 
 
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDI0OTU1NSwtMTQ5NDU1NTIzMCwtMT
+eyJoaXN0b3J5IjpbLTQ4MTYwMzg5NiwtMTQ5NDU1NTIzMCwtMT
 g3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEy
 MDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC
 02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4
