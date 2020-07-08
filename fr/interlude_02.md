@@ -127,10 +127,12 @@ rend :
 Si nos données sont structurées sous forme de listes :
 
     jedis:
-   - name: obiwan
-     location: tatooine
-   - name: yoda
-     location: dagobah
+	   - name: obiwan
+	     location: tatooine
+	   - name: yoda
+	     location: dagobah
+
+La variable jedi dans la boucle contient le hash complet, et le template doit être modif  
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -140,8 +142,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTEyMDUwMywxNTYxODU1OTIwLDM3ND
-kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
-MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
-cyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTkzMjUyMTI0LDE1NjE4NTU5MjAsMzc0OT
+EyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMy
+LC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5Nz
+I4MDMzNSw3MzA5OTgxMTZdfQ==
 -->
