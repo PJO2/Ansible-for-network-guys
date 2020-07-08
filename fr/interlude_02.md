@@ -158,7 +158,7 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
     {%- endfor %}
     </table>
 
-ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeurs, on peut arriver à une description  :
+ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeurs, on peut arriver à un template qui   :
 
     <table>
         <tr><th>{{ (["name"] + jedis[jedis | first].keys()) | join('</th><th>') }}</th></tr>
@@ -200,10 +200,11 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM4ODIxMjksMzUyNzk3NjYxLDE4OT
-kzNDcxMDQsLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1
-NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5Mj
-AsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkw
-NDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NT
-c3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMjE5MTk5MzEsLTE0NDM4ODIxMjksMz
+UyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1ODE3NiwtMTU0ODM5
+MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0ND
+E2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4
+NDY1NjA4LC0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NT
+A0NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+
 -->
