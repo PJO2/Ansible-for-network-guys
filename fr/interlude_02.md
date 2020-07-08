@@ -77,9 +77,12 @@ Supposons que notre structure de données soit :
         obiwan:
             location: tatooine
         yoda:
-             location: ```
-dagobah
-```
+            location: dagobah
+
+Et que nous voulons créer la table HTML suivante :
+|name|location|
+|-|-|
+|yoda|loca
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -88,8 +91,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc4MDQ3NiwzNzQ5MTIwNjksNTA0Nz
-IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
-NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbNjM0MjAzMDU5LDM3NDkxMjA2OSw1MDQ3Mj
+I3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2
+LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOT
+k4MTE2XX0=
 -->
