@@ -212,14 +212,14 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Certains sites permettant de tester ses templates en ligne, parmi eux 
 [http://jinja.quantprogramming.com/](http://jinja.quantprogramming.com/).
 
-Si vous souhaitez installer un testeur de templates, on pourra se référer aux sources disponibles ici : [https://github.com/qn7o/jinja2-live-parser](https://github.com/qn7o/jinja2-live-parser) ou, à son dérivé écrit par votre serviteur, qui permet de stocker les différents essais dans une petite base de données [https://github.com/PJO2/jinja2-live](https://github.com/PJO2/jinja2-live)
+Si vous souhaitez installer un testeur de templates sur un serveur, les sources sont disponibles ici : [https://github.com/qn7o/jinja2-live-parser](https://github.com/qn7o/jinja2-live-parser)  et son dérivé écrit par votre serviteur permet de stocker les différents essais dans une petite base de données [https://github.com/PJO2/jinja2-live](https://github.com/PJO2/jinja2-live)
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMDM1MjM3LC0yMTE4MjkzNjg1LC0xMz
+eyJoaXN0b3J5IjpbMTM3NDAxMzU5LC0yMTE4MjkzNjg1LC0xMz
 IxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5NzY2MSwxODk5MzQ3
 MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NTMsLTE0OTQ1NTUyMz
 AsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3
