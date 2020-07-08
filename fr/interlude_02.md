@@ -82,7 +82,15 @@ Supposons que notre structure de données soit :
 Et que nous voulons créer la table HTML suivante :
 |name|location|
 |-|-|
-|yoda|loca
+|obiwan|tatooine|
+|yoda|dagobah|
+
+Nous pouvons utiliser le template Jinja2 :
+
+
+    
+    {% for jedis in jedi %}
+
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -91,8 +99,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MjAzMDU5LDM3NDkxMjA2OSw1MDQ3Mj
-I3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2
-LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTY2MjA0OTEwOSwzNzQ5MTIwNjksNTA0Nz
+IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
+NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
+k5ODExNl19
 -->
