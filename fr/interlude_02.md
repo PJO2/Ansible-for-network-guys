@@ -72,7 +72,7 @@ Par exemple, nous pouvons parcourir notre variable  jedis avec l'instruction :
      {% for jedi in jedis %} 
      {% endfor %}
 
-Supposons que notre structure de données soit :
+Si nous utilisons notre base de données *jedis* :
 
     ---
     jedis:
@@ -109,13 +109,20 @@ qui donne :
 
 Pas mal du tout, à part les lignes vides. Elles proviennent des lignes d'instructions {% %} qui sont terminées par un saut de ligne que Jinja2 nous retourne. Heureusement, utiliser un tiret après le pourcent permet de s'affranchir facilement de ce comportement :
 
-<table>
-       <tr><th>name</th><th>location</th></tr>
+    <table>
+           <tr><th>name</th><th>location</th></tr>
     {%- for jedi in jedis %}
-       <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
+           <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
     {%- endfor %}
     </table>
+
 rend :
+
+    <table>
+    <tr><th>name</th><th>location</th></tr>
+    <tr><td>obiwan</td><td>tatooine</td></tr>
+    <tr><td>yoda</td><td>dagobah</td></tr>
+    </table>
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -125,7 +132,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODIwODk4MywxNTYxODU1OTIwLDM3ND
+eyJoaXN0b3J5IjpbLTY2MjIzODEyMywxNTYxODU1OTIwLDM3ND
 kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
 MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
 cyODAzMzUsNzMwOTk4MTE2XX0=
