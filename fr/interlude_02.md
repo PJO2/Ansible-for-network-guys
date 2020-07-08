@@ -196,7 +196,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
     {%- endfor %}
     </table>
 
-ou pour un template 
+ou pour un template autonome :
 
     <table>
         <tr><th>{{ (jedis | first).keys() | join('</th><th>') }}</th></tr>
@@ -209,7 +209,7 @@ Un lien vers mon testeur de templates
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjg0NjYzMCwtMTMyMTkxOTkzMSwtMT
+eyJoaXN0b3J5IjpbLTczOTQ0NDY2OCwtMTMyMTkxOTkzMSwtMT
 Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
 MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
 M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
