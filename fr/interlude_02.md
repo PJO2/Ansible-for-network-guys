@@ -141,14 +141,6 @@ La variable jedi dans la boucle contient cette fois le hash composé des champs 
     {%- endfor %}
     </table>
 
-ou encore 
-
-    <table>
-    <tr><th>name</th><th>location</th></tr>
-    {%- for jedi in jedis %}
-        <tr><td>{{ jedi.name, jedi.location] | join('</td><td>') }}</td></tr>
-    {%- endfor %}
-    </table>
 
 
 ### Pourquoi cette différence ?
@@ -165,6 +157,8 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
            <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
     {%- endfor %}
     </table>
+
+
 
 ## La structure de contrôle if
  
@@ -198,9 +192,9 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ0NDY5NjksLTE1NDgzOTE0NTMsLT
-E0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYx
-ODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOC
-wtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEy
-OTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTY4ODkyNzA1LC0xNTQ4MzkxNDUzLC0xND
+k0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4OTQ0MTYsMTU2MTg1
+NTkyMCwzNzQ5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLT
+E3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjky
+Mzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl19
 -->
