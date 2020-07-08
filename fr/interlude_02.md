@@ -9,7 +9,7 @@ Jinja2 est un langage d'écriture de  templates intégré à python et développ
 
 ## Les variables
 
-En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template. Le texte 
+En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template.  
 Par exemple le petit template suivant :
 
     Hello {{ name }}
@@ -93,7 +93,8 @@ Nous pouvons utiliser le template Jinja2 :
     <table>
     <tr><th>name</th><th>location</th></tr>
     {% for jedis in jedi %}
-    <tr><td>{{ 
+    <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
+    {% endfor *
 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -103,7 +104,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTY3NTE1NywzNzQ5MTIwNjksNTA0Nz
+eyJoaXN0b3J5IjpbMTgxOTg2ODYxNSwzNzQ5MTIwNjksNTA0Nz
 IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
 NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
 k5ODExNl19
