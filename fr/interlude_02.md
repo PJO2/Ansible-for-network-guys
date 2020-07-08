@@ -167,7 +167,15 @@ ou encore pour les plus audacieux, en jouant sur les noms de clefs et les valeur
     {%- endfor %}
     </table>
 
-En utilisant la structure de donnée
+En utilisant la structure de données en liste, le même template s'écrit de manière encore plus compacte :
+
+    <table>
+        <tr><th>{{ (jedis | first).keys() | join('</th><th>') }}</th></tr>
+    {%- for jedi in jedis %}
+        <tr><td>{{ jedi.values() | join('</td><td>') }}</td></tr>
+    {%- endfor %}
+    </table>
+
 
 
 ## La structure de contrôle if
@@ -199,12 +207,14 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
     </table>
 
 
+## Tester les templates
 
-Un lien vers mon testeur de templates
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM4NDU3MDUsLTEzMjE5MTk5MzEsLT
+eyJoaXN0b3J5IjpbLTE0OTg3MDM4MDksLTEzMjE5MTk5MzEsLT
 E0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1
 ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MT
 MzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUw
