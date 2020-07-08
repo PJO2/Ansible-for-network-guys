@@ -5,7 +5,7 @@
 ## Définition
 Un template ou Gabarit est un modèle qui permet de structurer un objet (pour nous un fichier texte) avec des éléments statiques et des éléments dynamiques non connus (variables). 
 
-Jinja2 est un langage d'écriture de  templates intégré à python et développé pour des écrires des pages HTML  ! Mais comme il est puissant et générique, nous allons l'utiliser pour écrire des configurations de routeurs...
+Jinja2 est un langage d'écriture de  templates intégré à python et développé pour des écrires des pages HTML  ! Mais comme il est puissant et générique, nous allons l'utiliser pour décrire des configurations de routeurs...
 
 ## Les variables
 
@@ -107,7 +107,7 @@ qui donne :
     
     </table>
 
-
+Pas mal du tout, à part les lignes vides. Elles 
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
 
@@ -116,7 +116,7 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ4Njg2NTMsMTU2MTg1NTkyMCwzNz
+eyJoaXN0b3J5IjpbLTExMTE1MDE3MTEsMTU2MTg1NTkyMCwzNz
 Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
 MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
 k3MjgwMzM1LDczMDk5ODExNl19
