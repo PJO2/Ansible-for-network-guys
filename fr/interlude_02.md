@@ -90,9 +90,9 @@ Et que nous voulons créer la table HTML suivante :
 Nous pouvons utiliser le template Jinja2 :
 
     <table>
-    <tr><th>name</th><th>location</th></tr>
+       <tr><th>name</th><th>location</th></tr>
     {% for jedis in jedi %}
-    <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
+       <tr><td>{{ jedi }}</td><td>{{ jedis[jedi].location }}</td></tr>
     {% endfor %}
     </table>
     
@@ -105,8 +105,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0Nz
-IyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMy
-NiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTQ5MDcwOTY1NiwxNTYxODU1OTIwLDM3ND
+kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
+MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
+cyODAzMzUsNzMwOTk4MTE2XX0=
 -->
