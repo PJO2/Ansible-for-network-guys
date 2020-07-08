@@ -143,8 +143,8 @@ La variable jedi dans la boucle contient le hash composé des champs name et loc
 
 Pourquoi cette différence ?
 En python, comme dans de nombreux langages interprétés, les données sont typées et les instructions s'adaptent aux types des données.
-Dans le premier cas, la variable jedis est 
-Dans le second cas, la variable jedis est une liste de hashs [name, location] et l'itération renvoie le contenu complet  [name, location].
+Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
+Dans le second cas, la variable jedis est une liste de hashs composés [name, location] et l'itération renvoie le contenu complet  [name, location].
 Dans le p
 
 Cette structure peut  également accepter des filtres. Par exemple, on peut limiter l'étendue de 
@@ -154,8 +154,8 @@ Cette structure peut  également accepter des filtres. Par exemple, on peut limi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk0NTU5NDMsMTU2MTg1NTkyMCwzNz
-Q5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1
-MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsND
-k3MjgwMzM1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTU1MzEzMjYyNCwxNTYxODU1OTIwLDM3ND
+kxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyNDUz
+MiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0OT
+cyODAzMzUsNzMwOTk4MTE2XX0=
 -->
