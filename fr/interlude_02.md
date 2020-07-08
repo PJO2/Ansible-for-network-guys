@@ -212,13 +212,13 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Certains sites permettant de tester ses templates en ligne, parmi eux 
 [http://jinja.quantprogramming.com/](http://jinja.quantprogramming.com/).
 
-J'ai également développé un 
+ON 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTY2MDkxOCwtMTMyMTkxOTkzMSwtMT
+eyJoaXN0b3J5IjpbMjA3NDk2OTEwOSwtMTMyMTkxOTkzMSwtMT
 Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
 MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
 M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
