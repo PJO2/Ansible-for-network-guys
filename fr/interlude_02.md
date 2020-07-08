@@ -165,22 +165,22 @@ Ce petit exemple nous montre l'utilisation d'un premier if pour cr√©er les en-t√
     {%- if jedis %}
     <table>
        <tr><th>name</th><th>location</th></tr>
-	{%- for jedi in jedis.iteritems() %}
-	   {%- if jedi in ["obiwan", "luke"] %}
-       <tr><td>{{ jedi }}</td><td>{{ jedi_data.location }}</td></tr>
+	{%- for jedi in jedis %}
+	   {%- if jedi.name in ["obiwan", "luke"] %}
+       <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
            {%- endif %}
         {%- endfor %}
     </table>
     {% endif %}
 
-
+## Com
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTYwMzg5NiwtMTQ5NDU1NTIzMCwtMT
-g3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEy
-MDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC
-02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4
-MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjQzMzcyMzkzLC0xNDk0NTU1MjMwLC0xOD
+c2MzQxMzM5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIw
+NjksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLT
+Y2MTk5MDMyNiwxNjAwMjU1MDQ0LDIxMjkyMzg1NzcsNDk3Mjgw
+MzM1LDczMDk5ODExNl19
 -->
