@@ -163,7 +163,7 @@ ou encore pour les plus audacieux :
      <table>
            <tr><th>name</th><th>location</th></tr>
     {%- for jedi,jedi_data in jedis.iteritems() %}
-           <tr><td>{{ jedi }}</td><td>{{ jedi_data.values() | join('</td><td>' }}</td></tr>
+           <tr><td>{{ jedi }}</td><td>{{ jedi_data.values() | join('</td><td>') }}</td></tr>
     {%- endfor %}
     </table>
 
@@ -200,10 +200,10 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTM0NzEwNCwtNDExMDU4MTc2LC0xNT
-Q4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4
-OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0NzIyNzkwLC
-05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNjAw
-MjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl
-19
+eyJoaXN0b3J5IjpbMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMT
+A1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0
+MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LD
+UwNDcyMjc5MCwtOTg4NDY1NjA4LC0xNzkwNDI0NTMyLC02NjE5
+OTAzMjYsMTYwMDI1NTA0NCwyMTI5MjM4NTc3LDQ5NzI4MDMzNS
+w3MzA5OTgxMTZdfQ==
 -->
