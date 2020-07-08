@@ -209,12 +209,12 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 
 ## Tester les templates
 
-
+ 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg3MDM4MDksLTEzMjE5MTk5MzEsLT
+eyJoaXN0b3J5IjpbLTE3MDkzMjE4MTUsLTEzMjE5MTk5MzEsLT
 E0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1
 ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MT
 MzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUw
