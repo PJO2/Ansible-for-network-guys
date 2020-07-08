@@ -158,6 +158,7 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
     {%- endfor %}
     </table>
 
+ou pour les plus audacieux :
 
 
 ## La structure de contrôle if
@@ -192,9 +193,10 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMT
-Q5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4
-NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4NDY1NjA4LC
-0xNzkwNDI0NTMyLC02NjE5OTAzMjYsMTYwMDI1NTA0NCwyMTI5
-MjM4NTc3LDQ5NzI4MDMzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTE5NDA0NDQxLC00MTEwNTgxNzYsLTE1ND
+gzOTE0NTMsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5
+NDQxNiwxNTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLT
+k4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAy
+NTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX
+0=
 -->
