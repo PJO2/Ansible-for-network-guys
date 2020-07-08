@@ -147,7 +147,7 @@ En python, comme dans de nombreux langages interprétés, les données sont typ�
 Dans le premier cas, la variable *jedis* est un hash composé des clefs *obiwan* et *yoda* et itérer sur le hash renvoie les clefs une à une.
 Dans le second cas, la variable *jedis* est une liste de hashs composés des clefs *name* et *location*. L'itération renvoie les hashs {name, location} un par un.
 
-Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  le hash est décomposé par la méthode iteritems. Le template peut aussi s'écrire :
+Dans le premier cas, l'instruction for peut également renvoyer le couple (clef, valeur) si  le hash est décomposé par la méthode *iteritems*. Le template peut alors s'écrire :
 
     <table>
            <tr><th>name</th><th>location</th></tr>
@@ -158,12 +158,12 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
 
 ## La structure de contrôle if
  
- Jinja2 possède une structure de test {% if %} {% endif %} avec des opérateurs courants de type mathématiques (=, >,..), 
+ Jinja2 possède une structure de test {% if %} {% endif %} qui fonctionne avec les opérateurs mathématiques (=, >,..), ensemblistes (in,
 
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk1OTUwMjAsLTc0Mzg5NDQxNiwxNT
+eyJoaXN0b3J5IjpbLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNT
 YxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYw
 OCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMj
 EyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX0=
