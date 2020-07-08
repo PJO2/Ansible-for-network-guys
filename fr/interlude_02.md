@@ -158,7 +158,14 @@ Dans le premier cas, l'instruction for peut également renvoyer le couple (clef,
     {%- endfor %}
     </table>
 
-ou pour les plus audacieux :
+ou encore pour les plus audacieux :
+
+     <table>
+           <tr><th>name</th><th>location</th></tr>
+    {%- for jedi,jedi_data in jedis.iteritems() %}
+           <tr><td>{{ jedi }}</td><td>{{ jedi_data.values() | join('</td><td>' }}</td></tr>
+    {%- endfor %}
+    </table>
 
 
 ## La structure de contrôle if
@@ -193,10 +200,10 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NDA0NDQxLC00MTEwNTgxNzYsLTE1ND
-gzOTE0NTMsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5
-NDQxNiwxNTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLT
-k4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAy
-NTUwNDQsMjEyOTIzODU3Nyw0OTcyODAzMzUsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbMTg5OTM0NzEwNCwtNDExMDU4MTc2LC0xNT
+Q4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4
+OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0NzIyNzkwLC
+05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNjAw
+MjU1MDQ0LDIxMjkyMzg1NzcsNDk3MjgwMzM1LDczMDk5ODExNl
+19
 -->
