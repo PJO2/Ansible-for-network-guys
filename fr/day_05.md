@@ -98,7 +98,6 @@ et le playbook :
 
 La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook, comme nous l'avons fait, ou au niveau d'une tâche.
 
-Si nous voulons enchaîner avec la commande show version, cette fois rien de plus simple, nous ajoutons une tâche :
 
 ## Niveau 2 : intercepter la sortie
 
@@ -143,8 +142,8 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTM0MjIxNSwxMzE3NzU5ODEwLDE5Mz
-QzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEw
-NCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05Nj
-A4MzEzM119
+eyJoaXN0b3J5IjpbMTk4MTc0NzQ4MiwtMzQxMzQyMjE1LDEzMT
+c3NTk4MTAsMTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgx
+NTcsMTIwODg0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NT
+I3MzMyMzIsLTk2MDgzMTMzXX0=
 -->
