@@ -211,15 +211,15 @@ D'autres possibilités sont offertes par Ansible. Parmi elles :
 |gather_facts|défini en en-tête, il demande à Ansible de récupérer des renseignements sur le host.|
 
 
-Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez commencer à créer vos premiers automates. J'espère vous garder encore pour 2 journées, le temps de découvrir les templates.
+Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez commencer à créer vos premiers automates. J'espère vous retenir encore pour 2 journées, le temps de découvrir les templates.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjU4MDc3NiwtMTg4OTkxOTYyOCwxNT
-E1MDM0OTYyLDI1MTU1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIx
-NSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxND
-c2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4
-MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
+eyJoaXN0b3J5IjpbMTg1OTQ4NjgsLTE4ODk5MTk2MjgsMTUxNT
+AzNDk2MiwyNTE1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUs
+MTMxNzc1OTgxMCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3Nj
+gwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIs
+MTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
 -->
