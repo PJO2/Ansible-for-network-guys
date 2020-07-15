@@ -37,7 +37,9 @@ Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en
         - name: un show clock en mode raw
           raw: show clock
 
-Et cette 
+Et cette fois c'est bon :
+
+
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
 
@@ -94,7 +96,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzM5OTA0OSwxOTM0MzM1MjA2LC0yNj
+eyJoaXN0b3J5IjpbLTg0ODAwNzY2OSwxOTM0MzM1MjA2LC0yNj
 AwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3
 Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
 -->
