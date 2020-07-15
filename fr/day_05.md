@@ -4,7 +4,7 @@ Nous avons vu comment lancer une commande, comment organiser les données. Conti
 
 Et oui, derrière ansible, il y a ansible-playbook qui permet d'exécuter une succession d'actions, appartenant à différents modules.
 
-Et si je vous demande sous quelle forme va être écrit le playbook ? Eh oui : c'est du YAML, d'où le détour par lequel je vous ai fait passé la semaine dernière. 
+Et si je vous demande sous quelle forme va être écrit le playbook ? Gagné : c'est du YAML, d'où le détour par lequel je vous ai fait passé la semaine dernière. 
 
 Commençons par réécrire notre show clock en playbook.
 
@@ -73,5 +73,6 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MD
+gzMTMzXX0=
 -->
