@@ -24,7 +24,7 @@ Petite déception, une fois le playbook lancé par la commande
 
     ansible-playbook -i inv raw.yml
 
-Il semble que la tâche *gathering facts* se soit invitée dans notre playbook pour le faire planter ! 
+Il semble qu'une tâche *Gathering Facts* se soit invitée dans notre playbook pour le faire planter ! 
 
 ![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
 Et c'est exactement ça : pensant nous "faciliter la vie", Ansible récolte implicitement des informations sur les hosts, comme le type d'Unix installé, le type de processeur, la mémoire libre, l'espace disque, la version de python installée... 
@@ -206,9 +206,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5MDMxNTQxLDE1MTUwMzQ5NjIsMjUxNT
-U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
-MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
-g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
-LTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbMTM5MTk2NTMxMiwxNTE1MDM0OTYyLDI1MT
+U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
+LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
