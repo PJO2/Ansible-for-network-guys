@@ -55,13 +55,17 @@ Effectuons la même action avec le module cli_command. Le playbook devrait resse
 
 L'erreur suivante devrait nous faire rapidement penser au fameux paramètre *connection*.
 
+![playbook003](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook003.png)
 Et de fait, si on le précise dans la commande :
 
     ansible-playbook -i inv show_clock.yaml -c network_cli
 c'est beaucoup mieux
+![playbook004](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook004.png)
 
 
-Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
+
+Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous allons placer 
+décidons que la variable ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
 
 et le playbook :
@@ -117,7 +121,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk4NjcwMDQsMTkzNDMzNTIwNiwtMj
-YwMDQwNTIxLDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xODY0NDkw
-NzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbLTczNTU1NzcwLDE5MzQzMzUyMDYsLTI2MD
+A0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2
+LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
