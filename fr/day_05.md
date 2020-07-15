@@ -61,12 +61,19 @@ Et de fait, si on le précise dans la commande :
     ansible-playbook -i inv show_clock.yaml -c network_cli
 c'est beaucoup mieux
 ![playbook004](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook004.png)
-Encore mieux, c'est de placer le paramètre dans le playbook :
+Encore mieux, nous définissons ce paramètre dans le playbook qui devient :
 
-
+    ---
+    # show clock
+    - hosts: all
+      gather_facts: no
+      tasks:
+      - name: un show clock via le module cli_command
+        cli_command:
+            command: show clock
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous 
-décidons que la variable *ansible_user* appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
+décidons que la variable *ansible_netwo* appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
 
 et le playbook :
@@ -122,7 +129,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDI0NzUyNywxOTM0MzM1MjA2LC0yNj
-AwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3
-Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbNjk1NDk5MTg1LDE5MzQzMzUyMDYsLTI2MD
+A0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2
+LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
