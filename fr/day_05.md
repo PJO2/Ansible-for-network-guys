@@ -188,7 +188,7 @@ Enfin, notons que l'adresse recherchée peut être passée en paramètre au play
         when: not ip in output.stdout
 
 ![playbook008](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook008.png)
-Et ce petit exemple
+Et nous sommes arrivés à construire assez facilement une 
 
 
 ## Les autres paramètres d'un playbook  
@@ -207,9 +207,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc2NzY2NzgsMTUxNTAzNDk2MiwyNT
-E1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgx
-MCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMj
-A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
-MiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTA2NDg2NTQxMywxNTE1MDM0OTYyLDI1MT
+U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
+LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
