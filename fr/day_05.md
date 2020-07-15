@@ -161,7 +161,29 @@ Voici la sortie pour le dernier routeur :
 ![playbook006](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook006.png)
 La sortie du routeur est disponible sur plusieurs formes (*output.stdout*  ou *output.stdout_lines*).
 
-Ici, nous affichons le retour de la commande en debug et retournons un success seulement pour l'équipement qui  possède cette adresse MAC.
+Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère pas une adresse donnée :
+    
+    ---
+    # show clock
+    - hosts: all
+      gather_facts: no
+      connection: network_cli
+      vars:
+           ansible_user: cisco
+           ansible_ssh_pass: cisco
+           ansible_network_os: ios
+    
+    
+      tasks:
+      - name: execute show ip interface brief
+        cli_command:
+            command: show ip interface brief
+        register: output
+    
+      - fail:
+        when: not '10.0.0.232' in output.stdout
+
+
 
 ## Les autres paramètres d'un playbook  
 
@@ -179,9 +201,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM3MzA4OTQsMTUxNTAzNDk2MiwyNT
-E1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgx
-MCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMj
-A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
-MiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbMzA4NDkwMjEyLDE1MTUwMzQ5NjIsMjUxNT
+U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
+MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
+g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
+LTk2MDgzMTMzXX0=
 -->
