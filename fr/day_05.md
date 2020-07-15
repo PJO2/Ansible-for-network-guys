@@ -164,7 +164,6 @@ La sortie du routeur est disponible sur plusieurs formes (*output.stdout*  ou *o
 Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère pas une adresse donnée :
     
     ---
-    # show clock
     - hosts: all
       gather_facts: no
       connection: network_cli
@@ -172,7 +171,6 @@ Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère p
            ansible_user: cisco
            ansible_ssh_pass: cisco
            ansible_network_os: ios
-    
     
       tasks:
       - name: execute show ip interface brief
@@ -183,7 +181,7 @@ Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère p
       - fail:
         when: not '10.0.0.232' in output.stdout
 
-
+![playbook007](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook007.png)
 
 ## Les autres paramètres d'un playbook  
 
@@ -201,9 +199,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4NDkwMjEyLDE1MTUwMzQ5NjIsMjUxNT
-U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
-MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
-g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
-LTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbLTQxNjgzNjY2OCwxNTE1MDM0OTYyLDI1MT
+U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
+LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
