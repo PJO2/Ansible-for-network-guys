@@ -27,7 +27,7 @@ Petite déception, une fois le playbook lancé par la commande
 Il semble que la tâche *gathering facts* se soit invitée dans notre playbook pour le faire planter ! 
 
 ![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
-Et c
+Et c'est exactement ça : pour nous faciliter la vie, Ansible récolte implicitement des informations sur les hosts (
     
     ---
     - hosts: all
@@ -92,7 +92,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTE5Nzc0MywxNDc2ODA4MTU3LDEyMD
-g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
-LC05NjA4MzEzM119
+eyJoaXN0b3J5IjpbLTE4NDI2NjE0MjcsMTQ3NjgwODE1NywxMj
+A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
+MiwtOTYwODMxMzNdfQ==
 -->
