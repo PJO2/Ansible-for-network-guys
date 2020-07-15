@@ -21,12 +21,12 @@ Bref, notre playbook devient :
           raw: show clock
 
 Petite déception, une fois le playbook lancé par la commande
- 
 
     ansible-playbook -i inv raw.yml
 
-Il semble qu'une tâche non demandée 
-![Petite déception, une fois le playbook lancé par](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
+Il semble que la tâche *gathering facts* se soit invitée dans le playbook pour le faire planter ! 
+
+![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
 
     
     ---
@@ -92,7 +92,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU0MzM2OTAsMTIwODg0MTA0LC0xOD
-Y0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMz
-XX0=
+eyJoaXN0b3J5IjpbMTQ2MTY0MTk4NiwxMjA4ODQxMDQsLTE4Nj
+Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
+fQ==
 -->
