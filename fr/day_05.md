@@ -96,10 +96,7 @@ et le playbook :
         cli_command:
             command: show clock
 
-La chapitre
-
-Le playbook se lance par la simple commande :
-
+La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook, comme nous l'avons fait, ou au niveau d'une tâche.
 
 Si nous voulons enchaîner avec la commande show version, cette fois rien de plus simple, nous ajoutons une tâche :
 
@@ -146,7 +143,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDU3NzM1OSwxMzE3NzU5ODEwLDE5Mz
+eyJoaXN0b3J5IjpbLTM0MTM0MjIxNSwxMzE3NzU5ODEwLDE5Mz
 QzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEw
 NCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05Nj
 A4MzEzM119
