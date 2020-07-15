@@ -159,6 +159,7 @@ Par exemple, nous lançons dans le playbook une seconde commande qui affiche le 
 
 Voici la sortie pour le dernier routeur :
 ![playbook006](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook006.png)
+La sortie du routeur est disponible sur plusieurs formes (*output.stdout*  ou *output.stdout_lines*).
 
 Ici, nous affichons le retour de la commande en debug et retournons un success seulement pour l'équipement qui  possède cette adresse MAC.
 
@@ -178,9 +179,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTAzNDk2MiwyNTE1NTY3OTQsODQzOT
-kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
-LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
-Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MDM3MzA4OTQsMTUxNTAzNDk2MiwyNT
+E1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgx
+MCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMj
+A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
+MiwtOTYwODMxMzNdfQ==
 -->
