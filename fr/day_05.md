@@ -60,17 +60,19 @@ L'erreur suivante devrait nous faire rapidement penser au fameux paramètre *con
 
 ![playbook003](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook003.png)
 
-Et de fait, si on le précise dans la commande :
+Et, de fait, si on le précise dans la commande :
 
     ansible-playbook -i inv show_clock.yaml -c network_cli
-c'est beaucoup mieux
+c'est beaucoup mieux :
+
 ![playbook004](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook004.png)
-Encore mieux, nous définissons ce paramètre dans le playbook qui devient :
+Encore mieux: nous définissons le paramètre connection dans le playbook qui devient :
 
     ---
     # show clock
     - hosts: all
       gather_facts: no
+      connection: network_cli
       tasks:
       - name: un show clock via le module cli_command
         cli_command:
@@ -78,7 +80,7 @@ Encore mieux, nous définissons ce paramètre dans le playbook qui devient :
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous 
 décidons que les variables *ansible_network_os*, *ansible_user* et *ansible_ssh_pass* appartiennent au playbook et plus à l'inventaire 
-L'inventaire s'écrit :
+L'inventaire s'écrit alors :
 
     [mon_reseau]
     mon_routeur ansible_host=10.0.0.230
@@ -210,9 +212,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzM5Mjc4MiwxNTE1MDM0OTYyLDI1MT
-U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
-LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
-g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
-LC05NjA4MzEzM119
+eyJoaXN0b3J5IjpbMzc1ODg3MDE5LDE1MTUwMzQ5NjIsMjUxNT
+U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
+MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
+g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
+LTk2MDgzMTMzXX0=
 -->
