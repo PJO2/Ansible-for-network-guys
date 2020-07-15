@@ -27,6 +27,7 @@ Petite déception, une fois le playbook lancé par la commande
 Il semble qu'une tâche *Gathering Facts* se soit invitée dans notre playbook pour le faire planter ! 
 
 ![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
+
 Et c'est exactement ça : pensant nous "faciliter la vie", Ansible récolte implicitement des informations sur les hosts, comme le type d'Unix installé, le type de processeur, la mémoire libre, l'espace disque, la version de python installée... 
 Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en début de playbook :
     
@@ -37,9 +38,11 @@ Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en
         - name: un show clock en mode raw
           raw: show clock
 
-Et cette fois c'est bon :
+Et cette fois c'est beaucoup mieux :
+
 ![playbook002](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook002.png)
-Enfin, c'est bon, si l'on se contente du OK ! 
+
+Enfin, c'est bon, si l'on se contente de la sortie  OK  ! 
 Mais c'est le principe du playbook : lancer plusieurs actions consécutives et, par défaut, ne pas conserver le résultat.
 
 Effectuons la même action avec le module cli_command. Le playbook devrait ressembler à quelque chose du type :
@@ -56,6 +59,7 @@ Effectuons la même action avec le module cli_command. Le playbook devrait resse
 L'erreur suivante devrait nous faire rapidement penser au fameux paramètre *connection*.
 
 ![playbook003](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook003.png)
+
 Et de fait, si on le précise dans la commande :
 
     ansible-playbook -i inv show_clock.yaml -c network_cli
@@ -206,7 +210,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTk2NTMxMiwxNTE1MDM0OTYyLDI1MT
+eyJoaXN0b3J5IjpbMTkwNzM5Mjc4MiwxNTE1MDM0OTYyLDI1MT
 U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
 LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
 g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
