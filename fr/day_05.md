@@ -142,10 +142,23 @@ Elle s'utilise conjointement avec un module :
         register: output
 
 
-Nous avons affecté une variable qui sera globale au reste du playbook.
+La variable qui sera globale au reste du playbook.
 Elle peut s'utiliser avec le pseudo-module debug pour l'afficher, avec le module template pour la consommer ou avec les filtres when pour conditionner la suite du playbook.
 
-Par exemple, nous lançons dans le playbook une seconde commande qui affiche le contenu de la v
+Par exemple, nous lançons dans le playbook une seconde commande qui affiche le contenu de la variable :
+
+      tasks:
+      - name: execute show ip interface brief
+        cli_command:
+            command: show ip interface brief
+        register: output
+    
+      - name: debug output
+        debug:
+           var: output
+
+Voici la sortie pour le dernier routeur :
+![playbook006](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook006.png)
 
 Ici, nous affichons le retour de la commande en debug et retournons un success seulement pour l'équipement qui  possède cette adresse MAC.
 
@@ -165,9 +178,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI4NTAxNTQsMjUxNTU2Nzk0LDg0Mz
-k5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAsMTkzNDMzNTIw
-NiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xOD
-Y0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMz
-XX0=
+eyJoaXN0b3J5IjpbMjE2NTA3MzYzLDI1MTU1Njc5NCw4NDM5OT
+M3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYs
+LTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2ND
+Q5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
+
 -->
