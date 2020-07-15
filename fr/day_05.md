@@ -40,7 +40,9 @@ Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en
 Et cette fois c'est bon :
 ![playbook002](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook002.png)
 Enfin, c'est bon, si l'on se contente du OK ! 
-Mais 
+Mais c'est le principe du playbook : lancer plusieurs actions consécutives et, par défaut, ne pas conserver le résultat.
+
+Effec t
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
@@ -98,7 +100,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mzk2OTc2NiwxOTM0MzM1MjA2LC0yNj
-AwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3
-Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTE5MzA2MjgxLDE5MzQzMzUyMDYsLTI2MD
+A0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2
+LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
