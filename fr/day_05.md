@@ -149,8 +149,9 @@ Elle s'utilise conjointement avec un module :
         register: output
 
 
-Une fois la tâche passée, la variable *output* contiendra la sortie du module et sera globale au reste du playbook.
-Elle peut s'utiliser avec le pseudo-module *debug* pour l'afficher, avec le module *template* pour la consommer ou avec les filtres *when* pour conditionner la suite du playbook.
+Une fois la tâche passée, la variable que nous avons nommée *output* contiendra la sortie du module et sera globale au reste du playbook.
+
+On pourra l'utiliser avec le pseudo-module *debug* pour l'afficher, avec le module *template* pour la consommer ou avec les filtres *when* pour conditionner la suite du playbook.
 
 Par exemple, nous lançons dans le playbook une seconde commande qui affiche le contenu de la variable :
 
@@ -165,6 +166,7 @@ Par exemple, nous lançons dans le playbook une seconde commande qui affiche le 
            var: output
 
 Voici la sortie pour le dernier routeur :
+
 ![playbook006](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook006.png)
 La sortie du routeur est disponible sur plusieurs formes (*output.stdout*  ou *output.stdout_lines*).
 
@@ -187,6 +189,7 @@ Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère p
     
       - fail:
         when: not '10.0.0.232' in output.stdout
+
 
 ![playbook007](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook007.png)
 Enfin, notons que l'adresse recherchée peut être passée en paramètre au playbook via l'option --extra-arg ou -e. Elle est correctement interprétée avec un playbook très légèrement modifié :
@@ -213,7 +216,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzg5ODY2MSwxNTE1MDM0OTYyLDI1MT
+eyJoaXN0b3J5IjpbMTA4NDA3MDE3OCwxNTE1MDM0OTYyLDI1MT
 U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
 LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
 g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
