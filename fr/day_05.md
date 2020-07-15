@@ -55,6 +55,12 @@ Effectuons la même action avec le module cli_command. Le playbook devrait resse
 
 L'erreur suivante devrait nous faire rapidement penser au fameux paramètre *connection*.
 
+Et de fait, si on le précise dans la commande :
+
+    ansible-playbook -i inv show_clock.yaml -c network_cli
+c'est beaucoup mieux
+
+
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
 
@@ -111,7 +117,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mjg4NDkzMywxOTM0MzM1MjA2LC0yNj
-AwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3
-Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTE3Njk4NjcwMDQsMTkzNDMzNTIwNiwtMj
+YwMDQwNTIxLDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xODY0NDkw
+NzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMzXX0=
 -->
