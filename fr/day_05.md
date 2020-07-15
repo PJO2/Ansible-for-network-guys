@@ -8,7 +8,7 @@ Et si je vous demande sous quelle forme va être écrit le playbook ? Gagné : c
 
 Commençons par réécrire notre show clock en playbook.
 
-D'abord, l'en-tête du playbook décrit les paramètres globaux. Ensuite, le champ tasks décrit la successions d'actions. 
+D'abord, l'en-tête du playbook décrit les paramètres globaux, a minima la variable *hosts* qui indique . Ensuite, le champ tasks décrit la successions d'actions. 
 
 Chaque action comporte au moins le champ module, et je vous conseille d'ajouter le champ name. Ce dernier est optionnel, mais il augmente la lisibilité du playbook et apparaît également dans l'exécution du playbook.
 
@@ -73,6 +73,6 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MD
-gzMTMzXX0=
+eyJoaXN0b3J5IjpbMjA2Njc0MzI3Niw3NTExNzQ2ODIsMTY1Mj
+czMzIzMiwtOTYwODMxMzNdfQ==
 -->
