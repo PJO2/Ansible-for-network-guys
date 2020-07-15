@@ -101,7 +101,7 @@ La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook, comme no
 
 ## Niveau 2 : intercepter la sortie
 
-Maintenant, prenons un vrai use-case : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port en access.
+Maintenant, prenons un use-case plus opérationnel : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port en access.
 
 Bravo à ceux qui pensent à écrire l'inventaire ou veulent mettre un show mac address-table dans un module cli_command : le métier rentre.
 
@@ -142,8 +142,8 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTc0NzQ4MiwtMzQxMzQyMjE1LDEzMT
-c3NTk4MTAsMTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgx
-NTcsMTIwODg0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NT
-I3MzMyMzIsLTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNz
+c1OTgxMCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1
+NywxMjA4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1Mj
+czMzIzMiwtOTYwODMxMzNdfQ==
 -->
