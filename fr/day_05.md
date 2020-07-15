@@ -111,8 +111,23 @@ Vous avez déjà pensé à écrire l'inventaire par exemple de la façon suivant
     rtr232 ansible_host=10.0.0.232
     rtr233 ansible_host=10.0.0.233
 
+Ensuite, nous complétons le playbook avec la commande *show ip interface brief*.
 
-Ensuite, nous complétons le playbook avec la commande validée lors de notre essai.
+    ---
+    # show clock
+    - hosts: all
+      gather_facts: no
+      connection: network_cli
+      vars:
+           ansible_user: cisco
+           ansible_ssh_pass: cisco
+           ansible_network_os: ios
+    
+    
+      tasks:
+      - name: lire les adresses du routeur
+        cli_command:
+            command: show ip interface brief
 
 
 Alors voyons voir le résultat :
@@ -143,7 +158,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODc5OTU0MCwyNTE1NTY3OTQsODQzOT
+eyJoaXN0b3J5IjpbMTUwMDQ0NzY1MywyNTE1NTY3OTQsODQzOT
 kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
 LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
 Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
