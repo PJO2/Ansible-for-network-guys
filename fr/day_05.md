@@ -10,11 +10,17 @@ Commençons par réécrire notre show clock en playbook.
 
 D'abord, l'en-tête du playbook décrit les paramètres globaux, a minima la variable *hosts* qui filtre les hosts de l'inventaire . Ensuite, le champ tasks décrit la successions d'actions. 
 
-Chaque action comporte au moins un champ qui est le nom du module à exécuter et je ne saurai trop vous conseiller d'y ajouter le champ *name*. Ce dernier est optionnel, mais il augmente de beaucoup la lisibilité du playbook et apparaît également dans l'exécution du playbook.
+Chaque action comporte au moins un champ qui est le nom du module à exécuter et je ne saurai trop vous conseiller d'y ajouter le champ optionnel *name*, afin d'augmenter la lisibilité du playbook et de la sortie, car ce champ apparaitra également dans l'exécution du playbook.
 
 Bref, notre playbook devient :
 
     ---
+    - hosts: all
+      gather_facts: no
+      tasks:
+        - name: show clock raw
+          raw: show clock
+
     
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
@@ -73,6 +79,6 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE3NzkyNzQsLTE4NjQ0OTA3Niw3NT
+eyJoaXN0b3J5IjpbLTE3NzA5OTgxOTgsLTE4NjQ0OTA3Niw3NT
 ExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
 -->
