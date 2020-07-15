@@ -101,14 +101,9 @@ La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook, comme no
 
 ## Niveau 2 : intercepter la sortie
 
-Maintenant, prenons un use-case plus opérationnel : Nous recherchons une adresse MAC sur un ensemble de switchs et devons afficher l'équipement qui possède cette adresse sur un port en access.
+Maintenant, prenons un use-case plus opérationnel : Nous recherchons l'interface correspondant à une adresse IP donnée sur un ensemble de routeurs et devons afficher l'équipement qui possède cette adresse.
 
-Bravo à ceux qui pensent à écrire l'inventaire ou veulent mettre un show mac address-table dans un module cli_command : le métier rentre.
-
-Les plus prudents commenceront pourtant à faire l'opération à la main pour s'assurer d'utiliser les bonnes commandes.
-
- 
- Maintenant, on peut écrire l'inventaire par exemple de la façon suivante :
+Vous avez déjà pensé à écrire l'inventaire par exemple de la façon suivante :
 
 
 Ensuite, nous complétons le playbook avec la commande validée lors de notre essai.
@@ -142,8 +137,8 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNz
-c1OTgxMCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1
-NywxMjA4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1Mj
-czMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbMjUxNTU2Nzk0LDg0Mzk5Mzc2MCwtMzQxMz
+QyMjE1LDEzMTc3NTk4MTAsMTkzNDMzNTIwNiwtMjYwMDQwNTIx
+LDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xODY0NDkwNzYsNzUxMT
+c0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMzXX0=
 -->
