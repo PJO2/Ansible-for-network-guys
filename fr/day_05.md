@@ -131,9 +131,8 @@ Ensuite, nous complétons le playbook avec la commande *show ip interface brief*
 
 
 Alors voyons voir le résultat :
-
-
-Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie du switch. C'est le rôle de la commande register !
+![playbook005](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook005.png)
+Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie de la commande. C'est le rôle de la commande register !
 Elle s'utilise conjointement avec un module :
 
 
@@ -158,7 +157,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDQ0NzY1MywyNTE1NTY3OTQsODQzOT
+eyJoaXN0b3J5IjpbLTkwMjExMzUyNCwyNTE1NTY3OTQsODQzOT
 kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
 LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
 Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
