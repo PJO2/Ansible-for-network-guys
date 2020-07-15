@@ -191,7 +191,8 @@ Ici, nous ajoutons une tâche pour stopper l'exécution si le routeur ne gère p
         when: not '10.0.0.232' in output.stdout
 
 
-![playbook006](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook007.png)
+![playbook007](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook007.png)
+
 Enfin, notons que l'adresse recherchée peut être passée en paramètre au playbook via l'option --extra-arg ou -e. Elle est correctement interprétée avec un playbook très légèrement modifié :
 
       - fail:
@@ -216,7 +217,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk5NTM4ODcsMTUxNTAzNDk2MiwyNT
+eyJoaXN0b3J5IjpbLTE4ODk5MTk2MjgsMTUxNTAzNDk2MiwyNT
 E1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgx
 MCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMj
 A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
