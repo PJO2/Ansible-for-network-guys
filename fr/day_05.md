@@ -45,7 +45,7 @@ Et cette fois c'est beaucoup mieux :
 Enfin, c'est bon, si l'on se contente de la sortie  OK  ! 
 Mais c'est le principe du playbook : lancer plusieurs actions consécutives et, par défaut, ne pas conserver le résultat.
 
-Effectuons la même action avec le module cli_command. Le playbook, appelé show_clock.yml, devrait ressembler à quelque chose du type :
+Effectuons la même action avec le module cli_command. Le playbook, appelé show_clock.yaml, devrait ressembler à quelque chose du type :
 
     ---
     # show clock
@@ -217,9 +217,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQxMTE4ODksLTE4ODk5MTk2MjgsMT
-UxNTAzNDk2MiwyNTE1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIy
-MTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMT
-Q3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2
-ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTY0NjU4MDc3NiwtMTg4OTkxOTYyOCwxNT
+E1MDM0OTYyLDI1MTU1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIx
+NSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxND
+c2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4
+MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
