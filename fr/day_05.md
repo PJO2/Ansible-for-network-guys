@@ -12,7 +12,7 @@ D'abord, l'en-tête du playbook décrit les paramètres globaux, a minima la var
 
 Chaque action comporte au moins un champ qui est le nom du module à exécuter et je ne saurai trop vous conseiller d'y ajouter le champ optionnel *name*, afin d'augmenter la lisibilité du playbook et de la sortie, car ce champ apparaitra également dans l'exécution du playbook.
 
-Bref, notre playbook devient 
+Bref, notre playbook devient le fichier texte raw.yml dont le contenu est :
 
     ---
     - hosts: all
@@ -29,7 +29,7 @@ Il semble qu'une tâche *Gathering Facts* se soit invitée dans notre playbook p
 ![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
 
 Et c'est exactement ça : pensant nous "faciliter la vie", Ansible récolte implicitement des informations sur les hosts, comme le type d'Unix installé, le type de processeur, la mémoire libre, l'espace disque, la version de python installée... 
-Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en début de playbook :
+Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" au début de notre playbook :
     
     ---
     - hosts: all
@@ -45,7 +45,7 @@ Et cette fois c'est beaucoup mieux :
 Enfin, c'est bon, si l'on se contente de la sortie  OK  ! 
 Mais c'est le principe du playbook : lancer plusieurs actions consécutives et, par défaut, ne pas conserver le résultat.
 
-Effectuons la même action avec le module cli_command. Le playbook devrait ressembler à quelque chose du type :
+Effectuons la même action avec le module cli_command. Le playbook, appelé show_clock.yml, devrait ressembler à quelque chose du type :
 
     ---
     # show clock
@@ -217,9 +217,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDYyMDY2MiwtMTg4OTkxOTYyOCwxNT
-E1MDM0OTYyLDI1MTU1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIx
-NSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxND
-c2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4
-MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
+eyJoaXN0b3J5IjpbLTEwODQxMTE4ODksLTE4ODk5MTk2MjgsMT
+UxNTAzNDk2MiwyNTE1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIy
+MTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMT
+Q3NjgwODE1NywxMjA4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2
+ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
 -->
