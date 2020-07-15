@@ -42,7 +42,18 @@ Et cette fois c'est bon :
 Enfin, c'est bon, si l'on se contente du OK ! 
 Mais c'est le principe du playbook : lancer plusieurs actions consécutives et, par défaut, ne pas conserver le résultat.
 
-Effec t
+Effectuons la même action avec le module cli_command. Le playbook devrait ressembler à quelque chose du type :
+
+    ---
+    # show clock
+    - hosts: all
+      gather_facts: no
+      tasks:
+      - name: un show clock via le module cli_command
+        cli_command:
+            command: show clock
+
+
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
@@ -100,7 +111,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA2MjgxLDE5MzQzMzUyMDYsLTI2MD
+eyJoaXN0b3J5IjpbLTIwMTQwNDc1LDE5MzQzMzUyMDYsLTI2MD
 A0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2
 LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
