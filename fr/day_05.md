@@ -17,7 +17,7 @@ Bref, notre playbook devient :
     ---
     - hosts: all
       tasks:
-        - name: show clock raw
+        - name: un show clock en mode raw
           raw: show clock
 
 Petite déception, une fois le playbook lancé par la commande
@@ -27,7 +27,8 @@ Petite déception, une fois le playbook lancé par la commande
 Il semble que la tâche *gathering facts* se soit invitée dans notre playbook pour le faire planter ! 
 
 ![playbook001](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook001.png) 
-Et c'est exactement ça : pour nous "faciliter la vie", Ansible récolte implicitement des informations sur les hosts, comme le type d'Unix installé, le type de processeur, la mémoire libre, l'espace disque... Bref, un ami qu'on va débrancher au plus vite en ajoutant "
+Et c'est exactement ça : pour nous "faciliter la vie", Ansible récolte implicitement des informations sur les hosts, comme le type d'Unix installé, le type de processeur, la mémoire libre, l'espace disque, la version de python installée... 
+Bref, un ami qu'on va débrancher au plus vite en ajoutant "gather_facts: no" en début de playbook :
     
     ---
     - hosts: all
@@ -92,7 +93,7 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNTgyOTA0LDE0NzY4MDgxNTcsMTIwOD
-g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
-LTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
