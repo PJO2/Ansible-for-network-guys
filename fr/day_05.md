@@ -16,12 +16,20 @@ Bref, notre playbook devient :
 
     ---
     - hosts: all
-      gather_facts: no
       tasks:
         - name: show clock raw
           raw: show clock
 
+Petite déception, une fois lancé par la commande
+
+
     
+    ---
+    - hosts: all
+      gather_facts: no
+      tasks:
+        - name: show clock raw
+          raw: show clock
 
 Nous pouvons aussi déplacer des variables de l'inventaire vers le playbook. Par exemple, nous décidons que la varaible ansible_user appartient au playbook et plus à l'inventaire (oui c'est très discutable, mais ça illustre mon propos !).
 L'inventaire s'écrit :
@@ -79,6 +87,6 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA5OTgxOTgsLTE4NjQ0OTA3Niw3NT
-ExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTIwODg0MTA0LC0xODY0NDkwNzYsNzUxMT
+c0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMzXX0=
 -->
