@@ -102,7 +102,7 @@ et le playbook :
         cli_command:
             command: show clock
 
-La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook, comme nous l'avons fait, ou au niveau d'une tâche.
+La chapitre *vars* pouvant être déclaré pour l'ensemble du playbook comme nous l'avons fait, ou restreint au niveau d'une tâche.
 
 
 ## Niveau 2 : intercepter la sortie
@@ -120,7 +120,7 @@ Vous avez déjà pensé à écrire l'inventaire par exemple de la façon suivant
 Ensuite, nous complétons le playbook avec la commande *show ip interface brief*.
 
     ---
-    # show clock
+    # recherche une adresse ip
     - hosts: all
       gather_facts: no
       connection: network_cli
@@ -137,8 +137,9 @@ Ensuite, nous complétons le playbook avec la commande *show ip interface brief*
 
 
 Alors voyons voir le résultat :
+
 ![playbook005](https://raw.githubusercontent.com/PJO2/Ansible-for-network-guys/master/images/playbook005.png)
-Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie de la commande. C'est le rôle de la commande register !
+Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie de la commande. C'est le rôle de la commande *register* !
 Elle s'utilise conjointement avec un module :
 
     tasks:
@@ -148,7 +149,7 @@ Elle s'utilise conjointement avec un module :
         register: output
 
 
-Une fois la tâche passée, la variable output sera globale au reste du playbook.
+Une fois la tâche passée, la variable *output* contiendra la sortie du module et sera globale au reste du playbook.
 Elle peut s'utiliser avec le pseudo-module *debug* pour l'afficher, avec le module *template* pour la consommer ou avec les filtres *when* pour conditionner la suite du playbook.
 
 Par exemple, nous lançons dans le playbook une seconde commande qui affiche le contenu de la variable :
@@ -212,9 +213,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODg3MDE5LDE1MTUwMzQ5NjIsMjUxNT
-U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
-MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
-g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
-LTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbMTcyNzg5ODY2MSwxNTE1MDM0OTYyLDI1MT
+U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
+LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
