@@ -142,8 +142,8 @@ Elle s'utilise conjointement avec un module :
         register: output
 
 
-La variable qui sera globale au reste du playbook.
-Elle peut s'utiliser avec le pseudo-module debug pour l'afficher, avec le module template pour la consommer ou avec les filtres when pour conditionner la suite du playbook.
+Une fois la tâche passée, la variable output sera globale au reste du playbook.
+Elle peut s'utiliser avec le pseudo-module *debug* pour l'afficher, avec le module *template* pour la consommer ou avec les filtres *when* pour conditionner la suite du playbook.
 
 Par exemple, nous lançons dans le playbook une seconde commande qui affiche le contenu de la variable :
 
@@ -178,9 +178,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NTA3MzYzLDI1MTU1Njc5NCw4NDM5OT
-M3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYs
-LTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMDg4NDEwNCwtMTg2ND
-Q5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
-
+eyJoaXN0b3J5IjpbMTUxNTAzNDk2MiwyNTE1NTY3OTQsODQzOT
+kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
+LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
+Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
+fQ==
 -->
