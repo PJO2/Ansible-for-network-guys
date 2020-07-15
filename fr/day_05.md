@@ -135,6 +135,12 @@ Alors voyons voir le résultat :
 Bon ça fonctionne, mais la mise en forme du résultat n'est pas encore là, car nous n'interprétons pas la sortie de la commande. C'est le rôle de la commande register !
 Elle s'utilise conjointement avec un module :
 
+    tasks:
+      - name: execute show ip interface brief
+        cli_command:
+            command: show ip interface brief
+        register: output
+
 
 Maintenant nous avons affecté une variable qui sera globale au reste du playbook.
 Elle peu s'utiliser avec le pseudo-module debug pour l'afficher, avec le module template pour la consommer ou avec les filtres when pour conditionner la suite du playbook.
@@ -157,9 +163,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjExMzUyNCwyNTE1NTY3OTQsODQzOT
-kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
-LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
-Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
-fQ==
+eyJoaXN0b3J5IjpbLTEwNjgyMjczODIsMjUxNTU2Nzk0LDg0Mz
+k5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAsMTkzNDMzNTIw
+NiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xOD
+Y0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMz
+XX0=
 -->
