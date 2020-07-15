@@ -199,6 +199,8 @@ D'autres possibilités sont offertes par Ansible. Parmi elles :
 |tag|conditionne une action ou un bloc par un tag qui est passé en paramètre à ansible-playbook|
 |gather_facts|défini en en-tête, il demande à Ansible de récupérer des renseignements sur le host.|
 
+La liste compl
+https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
 
 Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez commencer à créer vos premiers automates. J'espère vous garder encore pour 2 journées, le temps de découvrir les templates.
 
@@ -206,9 +208,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5MDMxNTQxLDE1MTUwMzQ5NjIsMjUxNT
-U2Nzk0LDg0Mzk5Mzc2MCwtMzQxMzQyMjE1LDEzMTc3NTk4MTAs
-MTkzNDMzNTIwNiwtMjYwMDQwNTIxLDE0NzY4MDgxNTcsMTIwOD
-g0MTA0LC0xODY0NDkwNzYsNzUxMTc0NjgyLDE2NTI3MzMyMzIs
-LTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbLTYxMDcyNzg5MywxNTE1MDM0OTYyLDI1MT
+U1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIxNSwxMzE3NzU5ODEw
+LDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxNDc2ODA4MTU3LDEyMD
+g4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4MiwxNjUyNzMzMjMy
+LC05NjA4MzEzM119
 -->
