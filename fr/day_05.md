@@ -105,6 +105,12 @@ Maintenant, prenons un use-case plus opérationnel : Nous recherchons l'interfac
 
 Vous avez déjà pensé à écrire l'inventaire par exemple de la façon suivante :
 
+    [mon_reseau]
+    rtr230 ansible_host=10.0.0.230
+    rtr231 ansible_host=10.0.0.231
+    rtr232 ansible_host=10.0.0.232
+    rtr233 ansible_host=10.0.0.233
+
 
 Ensuite, nous complétons le playbook avec la commande validée lors de notre essai.
 
@@ -137,8 +143,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNTU2Nzk0LDg0Mzk5Mzc2MCwtMzQxMz
-QyMjE1LDEzMTc3NTk4MTAsMTkzNDMzNTIwNiwtMjYwMDQwNTIx
-LDE0NzY4MDgxNTcsMTIwODg0MTA0LC0xODY0NDkwNzYsNzUxMT
-c0NjgyLDE2NTI3MzMyMzIsLTk2MDgzMTMzXX0=
+eyJoaXN0b3J5IjpbLTY1ODc5OTU0MCwyNTE1NTY3OTQsODQzOT
+kzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgxMCwxOTM0MzM1MjA2
+LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMjA4ODQxMDQsLTE4Nj
+Q0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIzMiwtOTYwODMxMzNd
+fQ==
 -->
