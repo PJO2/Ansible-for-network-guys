@@ -12,7 +12,7 @@ D'abord, l'en-tête du playbook décrit les paramètres globaux, a minima la var
 
 Chaque action comporte au moins un champ qui est le nom du module à exécuter et je ne saurai trop vous conseiller d'y ajouter le champ optionnel *name*, afin d'augmenter la lisibilité du playbook et de la sortie, car ce champ apparaitra également dans l'exécution du playbook.
 
-Bref, notre playbook devient :
+Bref, notre playbook devient 
 
     ---
     - hosts: all
@@ -217,9 +217,9 @@ Voilà, vous êtes maintenant  initiés à la puissance d'Ansible et pouvez comm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk5MTk2MjgsMTUxNTAzNDk2MiwyNT
-E1NTY3OTQsODQzOTkzNzYwLC0zNDEzNDIyMTUsMTMxNzc1OTgx
-MCwxOTM0MzM1MjA2LC0yNjAwNDA1MjEsMTQ3NjgwODE1NywxMj
-A4ODQxMDQsLTE4NjQ0OTA3Niw3NTExNzQ2ODIsMTY1MjczMzIz
-MiwtOTYwODMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTc0MDYyMDY2MiwtMTg4OTkxOTYyOCwxNT
+E1MDM0OTYyLDI1MTU1Njc5NCw4NDM5OTM3NjAsLTM0MTM0MjIx
+NSwxMzE3NzU5ODEwLDE5MzQzMzUyMDYsLTI2MDA0MDUyMSwxND
+c2ODA4MTU3LDEyMDg4NDEwNCwtMTg2NDQ5MDc2LDc1MTE3NDY4
+MiwxNjUyNzMzMjMyLC05NjA4MzEzM119
 -->
