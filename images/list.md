@@ -16,3 +16,8 @@
 ![playbook001](playbook001.png)
 ![playbook002](playbook002.png)
 ![playbook003](playbook003.png)
+![playbook004](playbook004.png)
+![playbook005](playbook005.png)
+![playbook006](playbook006.png)
+![playbook007](playbook007.png)
+![playbook008](playbook008.png)
