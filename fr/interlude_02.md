@@ -44,7 +44,7 @@ La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est e
 
 Le filtre peut préciser une sélection, une mise en forme ou un calcul. (Oui, le terme filtre est sans doute mal choisi, mais c'est le terme choisi par Jinja2 !).
 
-Ainsi, si on souhaite saluer les padawans de obiwan, on évitera d'utiliser
+Ainsi, si on souhaite saluer les padawans de Obiwan, on évitera d'utiliser
 
     Hello {{ jedis.obiwan.padawans }}
 
@@ -61,7 +61,7 @@ pour avoir
 
     Hello anakin, luke
 
-Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre ipaddr qui  permet de faire des opérations sur les adresses IP.
+Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre *ipaddr* qui  permet de faire des opérations sur les adresses IP.
 
 ## Les structures de boucles
 
@@ -206,7 +206,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
     {%- endfor %}
     </table>
 
-La documentation complète est disponible sur le site https://jinja.palletsprojects.com/en/2.11.x/
+La documentation complète est disponible sur le site [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/).
 
 
 ## Tester les templates
@@ -221,11 +221,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU4MDU0MTUsMTM3NDAxMzU5LC0yMT
-E4MjkzNjg1LC0xMzIxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5
-NzY2MSwxODk5MzQ3MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NT
-MsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwx
-NTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NT
-YwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQs
-MjEyOTIzODU3N119
+eyJoaXN0b3J5IjpbMjU0NjQyNzYzLDEzNzQwMTM1OSwtMjExOD
+I5MzY4NSwtMTMyMTkxOTkzMSwtMTQ0Mzg4MjEyOSwzNTI3OTc2
+NjEsMTg5OTM0NzEwNCwtNDExMDU4MTc2LC0xNTQ4MzkxNDUzLC
+0xNDk0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4OTQ0MTYsMTU2
+MTg1NTkyMCwzNzQ5MTIwNjksNTA0NzIyNzkwLC05ODg0NjU2MD
+gsLTE3OTA0MjQ1MzIsLTY2MTk5MDMyNiwxNjAwMjU1MDQ0LDIx
+MjkyMzg1NzddfQ==
 -->
