@@ -206,6 +206,8 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
     {%- endfor %}
     </table>
 
+La documentation complète est disponible sur le site https://jinja.palletsprojects.com/en/2.11.x/
+
 
 ## Tester les templates
 
@@ -219,7 +221,7 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIxMjA1NTYsMTM3NDAxMzU5LC0yMT
+eyJoaXN0b3J5IjpbLTE5NDU4MDU0MTUsMTM3NDAxMzU5LC0yMT
 E4MjkzNjg1LC0xMzIxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5
 NzY2MSwxODk5MzQ3MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NT
 MsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwx
