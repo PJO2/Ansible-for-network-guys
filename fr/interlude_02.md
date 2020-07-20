@@ -205,6 +205,9 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
        <tr><td>{{ jedi.name }}</td><td>{{ jedi.location }}</td></tr>
     {%- endfor %}
     </table>
+  
+  
+## Aller plus loin
 
 La documentation complète est disponible sur le site [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/).
 
@@ -221,7 +224,7 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NjQyNzYzLDEzNzQwMTM1OSwtMjExOD
+eyJoaXN0b3J5IjpbMjA3MTMxMjg5LDEzNzQwMTM1OSwtMjExOD
 I5MzY4NSwtMTMyMTkxOTkzMSwtMTQ0Mzg4MjEyOSwzNTI3OTc2
 NjEsMTg5OTM0NzEwNCwtNDExMDU4MTc2LC0xNTQ4MzkxNDUzLC
 0xNDk0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4OTQ0MTYsMTU2
