@@ -209,7 +209,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
   
 ## Aller plus loin
 
-
+J'espère ne pas trop vous avoir perdu, je 
 La documentation complète est disponible sur le site [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/).
 
 
@@ -225,11 +225,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTg2ODcyOSwyMDcxMzEyODksMTM3ND
-AxMzU5LC0yMTE4MjkzNjg1LC0xMzIxOTE5OTMxLC0xNDQzODgy
-MTI5LDM1Mjc5NzY2MSwxODk5MzQ3MTA0LC00MTEwNTgxNzYsLT
-E1NDgzOTE0NTMsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0
-Mzg5NDQxNiwxNTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OT
-AsLTk4ODQ2NTYwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2
-MDAyNTUwNDRdfQ==
+eyJoaXN0b3J5IjpbOTUxNDgzMDc0LC0zNzE4Njg3MjksMjA3MT
+MxMjg5LDEzNzQwMTM1OSwtMjExODI5MzY4NSwtMTMyMTkxOTkz
+MSwtMTQ0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtND
+ExMDU4MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2
+MzQxMzM5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNj
+ksNTA0NzIyNzkwLC05ODg0NjU2MDgsLTE3OTA0MjQ1MzIsLTY2
+MTk5MDMyNl19
 -->
