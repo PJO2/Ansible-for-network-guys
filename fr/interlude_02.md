@@ -197,7 +197,7 @@ Ce petit exemple nous montre l'utilisation d'un premier if pour créer les en-t�
 
 ## Combiner filtres et instructions
 
-Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instruction Jinja2. Ainsi, nous pouvons supprimer le test *if* ci-dessus en écrivant le template de la façon suivante :
+Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instruction Jinja2. Ainsi, nous pouvons remplacer le test *if* ci-dessus par le filtre *selectattr* qui parcours le hash pour arriver au template  :
 
     <table>
        <tr><th>name</th><th>location</th></tr>
@@ -219,11 +219,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDAxMzU5LC0yMTE4MjkzNjg1LC0xMz
-IxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5NzY2MSwxODk5MzQ3
-MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NTMsLTE0OTQ1NTUyMz
-AsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwxNTYxODU1OTIwLDM3
-NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NTYwOCwtMTc5MDQyND
-UzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQsMjEyOTIzODU3Nyw0
-OTcyODAzMzVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjIxMjA1NTYsMTM3NDAxMzU5LC0yMT
+E4MjkzNjg1LC0xMzIxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5
+NzY2MSwxODk5MzQ3MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NT
+MsLTE0OTQ1NTUyMzAsLTE4NzYzNDEzMzksLTc0Mzg5NDQxNiwx
+NTYxODU1OTIwLDM3NDkxMjA2OSw1MDQ3MjI3OTAsLTk4ODQ2NT
+YwOCwtMTc5MDQyNDUzMiwtNjYxOTkwMzI2LDE2MDAyNTUwNDQs
+MjEyOTIzODU3N119
 -->
