@@ -209,7 +209,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
   
 ## Aller plus loin
 
-Je m'arrête là, après avoir découvert les différentes possibilités du langage. Jinja2 peut être simple et lisible, mais permet de réaliser des tâches complexes   
+Je m'arrête là, après avoir découvert les différentes possibilités du langage. Jinja2 peut être simple et lisible, mais permet aussi de réaliser des tâches complexes.   
 
 La documentation complète est disponible sur le site [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/).
 
@@ -226,7 +226,7 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDgyMTI3MSw2Mjc1OTIyNTcsLTM3MT
+eyJoaXN0b3J5IjpbMTE4NDUxNzU4Miw2Mjc1OTIyNTcsLTM3MT
 g2ODcyOSwyMDcxMzEyODksMTM3NDAxMzU5LC0yMTE4MjkzNjg1
 LC0xMzIxOTE5OTMxLC0xNDQzODgyMTI5LDM1Mjc5NzY2MSwxOD
 k5MzQ3MTA0LC00MTEwNTgxNzYsLTE1NDgzOTE0NTMsLTE0OTQ1
