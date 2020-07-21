@@ -1,6 +1,6 @@
 
 # Interlude  : les formats de données complexes 
-![YAML brick](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/YAML%20brick%2.png)
+![YAML brick](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/YAML%20brick%202.png)
 Avant d'aller plus loin dans la découverte d'Ansible, nous allons ouvrir une première parenthèse pour parler format de données et en particulier du langage YAML.
 
 L'effort est nécessaire car les playbooks Ansible que nous allons étudier au prochain chapitre sont rédigés en YAML. Il est aussi libérateur, car il n'y a pas de bonne automatisation sans une structure de données adéquate.
@@ -135,7 +135,7 @@ Je vous déconseille d'écrire du YAML depuis un éditeur de texte, car les erre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc0MjM1Niw1MjEwNzI2MTQsODgxNj
+eyJoaXN0b3J5IjpbMTgwMDkwMDUyNiw1MjEwNzI2MTQsODgxNj
 MzMDE0LDE4MDExNzAxNjQsMTg0OTc1NzYwLDEzMTEzMzcyOTIs
 MTI3MTg0MzAwMywtMTYxNDE3NDk1NywtMzkzNjUxOTgwLDEwMD
 gyNzAzNDQsLTE1ODY0NjA3NjAsMTQwMzgwODA2LDIxNDU1NDY2
