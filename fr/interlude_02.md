@@ -212,7 +212,7 @@ Il est bien sûr possible d'utiliser les filtres à l'intérieur d'une instructi
 
 Je m'arrête là, après avoir découvert différentes possibilités du langage. Jinja2 peut être simple et lisible, mais permet aussi de réaliser des tâches complexes, au détriment de la lisibilité. 
 
-> La clef, c'est une structure  de données bien pensée qui rend fluide son utilisation.
+> La clef, c'est une structure  de données mûrement réfléchie qui rend fluide son utilisation.
 
 La documentation complète est disponible sur le site [https://jinja.palletsprojects.com/](https://jinja.palletsprojects.com/).
 
@@ -229,11 +229,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYxNTg3MDAsLTk5NDcxMTc5NiwxMT
-g0NTE3NTgyLDYyNzU5MjI1NywtMzcxODY4NzI5LDIwNzEzMTI4
-OSwxMzc0MDEzNTksLTIxMTgyOTM2ODUsLTEzMjE5MTk5MzEsLT
-E0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1
-ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MT
-MzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUw
-NDcyMjc5MF19
+eyJoaXN0b3J5IjpbMTQ3OTY1MjE2OCwtOTk0NzExNzk2LDExOD
+Q1MTc1ODIsNjI3NTkyMjU3LC0zNzE4Njg3MjksMjA3MTMxMjg5
+LDEzNzQwMTM1OSwtMjExODI5MzY4NSwtMTMyMTkxOTkzMSwtMT
+Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
+MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
+M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
+NzIyNzkwXX0=
 -->
