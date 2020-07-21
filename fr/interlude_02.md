@@ -1,6 +1,7 @@
 
 # Interlude  : les templates Jinja2
 
+![Jinja brick](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/Jinja%20bricks.png)
 
 ## Définition
 Un template ou Gabarit est un modèle qui permet de structurer un objet (pour nous un fichier texte) avec des éléments statiques et des éléments dynamiques non connus (variables). 
@@ -226,11 +227,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDcxMTc5NiwxMTg0NTE3NTgyLDYyNz
-U5MjI1NywtMzcxODY4NzI5LDIwNzEzMTI4OSwxMzc0MDEzNTks
-LTIxMTgyOTM2ODUsLTEzMjE5MTk5MzEsLTE0NDM4ODIxMjksMz
-UyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1ODE3NiwtMTU0ODM5
-MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MTMzOSwtNzQzODk0ND
-E2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUwNDcyMjc5MCwtOTg4
-NDY1NjA4XX0=
+eyJoaXN0b3J5IjpbLTE4NDQ5MTQ3NDcsLTk5NDcxMTc5NiwxMT
+g0NTE3NTgyLDYyNzU5MjI1NywtMzcxODY4NzI5LDIwNzEzMTI4
+OSwxMzc0MDEzNTksLTIxMTgyOTM2ODUsLTEzMjE5MTk5MzEsLT
+E0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcxMDQsLTQxMTA1
+ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMCwtMTg3NjM0MT
+MzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0OTEyMDY5LDUw
+NDcyMjc5MF19
 -->
