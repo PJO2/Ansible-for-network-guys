@@ -39,6 +39,8 @@ Si jedi vaut obiwan, alors
  
     Hello qui-gon
 
+Tandis que _Hello {{ jedis.jedi.master }}_ renverra une erreur car jedis['jedi'] n'est pas défini.
+
 
 ## Les filtres
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
@@ -229,11 +231,11 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTY1MjE2OCwtOTk0NzExNzk2LDExOD
-Q1MTc1ODIsNjI3NTkyMjU3LC0zNzE4Njg3MjksMjA3MTMxMjg5
-LDEzNzQwMTM1OSwtMjExODI5MzY4NSwtMTMyMTkxOTkzMSwtMT
-Q0Mzg4MjEyOSwzNTI3OTc2NjEsMTg5OTM0NzEwNCwtNDExMDU4
-MTc2LC0xNTQ4MzkxNDUzLC0xNDk0NTU1MjMwLC0xODc2MzQxMz
-M5LC03NDM4OTQ0MTYsMTU2MTg1NTkyMCwzNzQ5MTIwNjksNTA0
-NzIyNzkwXX0=
+eyJoaXN0b3J5IjpbMjk1MDc4MjAwLDE0Nzk2NTIxNjgsLTk5ND
+cxMTc5NiwxMTg0NTE3NTgyLDYyNzU5MjI1NywtMzcxODY4NzI5
+LDIwNzEzMTI4OSwxMzc0MDEzNTksLTIxMTgyOTM2ODUsLTEzMj
+E5MTk5MzEsLTE0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcx
+MDQsLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMC
+wtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0
+OTEyMDY5XX0=
 -->
