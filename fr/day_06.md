@@ -2,9 +2,9 @@
 # Les templates
 
 ## Tout est template
-En Ansible, tout est interprété comme du Jinja2.
+Dans les playbooks Ansible, toutes les données sont  implicitement  converties par lJinja2.
 
-Par exemple, notre playbook show clock peut être écrit de la façon suivante :
+Par exemple, notre playbook show ip interface brief peut être écrit de la façon suivante :
 
  
 
@@ -34,5 +34,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTA2MzM3NjIsMTM5NDY0NTAyOCw0ND
+YzODAxMTFdfQ==
 -->
