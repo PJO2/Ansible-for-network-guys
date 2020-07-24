@@ -48,9 +48,8 @@ Comme attendu le module template permet de croiser un template texte avec des va
  - Créer un fichier de configuration adapté à chaque équipement (création de service)
  - Editer un rapport particularisé (sueprvision)
 
-Ici nous allons configurer une adresse IP sur l'interface  LAN du routeur.
-
-Bien sûr le template ne connaît pas l'interface et l'adresse IP.
+En exemple, nous cherchons à configurer en masse (ie: sur nos 4 routeurs de lab !) une adresse IP sur l'interface  LAN du routeur.
+L'adresse IP et le nom de l'interface sont des variables du template.
 
 Le template est :
 
@@ -70,6 +69,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjg1MDEzNCwtODcyMDEzMDgzLC0xMz
-k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTEyOTYwMTg1NzgsLTg3MjAxMzA4MywtMT
+M5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
