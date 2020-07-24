@@ -70,8 +70,8 @@ Et voilà un moyen de changer facilement la configuration des interfaces des rou
 
 # Conclusion
 
-J'ai essayé de 
+J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions une à une dans l'ordre qui me semblait le plus naturel possible, a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjQ3MTE2OSwtODcyMDEzMDgzLC0xMz
+eyJoaXN0b3J5IjpbLTg4ODkyNjI4MywtODcyMDEzMDgzLC0xMz
 k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
