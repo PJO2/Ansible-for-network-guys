@@ -51,7 +51,7 @@ Comme attendu le module template permet de croiser un template texte avec des va
 En exemple, nous cherchons à configurer en masse (ie: sur nos 4 routeurs de lab !) une adresse IP sur l'interface  LAN du routeur.
 L'adresse IP et le nom de l'interface sont des variables du template.
 
-Le template est :
+Le template s'écrit assez simplement :
 
 
 
@@ -63,12 +63,15 @@ Et ça ne marche pas. La faute au paramètre connection. Le template doit être 
 
 C'est bon pour le template, mais il va falloir l'envoyer sur le routeur. Heureusement, il y un module copy qui va s'en charger ... si on l'exécute encore une fois en local....
 
-Et voilà un moyen de changer facilement la configuration des interfaces des 2 routeurs qui composent mon site.
+
+Et voilà un moyen de changer facilement la configuration des interfaces des routeurs qui composent mon site.
 
 
 
+# Conclusion
 
+J'ai essayé de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYwMTg1NzgsLTg3MjAxMzA4MywtMT
-M5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTUwNjQ3MTE2OSwtODcyMDEzMDgzLC0xMz
+k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
