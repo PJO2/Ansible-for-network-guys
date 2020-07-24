@@ -75,9 +75,12 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
  - Une commande fonctionnelle
  - Lecture des paramètres
  - La construction d'Ansible en modules
- - Sépa
+ - Séparation des paramètres vers l'inventaire
+ - Les modules les plus utilisés
+ - Les playbooks
+ - Les templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjUwMjIxMCwtODcyMDEzMDgzLC0xMz
-k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTU0ODIwMTEsLTg3MjAxMzA4MywtMT
+M5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
