@@ -14,6 +14,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
       vars:
           # playbook data
           iib: ip interface brief
+          iib_filter: DHCP
           register_var: output
           name: show ip int brief en mode cryptique
           params: command
@@ -26,7 +27,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
       tasks:
       - name: "{{ name }}"
         cli_command:
-            command: show {{ iib }}
+            command: show {{ iib }} | ex {{ iib_filter }}
         register: "{{ register_var }}"
     
       - name: debug output
@@ -34,7 +35,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
            var: output
 
 
-Bien sûr, on y gagne pas en lisibilité, mais ça fonctionne et 
+Bien sûr, on n'y gagne pas en lisibilité, mais l
 
 
 ## mais il y a un module template
@@ -63,6 +64,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0Nj
-M4MDExMV19
+eyJoaXN0b3J5IjpbMjA0MDc3MzcxNywtMTM5ODM5MTQyLDEzOT
+Q2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
