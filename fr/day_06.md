@@ -37,11 +37,11 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
            var: output
 
 
-Bien sûr, on n'y gagne pas en lisibilité, mais le playbook fonctionne correctement :
+Bien sûr, cet exemple n'est pas un exemple de ce qu'il faut faire, mais ce playbook est parfaitement fonctionnel :
 
 
 
-## mais il y a un module template
+## le module template
 
 Comme attendu le module template permet de croiser un template texte avec des variables.
 
@@ -67,6 +67,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
-Q2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTMxMDM2ODA5OCwtODcyMDEzMDgzLC0xMz
+k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
