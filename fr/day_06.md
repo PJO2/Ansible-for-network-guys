@@ -46,7 +46,7 @@ Bien sûr, cet exemple n'est pas un exemple de ce qu'il faut faire, mais ce play
 Comme attendu le module template permet de croiser un template texte avec des variables. Nous l'utiliserons pour deux principaux usages  :
 
  - Créer un fichier de configuration adapté à chaque équipement (création de service)
- - Fournir  un rapport particularisé (sueprvision)
+ - Fournir un rapport particularisé d'une commande opérationnelle (supervision)
 
 En exemple, nous cherchons à configurer en masse (ie: sur nos 4 routeurs de lab !) une adresse IP sur l'interface  LAN du routeur.
 L'adresse IP et le nom de l'interface sont des variables du template.
@@ -82,7 +82,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMTMxNTA0LC0xNzAzNTE1MTM4LC04Nz
+eyJoaXN0b3J5IjpbMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
 IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
 MV19
 -->
