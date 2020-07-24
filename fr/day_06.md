@@ -2,11 +2,40 @@
 # Les templates
 
 ## Tout est template
-Dans les playbooks Ansible, toutes les données sont  implicitement  converties par lJinja2.
+Dans les playbooks Ansible, toutes les données sont  implicitement  converties par l'interpréteur Jinja2.
 
-Par exemple, notre playbook show ip interface brief peut être écrit de la façon suivante :
+Par exemple, notre playbook *show ip interface brief* peut être écrit de la façon suivante :
 
- 
+    ---
+    # show ip interface brief
+    - hosts: all
+      gather_facts: no
+      connection: network_cli
+      vars:
+          # playbook data
+          iib: ip interface brief
+          register_var: output
+          name: show ip int brief en mode cryptique
+          params: command
+          # inventory data
+          ansible_network_os: ios
+          ansible_user: cisco
+          ansible_ssh_pass: cisco
+    
+    
+      tasks:
+      - name: "{{ name }}"
+        cli_command:
+            command: show {{ iib }}
+        register: "{{ register_var }}"
+    
+      - name: debug output
+        debug:
+           var: output
+
+
+Bien sûr, on y gagne pas en lisibilité, mais ça fonctionne et 
+
 
 ## mais il y a un module template
 
@@ -34,6 +63,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA2MzM3NjIsMTM5NDY0NTAyOCw0ND
-YzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0Nj
+M4MDExMV19
 -->
