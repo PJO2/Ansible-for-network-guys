@@ -1,6 +1,8 @@
 
 # Les templates
 
+
+
 ## Tout est template
 Dans les playbooks Ansible, toutes les données sont  implicitement  converties par l'interpréteur Jinja2.
 
@@ -35,7 +37,8 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
            var: output
 
 
-Bien sûr, on n'y gagne pas en lisibilité, mais l
+Bien sûr, on n'y gagne pas en lisibilité, mais le playbook fonctionne correctement :
+
 
 
 ## mais il y a un module template
@@ -64,6 +67,6 @@ Et voilà un moyen de changer facilement la configuration des interfaces des 2 r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDc3MzcxNywtMTM5ODM5MTQyLDEzOT
+eyJoaXN0b3J5IjpbLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
 Q2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
