@@ -80,7 +80,8 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
  - Les playbooks
  - Les templates
 
+N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU0ODIwMTEsLTg3MjAxMzA4MywtMT
+eyJoaXN0b3J5IjpbLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMT
 M5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
