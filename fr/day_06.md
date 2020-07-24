@@ -72,9 +72,12 @@ Et voilà un moyen de changer facilement la configuration des interfaces des rou
 
 J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions une à une dans l'ordre qui me semblait le plus naturel possible, au  regard de nos métiers.
 
- - List item
+ - Une commande fonctionnelle
+ - Lecture des paramètres
+ - La construction d'Ansible en modules
+ - Sépa
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk4NzAyNjksLTg3MjAxMzA4MywtMT
-M5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTk3MjUwMjIxMCwtODcyMDEzMDgzLC0xMz
+k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
