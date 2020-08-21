@@ -39,7 +39,8 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
 
 Bien sûr,  je ne vous encourage pas à écrire des playbooks de ce type, néanmoins il est parfaitement fonctionnel :
 
-Et il faut penser à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, 
+Et il faut penser à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...).
+
 
 ## le module template
 
@@ -55,7 +56,7 @@ Le template s'écrit assez simplement :
 
 
 
-Pour appeler le module template, il faut le fichier template et 
+Pour appeler le module *template*, il faut le fichier template et 
 
 
 Et ça ne marche pas. La faute au paramètre connection. Le template doit être généré localement, pas sur le router (qui aura du mal à en faire quelquechose). 
@@ -82,7 +83,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk3Mjg2NDcsLTkzNjI2MjAwOCwyMT
-A2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5
-MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbLTgzNzA4ODA4NCwtOTM2MjYyMDA4LDIxMD
+Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
+NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
