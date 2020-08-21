@@ -37,13 +37,13 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
            var: output
 
 
-Bien sûr,  je nevous encourage pas , mais ce playbook est parfaitement fonctionnel :
+Bien sûr,  je ne vous encourage pas à écrire des playbooks de ce type, néanmoins il est parfaitement fonctionnel :
 
 
 
 ## le module template
 
-Comme attendu le module template permet de croiser un template texte avec des variables. Nous l'utiliserons pour deux principaux usages  :
+Comme attendu le module *template* permet de croiser un template texte avec des variables. Nous l'utiliserons pour deux principaux usages  :
 
  - Créer un fichier de configuration adapté à chaque équipement (création de service)
  - Fournir un rapport particularisé d'une commande opérationnelle (supervision)
@@ -82,7 +82,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDQ2OTg5NCwtOTM2MjYyMDA4LDIxMD
-Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
-NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NDE0NzE0NjEsLTkzNjI2MjAwOCwyMT
+A2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5
+MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
