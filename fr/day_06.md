@@ -58,6 +58,7 @@ Le template s'écrit assez simplement :
       ip address  {{ rtr.ip_lan }} {{ rtr.mask_lan }}
     end
 
+Les données (structurées) sont lues directement dans l'inventaire :
 
 
 Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*), d'où le playbook :
@@ -103,8 +104,8 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOT
-gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
-LTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
-Q2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNz
+U2OTIyLDQ1MjA5ODAyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4
+LDIxMDY0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMz
+k4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
