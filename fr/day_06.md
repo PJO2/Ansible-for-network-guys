@@ -37,7 +37,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
            var: output
 
 
-Bien sûr, cet exemple n'est pas un exemple de ce qu'il faut faire, mais ce playbook est parfaitement fonctionnel :
+Bien sûr,  je nevous encourage pas , mais ce playbook est parfaitement fonctionnel :
 
 
 
@@ -82,7 +82,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MD
-M1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUw
-MjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTE4MDQ2OTg5NCwtOTM2MjYyMDA4LDIxMD
+Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
+NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
