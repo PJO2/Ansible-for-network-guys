@@ -38,7 +38,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
 
 
 Bien sûr,  je ne vous encourage pas à écrire des playbooks de ce type, néanmoins il est parfaitement fonctionnel :
-
+![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/blob/master/images/jinja2playbooks.png)
 Et il faut penser à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...).
 
 
@@ -83,7 +83,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMT
-A2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5
-MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbNDUyMDk4MDIxLC0xODYxODM0MDgxLC05Mz
+YyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMw
+ODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
