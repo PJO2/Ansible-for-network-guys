@@ -56,13 +56,13 @@ Le template s'écrit assez simplement :
 
 
 
-Pour appeler le module *template*, il faut le fichier template et le fichier destination (*dest*).
+Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*).
 
 
-Et ça ne marche pas. La faute au paramètre connection. Le template doit être généré localement, pas sur le router (qui aura du mal à en faire quelquechose). 
+Et ça ne marche pas. La faute au paramètre connection, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
 
 
-C'est bon pour le template, mais il va falloir l'envoyer sur le routeur. Heureusement, il y un module copy qui va s'en charger ... si on l'exécute encore une fois en local....
+Du coup, on sait générer des fichiers équipements par équipementC'est bon pour le template, mais il va falloir l'envoyer sur le routeur. Heureusement, il y un module copy qui va s'en charger ... si on l'exécute encore une fois en local....
 
 
 Et voilà un moyen de changer facilement la configuration des interfaces des routeurs qui composent mon site.
@@ -83,7 +83,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU1OTQ0NjIsLTkzNjI2MjAwOCwyMT
-A2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5
-MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbLTUzNDk4Nzg5MCwtOTM2MjYyMDA4LDIxMD
+Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
+NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
