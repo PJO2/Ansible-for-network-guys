@@ -56,11 +56,27 @@ Le template s'écrit assez simplement :
 
     interface GigabitEthernet3
       ip address  {{ rtr.ip_lan }} {{ rtr.mask_lan }}
-end
+    end
 
 
 
-Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*).
+Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*), d'où le playbook :
+
+    ---
+    # Create LAN interface
+    - hosts: all
+      gather_facts: no
+      vars:
+           ansible_user: cisco
+           ansible_ssh_pass: cisco
+           ansible_network_os: ios
+    
+    
+      tasks:
+      - name: call template
+        template:
+            src: create_itf.j2
+            dest: create_itf.confg
 
 
 Et ça ne marche pas. La faute au paramètre connection, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
@@ -87,7 +103,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0ODY3MDE5LDgwMDc1NjkyMiw0NTIwOT
+eyJoaXN0b3J5IjpbNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOT
 gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
 LTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
 Q2NDUwMjgsNDQ2MzgwMTExXX0=
