@@ -65,7 +65,7 @@ Les données (structurées) sont lues directement dans l'inventaire :
     rtr232 ansible_host=10.0.0.232 rtr="{ 'ip_lan': '192.168.232.1', 'mask_lan': '255.255.255.0' }"
     
 
-Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination, d'où le playbook :
+Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination pour éviter qu'il ne soit écrasé, d'où le playbook :
 
     ---
     # Configure LAN interface
@@ -81,7 +81,7 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
       - name: call template
         template:
             src: create_itf.j2
-            dest: create_itf.{{ansible_hostname}}.confg
+            dest: create_itf.{{inventory_hostname}}.confg
 
 
 Et ça ne marche pas. La faute au paramètre *connection*, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
@@ -108,9 +108,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTUxOTQwMiwxNDA2MDE0NjM1LDc4NT
-Q1NDY2MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgx
-LC05MzYyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
-IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
-MV19
+eyJoaXN0b3J5IjpbMzc2ODE0OTkyLDE0MDYwMTQ2MzUsNzg1ND
+U0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4NjE4MzQwODEs
+LTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUxMzgsLTg3Mj
+AxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTEx
+XX0=
 -->
