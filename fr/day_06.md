@@ -65,7 +65,7 @@ Les données (structurées) sont lues directement dans l'inventaire :
     rtr232 ansible_host=10.0.0.232 rtr="{ 'ip_lan': '192.168.232.1', 'mask_lan': '255.255.255.0' }"
     
 
-Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parall, d'où le playbook :
+Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination, d'où le playbook :
 
     ---
     # Create LAN interface
@@ -108,7 +108,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQyODQ1MTMsMTQwNjAxNDYzNSw3OD
+eyJoaXN0b3J5IjpbLTE0Nzk1Njk3NjAsMTQwNjAxNDYzNSw3OD
 U0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MTgzNDA4
 MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEzOCwtOD
 cyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAx
