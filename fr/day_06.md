@@ -85,6 +85,10 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
 
 
 Et ça ne marche pas. La faute au paramètre *connection*, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
+![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks2.png)
+On peut corriger en forçant le paramètre *connection* à local.
+Le playbook corrigé s'écrit donc :
+
 
 
 Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il va falloir les envoyer un par un sur le routeur. Heureusement, il y un module copy qui va s'en charger ... à condition d'exécuter encore une fois ce module en local....
@@ -108,9 +112,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2ODE0OTkyLDE0MDYwMTQ2MzUsNzg1ND
-U0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4NjE4MzQwODEs
-LTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUxMzgsLTg3Mj
-AxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTEx
-XX0=
+eyJoaXN0b3J5IjpbLTEyNDM1NjEwNzEsMTQwNjAxNDYzNSw3OD
+U0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MTgzNDA4
+MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEzOCwtOD
+cyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAx
+MTFdfQ==
 -->
