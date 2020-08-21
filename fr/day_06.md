@@ -68,7 +68,7 @@ Les données (structurées) sont lues directement dans l'inventaire :
 Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination, d'où le playbook :
 
     ---
-    # Create LAN interface
+    # Configure LAN interface
     - hosts: all
       gather_facts: no
       vars:
@@ -84,7 +84,7 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
             dest: create_itf.{{ansible_hostname}}.confg
 
 
-Et ça ne marche pas. La faute au paramètre connection, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
+Et ça ne marche pas. La faute au paramètre *connection*, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
 
 
 Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il va falloir les envoyer un par un sur le routeur. Heureusement, il y un module copy qui va s'en charger ... à condition d'exécuter encore une fois ce module en local....
@@ -108,9 +108,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk1Njk3NjAsMTQwNjAxNDYzNSw3OD
-U0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MTgzNDA4
-MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEzOCwtOD
-cyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAx
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTQ4MTUxOTQwMiwxNDA2MDE0NjM1LDc4NT
+Q1NDY2MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgx
+LC05MzYyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
+IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
+MV19
 -->
