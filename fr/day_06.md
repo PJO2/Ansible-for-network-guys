@@ -109,7 +109,7 @@ Le playbook corrigé s'écrit donc :
 Et cette fois c'est bon, et notre template est interprété comme attendu :
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks3.png)
 
-Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il va falloir les envoyer un par un sur le routeur. Heureusement, il y un module copy qui va s'en charger ... à condition d'exécuter encore une fois ce module en local....
+Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il va falloir les envoyer un par un sur le routeur. Heureusement, il y un module copy qui va s'en charger 
 
 
 Et voilà un moyen de changer facilement la configuration des interfaces des routeurs qui composent mon site.
@@ -130,9 +130,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTU1MzA3MiwxNDA2MDE0NjM1LDc4NT
-Q1NDY2MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgx
-LC05MzYyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
-IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
-MV19
+eyJoaXN0b3J5IjpbLTUwMjY5MjQwNCwtOTk5NTUzMDcyLDE0MD
+YwMTQ2MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEs
+LTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MD
+M1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUw
+MjgsNDQ2MzgwMTExXX0=
 -->
