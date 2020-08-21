@@ -1,7 +1,7 @@
 
 # Les templates
 
-Nous avons vu comment utiliser les templates et le langage de description Jinja2 
+Nous avons vu comment utiliser les templates et le langage de description Jinja2, regardons à présent comment les utiliser dans Ansible.
 
 ## Tout est Jinja
 Dans les playbooks Ansible, toutes les données sont  implicitement  converties par l'interpréteur Jinja2.
@@ -82,7 +82,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
-IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
-MV19
+eyJoaXN0b3J5IjpbLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MD
+M1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUw
+MjgsNDQ2MzgwMTExXX0=
 -->
