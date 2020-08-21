@@ -54,6 +54,10 @@ L'adresse IP et le nom de l'interface sont des variables du template.
 
 Le template s'écrit assez simplement :
 
+    interface GigabitEthernet3
+      ip address  {{ rtr.ip_lan }} {{ rtr.mask_lan }}
+end
+
 
 
 Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*).
@@ -83,8 +87,8 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MT
-gzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEz
-OCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0ND
-YzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbNTY0ODY3MDE5LDgwMDc1NjkyMiw0NTIwOT
+gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
+LTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
+Q2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
