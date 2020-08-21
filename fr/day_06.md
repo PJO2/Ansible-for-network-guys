@@ -84,10 +84,27 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
             dest: create_itf.{{inventory_hostname}}.confg
 
 
-Et ça ne marche pas. La faute au paramètre *connection*, car le template doit être généré localement, non sur le router (qui risque d'avoir du mal à trouver un interpréteur Jinja2). 
+Et ça ne marche pas. La faute au paramètre *connection* qui essaie, une fois de plus, de générer  le template sur le router et a un peu de mal à y trouver un interpréteur Jinja2. 
+
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks2.png)
 On peut corriger en forçant le paramètre *connection* à local.
 Le playbook corrigé s'écrit donc :
+
+    ---
+    # Configure  LAN interface
+    - hosts: all
+      gather_facts: no
+      connection: local
+      vars:
+           ansible_user: cisco
+           ansible_ssh_pass: cisco
+           ansible_network_os: ios
+    
+      tasks:
+      - name: call template
+        template:
+            src: create_itf.j2
+            dest: create_itf.{{ inventory_hostname }}.confg
 
 
 
@@ -112,9 +129,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM1NjEwNzEsMTQwNjAxNDYzNSw3OD
-U0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MTgzNDA4
-MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEzOCwtOD
-cyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0NDYzODAx
-MTFdfQ==
+eyJoaXN0b3J5IjpbMTY5MDAyMTE1MSwxNDA2MDE0NjM1LDc4NT
+Q1NDY2MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgx
+LC05MzYyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04Nz
+IwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDEx
+MV19
 -->
