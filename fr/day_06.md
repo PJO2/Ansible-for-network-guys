@@ -138,10 +138,11 @@ Le playbook complet devient donc :
             answer: ''
 
 
-
+![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks5.png)
 
 Et voilà comment changer facilement la configuration sur un parc de routeurs.
 
+![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks4.png)
 
 
 # Conclusion
@@ -158,7 +159,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDA1NDUyMiwtNTAyNjkyNDA0LC05OT
+eyJoaXN0b3J5IjpbMTc1NDQwMzYxNywtNTAyNjkyNDA0LC05OT
 k1NTMwNzIsMTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIy
 LDQ1MjA5ODAyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMD
 Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
