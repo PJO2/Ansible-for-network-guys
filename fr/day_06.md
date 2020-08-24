@@ -144,18 +144,14 @@ Et voilà comment changer facilement la configuration sur un parc de routeurs.
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks4.png)
 
-# Avant de conclure
+# Conclusion
 
 Mon tour d'horizon est maintenant terminé et vous avez maintenant un aperçu du rôle d'Ansible dans la chaîne d'automatisation.
-
-
-
-# Conclusion
 
 J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions une à une dans l'ordre qui me semblait le plus naturel possible.
 
  - Une première commande fonctionnelle
- - La lecture des paramètres nécessaire à ansible
+ - La lecture des paramètres nécessaires à Ansible
  - La construction d'Ansible en modules
  - Séparation des paramètres entre inventaire
  - Les modules les plus utilisés
@@ -165,9 +161,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzMzMDQ1LC01MDI2OTI0MDQsLTk5OT
-U1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIs
-NDUyMDk4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNj
-Q4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0
-MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
+eyJoaXN0b3J5IjpbLTExNTQ4NDQ4MzcsMTU2MzMzMDQ1LC01MD
+I2OTI0MDQsLTk5OTU1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2
+MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgxLC05Mz
+YyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMw
+ODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
