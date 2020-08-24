@@ -146,7 +146,8 @@ Et voilà comment changer facilement la configuration sur un parc de routeurs.
 
 # Avant de conclure
 
-Mon tour d'horizon est maintenant terminé et vous av ez maintenant 
+Mon tour d'horizon est maintenant terminé et vous avez maintenant un aperçu du rôle d'Ansible dans la chaîne d'automatisation.
+
 
 
 # Conclusion
@@ -164,9 +165,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjEzNDY1MiwtNTAyNjkyNDA0LC05OT
-k1NTMwNzIsMTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIy
-LDQ1MjA5ODAyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMD
-Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
-NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbMTU2MzMzMDQ1LC01MDI2OTI0MDQsLTk5OT
+U1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIs
+NDUyMDk4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNj
+Q4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0
+MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
