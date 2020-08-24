@@ -66,7 +66,7 @@ Les données (structurées) sont lues directement dans l'inventaire :
     rtr232 ansible_host=10.0.0.232 rtr="{ 'ip_lan': '192.168.232.1', 'mask_lan': '255.255.255.0' }"
     
 
-Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination pour éviter qu'il ne soit écrasé, d'où le playbook :
+Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination pour éviter qu'il ne soit écrasé. Et pour cela, nous ajoutons le nom de l'équipement au fichier de destination, d'où le playbook :
 
     ---
     # Configure LAN interface
@@ -76,8 +76,6 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
            ansible_user: cisco
            ansible_ssh_pass: cisco
            ansible_network_os: ios
-    
-    
       tasks:
       - name: call template
         template:
@@ -85,7 +83,7 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
             dest: create_itf.{{inventory_hostname}}.confg
 
 
-Et ça ne marche pas. La faute au paramètre *connection* qui essaie, une fois de plus, de générer  le template sur le router et a un peu de mal à y trouver un interpréteur Jinja2. 
+Et ça ne marche pas. La faute au paramètre *connection* qui essaie, une fois de plus, de générer  le template sur le router et de plaint d'avoir un peu de mal à y trouver un interpréteur Jinja2. 
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks2.png)
 On peut corriger en forçant le paramètre *connection* à local.
@@ -164,10 +162,10 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAzNjY2MDUsLTIyMjE1MzM3OCwxNT
-YzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcyLDE0MDYwMTQ2
-MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4Nj
-E4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUx
-MzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsND
-Q2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMjE0NDgwNzgyMCwtMjIyMTUzMzc4LDE1Nj
+MzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIsMTQwNjAxNDYz
+NSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MT
+gzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEz
+OCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0ND
+YzODAxMTFdfQ==
 -->
