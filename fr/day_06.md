@@ -3,6 +3,7 @@
 
 Nous avons vu comment utiliser les templates et le langage de description Jinja2, regardons à présent comment les utiliser dans Ansible.
 
+
 ## Tout est Jinja
 Dans les playbooks Ansible, toutes les données sont  implicitement  converties par l'interpréteur Jinja2.
 
@@ -140,13 +141,16 @@ Le playbook complet devient donc :
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks5.png)
 
-Et voilà comment changer facilement la configuration sur un parc de routeurs.
+Et voilà comment changer facilement la configuration sur un parc de routeurs !
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks4.png)
 
 # Conclusion
 
 Mon tour d'horizon est maintenant terminé et vous avez maintenant un aperçu du rôle d'Ansible dans la chaîne d'automatisation.  
+
+Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
+
 
 J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions une à une dans l'ordre qui me semblait le plus naturel possible.
 
@@ -160,10 +164,10 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTU4MzIwOCwtMjIyMTUzMzc4LDE1Nj
-MzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIsMTQwNjAxNDYz
-NSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MT
-gzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEz
-OCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0ND
-YzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE5NTAzNjY2MDUsLTIyMjE1MzM3OCwxNT
+YzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcyLDE0MDYwMTQ2
+MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4Nj
+E4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUx
+MzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsND
+Q2MzgwMTExXX0=
 -->
