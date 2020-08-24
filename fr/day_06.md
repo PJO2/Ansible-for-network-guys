@@ -86,7 +86,7 @@ Pour appeler le module *template*, il faut le fichier template (*src*) et le fic
 Et ça ne marche pas. La faute au paramètre *connection* qui essaie, une fois de plus, de générer  le template sur le router et de plaint d'avoir un peu de mal à y trouver un interpréteur Jinja2. 
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks2.png)
-On peut corriger en forçant le paramètre *connection* à local.
+La correction consiste à forcer le paramètre *connection* à *local*.
 Le playbook corrigé s'écrit donc :
 
     ---
@@ -108,7 +108,8 @@ Le playbook corrigé s'écrit donc :
 Et cette fois c'est bon, et notre template est interprété comme attendu :
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks3.png)
 
-Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il va falloir les envoyer sur les routeur. Il existe plusieurs modules qui peuvent s'en charger, ici nous utilisons *cli_command* pour aller chercher  le fichier de configuration sur le serveur Ansible.
+Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il reste à les envoyer sur les routeur.
+Il existe plusieurs modules qui peuvent s'en charger (raw, net_up, copy, ...), ici nous utilisons *cli_command* pour aller chercher  le fichier de configuration sur le serveur Ansible en TFTP.
 
 Le playbook complet devient donc :
 
@@ -162,7 +163,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDgwNzgyMCwtMjIyMTUzMzc4LDE1Nj
+eyJoaXN0b3J5IjpbMTY5NTgwNDExMSwtMjIyMTUzMzc4LDE1Nj
 MzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIsMTQwNjAxNDYz
 NSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MT
 gzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEz
