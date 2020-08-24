@@ -138,7 +138,9 @@ Le playbook complet devient donc :
             answer: ''
 
 
-Et voilà un moyen de changer facilement la configuration des interfaces des routeurs qui composent mon site.
+
+
+Et voilà comment changer facilement la configuration sur un parc de routeurs.
 
 
 
@@ -156,9 +158,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4OTYyODg5LC01MDI2OTI0MDQsLTk5OT
-U1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIs
-NDUyMDk4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNj
-Q4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0
-MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
+eyJoaXN0b3J5IjpbMTYwMDA1NDUyMiwtNTAyNjkyNDA0LC05OT
+k1NTMwNzIsMTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIy
+LDQ1MjA5ODAyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMD
+Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
+NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
 -->
