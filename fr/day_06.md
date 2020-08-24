@@ -113,6 +113,29 @@ Du coup, on sait générer des fichiers équipements par équipements à partir 
 
 Le playbook complet devient donc :
 
+    ---
+    # Configure  LAN interface
+    - hosts: all
+      gather_facts: no
+      vars:
+           ansible_user: cisco
+           ansible_ssh_pass: cisco
+           ansible_network_os: ios
+           ansible_command_timeout: 60
+    
+      tasks:
+      - name: call template
+        connection: local
+        template:
+            src: create_itf.j2
+            dest: create_itf.{{ inventory_hostname }}.confg
+    
+      - name: activate configuration on router
+        connection: network_cli
+        cli_command:
+            command: copy tftp://10.0.0.110/cfgs/create_itf.{{ inventory_hostname }}.confg running-config
+            prompt: Destination filename
+            answer: ''
 
 
 Et voilà un moyen de changer facilement la configuration des interfaces des routeurs qui composent mon site.
@@ -133,9 +156,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDQ2MzYwMiwtNTAyNjkyNDA0LC05OT
-k1NTMwNzIsMTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIy
-LDQ1MjA5ODAyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMD
-Y0ODE4MCwtMTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4Mzkx
-NDIsMTM5NDY0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbOTg4OTYyODg5LC01MDI2OTI0MDQsLTk5OT
+U1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIs
+NDUyMDk4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNj
+Q4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0
+MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
