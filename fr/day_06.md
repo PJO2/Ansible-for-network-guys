@@ -144,9 +144,6 @@ Et voilà comment changer facilement la configuration sur un parc de routeurs.
 
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks4.png)
 
-# Et maintenant
-
-
 
 # Conclusion
 
@@ -155,14 +152,17 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
  - Une commande fonctionnelle
  - La lecture des paramètres nécessaire à ansible
  - La construction d'Ansible en modules
- - Séparation des paramètres vers l'inventaire
+ - Séparation des paramètres entre inventaire
  - Les modules les plus utilisés
  - Les playbooks
  - Les templates
 
+Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
+
+
 N'hésitez pas à réagir si 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYxNjA3MDYsLTUwMjY5MjQwNCwtOT
+eyJoaXN0b3J5IjpbLTEwNzUzMjk5NTIsLTUwMjY5MjQwNCwtOT
 k5NTUzMDcyLDE0MDYwMTQ2MzUsNzg1NDU0NjYwLDgwMDc1Njky
 Miw0NTIwOTgwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMT
 A2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5
