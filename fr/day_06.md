@@ -153,7 +153,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
  - Une première commande fonctionnelle
  - La lecture des paramètres nécessaires à Ansible
  - La construction d'Ansible en modules
- - Séparation des paramètres entre inventaire
+ - Séparation des paramètres entre inventaire et module
  - Les modules les plus utilisés
  - Les playbooks
  - Les templates
@@ -161,9 +161,9 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ4NDQ4MzcsMTU2MzMzMDQ1LC01MD
-I2OTI0MDQsLTk5OTU1MzA3MiwxNDA2MDE0NjM1LDc4NTQ1NDY2
-MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxODM0MDgxLC05Mz
-YyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4LC04NzIwMTMw
-ODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0NjM4MDExMV19
+eyJoaXN0b3J5IjpbLTIyMjE1MzM3OCwxNTYzMzMwNDUsLTUwMj
+Y5MjQwNCwtOTk5NTUzMDcyLDE0MDYwMTQ2MzUsNzg1NDU0NjYw
+LDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4NjE4MzQwODEsLTkzNj
+I2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUxMzgsLTg3MjAxMzA4
+MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsNDQ2MzgwMTExXX0=
 -->
