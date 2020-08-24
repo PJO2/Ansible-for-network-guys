@@ -158,13 +158,12 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
  - Les playbooks
  - Les templates
 
-Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY2OTgzMzgsLTIyMjE1MzM3OCwxNT
-YzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcyLDE0MDYwMTQ2
-MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOTgwMjEsLTE4Nj
-E4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAsLTE3MDM1MTUx
-MzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOTQ2NDUwMjgsND
-Q2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMjExMTU4MzIwOCwtMjIyMTUzMzc4LDE1Nj
+MzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIsMTQwNjAxNDYz
+NSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5ODAyMSwtMTg2MT
+gzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwtMTcwMzUxNTEz
+OCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5NDY0NTAyOCw0ND
+YzODAxMTFdfQ==
 -->
