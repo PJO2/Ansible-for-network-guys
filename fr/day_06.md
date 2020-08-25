@@ -150,22 +150,22 @@ Mon tour d'horizon est maintenant terminé et vous avez maintenant un aperçu du
 Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages. 
 
 
-J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions une à une dans l'ordre qui me semblait le plus naturel possible.
+J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions progressivement dans l'ordre qui me semblait le plus naturel possible.
 
  - Une première commande fonctionnelle
  - La lecture des paramètres nécessaires à Ansible
  - La construction d'Ansible en modules
  - Séparation des paramètres entre inventaire et module
  - Les modules les plus utilisés
- - Les playbooks
- - Les templates
+ - Les playbooks YAML
+ - Les templates Jinja2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTUyMTAzOSwyNzA2OTg2NTUsLTIyMj
-E1MzM3OCwxNTYzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcy
-LDE0MDYwMTQ2MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOT
-gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
-LTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
-Q2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbLTIwMjgwNTg4MTcsMjcwNjk4NjU1LC0yMj
+IxNTMzNzgsMTU2MzMzMDQ1LC01MDI2OTI0MDQsLTk5OTU1MzA3
+MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIsNDUyMD
+k4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNjQ4MTgw
+LC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0MiwxMz
+k0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
