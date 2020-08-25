@@ -26,7 +26,6 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
           ansible_user: cisco
           ansible_ssh_pass: cisco
     
-    
       tasks:
       - name: "{{ name }}"
         cli_command:
@@ -40,7 +39,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
 
 Bien sûr,  je ne vous encourage pas à écrire des playbooks de ce type, néanmoins il est parfaitement fonctionnel :
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks.png)
-Et il faut garder en tête à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...).
+Et il faut garder en tête à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...) ou, comme nous a
 
 
 ## le module template
@@ -163,10 +162,10 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNjk4NjU1LC0yMjIxNTMzNzgsMTU2Mz
-MzMDQ1LC01MDI2OTI0MDQsLTk5OTU1MzA3MiwxNDA2MDE0NjM1
-LDc4NTQ1NDY2MCw4MDA3NTY5MjIsNDUyMDk4MDIxLC0xODYxOD
-M0MDgxLC05MzYyNjIwMDgsMjEwNjQ4MTgwLC0xNzAzNTE1MTM4
-LC04NzIwMTMwODMsLTEzOTgzOTE0MiwxMzk0NjQ1MDI4LDQ0Nj
-M4MDExMV19
+eyJoaXN0b3J5IjpbMTQ4Nzc2OTg2LDI3MDY5ODY1NSwtMjIyMT
+UzMzc4LDE1NjMzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIs
+MTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5OD
+AyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwt
+MTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5ND
+Y0NTAyOCw0NDYzODAxMTFdfQ==
 -->
