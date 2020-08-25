@@ -39,7 +39,7 @@ Par exemple, notre playbook *show ip interface brief* peut être écrit de la fa
 
 Bien sûr,  je ne vous encourage pas à écrire des playbooks de ce type, néanmoins il est parfaitement fonctionnel :
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks.png)
-Et il faut garder en tête à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...) ou, comme nous a
+Et il faut garder en tête à cette possibilité très simple à mettre en œuvre pour passer des paramètres à une commande (recherche d'une adresse MAC, d'une route, ...) ou, comme nous allons le voir, s'assurer de l'unicité d'une ressource.
 
 
 ## le module template
@@ -49,7 +49,7 @@ Comme attendu le module [template](https://docs.ansible.com/ansible/latest/modul
  - Créer un fichier de configuration adapté à chaque équipement (création de service)
  - Fournir un rapport particularisé d'une commande opérationnelle (supervision)
 
-En exemple, nous cherchons à configurer en masse (ie: sur nos 4 routeurs de lab !) une adresse IP sur l'interface  LAN du routeur.
+En exemple, nous cherchons à configurer en masse (ie: sur nos 2 routeurs de lab !) une adresse IP sur l'interface  LAN du routeur.
 L'adresse IP et le nom de l'interface sont des variables du template.
 
 Le template s'écrit assez simplement :
@@ -65,7 +65,7 @@ Les données (structurées) sont lues directement dans l'inventaire :
     rtr232 ansible_host=10.0.0.232 rtr="{ 'ip_lan': '192.168.232.1', 'mask_lan': '255.255.255.0' }"
     
 
-Pour appeler le module *template*, il faut le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination pour éviter qu'il ne soit écrasé. Et pour cela, nous ajoutons le nom de l'équipement au fichier de destination, d'où le playbook :
+Pour appeler le module *template*, il faut passer en le fichier template (*src*) et le fichier destination (*dest*). Comme plusieurs sessions seront lancées en parallèle, nous pensons à inscrire le nom d'hôte dans le fichier destination pour éviter qu'il ne soit écrasé. Et pour cela, nous ajoutons le nom de l'équipement au fichier de destination, d'où le playbook :
 
     ---
     # Configure LAN interface
@@ -162,10 +162,10 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Nzc2OTg2LDI3MDY5ODY1NSwtMjIyMT
-UzMzc4LDE1NjMzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIs
-MTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5OD
-AyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwt
-MTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5ND
-Y0NTAyOCw0NDYzODAxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE0ODQyMzU4MDAsMjcwNjk4NjU1LC0yMj
+IxNTMzNzgsMTU2MzMzMDQ1LC01MDI2OTI0MDQsLTk5OTU1MzA3
+MiwxNDA2MDE0NjM1LDc4NTQ1NDY2MCw4MDA3NTY5MjIsNDUyMD
+k4MDIxLC0xODYxODM0MDgxLC05MzYyNjIwMDgsMjEwNjQ4MTgw
+LC0xNzAzNTE1MTM4LC04NzIwMTMwODMsLTEzOTgzOTE0MiwxMz
+k0NjQ1MDI4LDQ0NjM4MDExMV19
 -->
