@@ -148,7 +148,9 @@ Et voilà comment changer facilement la configuration sur un parc de routeurs !
 Mon tour d'horizon est maintenant terminé et vous avez maintenant un aperçu du rôle d'Ansible dans la chaîne d'automatisation.  
 
 Maintenant, c'est à vous d'adapter Ansible à vos cas d'usages. 
-Et pour vous lancer, il est raisonnable de démarrer par des projets simples et nécessitant peu de données, puis passer à des tâches plus complexes, nécessitant toujours peu de données,  pour terminer par les projets les plus ambitieux, ceux dont la structure de données doit être étudiée consciencieusement avant même de développer l'outil. En bref, commencer petit ! 
+Et pour vous lancer, il est raisonnable de démarrer par des projets simples et nécessitant peu de données, puis passer à des tâches plus complexes, nécessitant toujours peu de données,  pour terminer par les projets les plus ambitieux, ceux dont la structure de données doit être étudiée consciencieusement avant même de développer l'outil. 
+
+En bref, voir large, commencer petit ! 
 
 
 J'ai essayé de construire cette mini-formation d'Ansible en introduisant les nouvelles notions progressivement dans l'ordre qui me semblait le plus naturel possible.
@@ -163,10 +165,10 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTM5MjE1OCwyNzA2OTg2NTUsLTIyMj
-E1MzM3OCwxNTYzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcy
-LDE0MDYwMTQ2MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOT
-gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
-LTE3MDM1MTUxMzgsLTg3MjAxMzA4MywtMTM5ODM5MTQyLDEzOT
-Q2NDUwMjgsNDQ2MzgwMTExXX0=
+eyJoaXN0b3J5IjpbMTc0NjIyMTI3LDI3MDY5ODY1NSwtMjIyMT
+UzMzc4LDE1NjMzMzA0NSwtNTAyNjkyNDA0LC05OTk1NTMwNzIs
+MTQwNjAxNDYzNSw3ODU0NTQ2NjAsODAwNzU2OTIyLDQ1MjA5OD
+AyMSwtMTg2MTgzNDA4MSwtOTM2MjYyMDA4LDIxMDY0ODE4MCwt
+MTcwMzUxNTEzOCwtODcyMDEzMDgzLC0xMzk4MzkxNDIsMTM5ND
+Y0NTAyOCw0NDYzODAxMTFdfQ==
 -->
