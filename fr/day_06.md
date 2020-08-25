@@ -107,7 +107,7 @@ Le playbook corrigé s'écrit donc :
 Et cette fois c'est bon, et notre template est interprété comme attendu :
 ![Playbook result](https://github.com/PJO2/Ansible-for-network-guys/raw/master/images/jinja2playbooks3.png)
 
-Du coup, on sait générer des fichiers équipements par équipements à partir du template, mais ces fichiers ont été créés sur le serveur Ansible, et il reste à les envoyer sur les routeur.
+Du coup, nous savons générer des fichiers équipements par équipements à partir du template. Ces fichiers ont été créés sur le serveur Ansible, et il reste à les envoyer sur les routeur.
 Il existe plusieurs modules qui peuvent s'en charger (raw, net_up, copy, ...), ici nous utilisons *cli_command* pour aller chercher  le fichier de configuration sur le serveur Ansible en TFTP.
 
 Le playbook complet devient donc :
@@ -162,7 +162,7 @@ J'ai essayé de construire cette mini-formation d'Ansible en introduisant les no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg4MTMyMiwyNzA2OTg2NTUsLTIyMj
+eyJoaXN0b3J5IjpbMTA3OTUyMTAzOSwyNzA2OTg2NTUsLTIyMj
 E1MzM3OCwxNTYzMzMwNDUsLTUwMjY5MjQwNCwtOTk5NTUzMDcy
 LDE0MDYwMTQ2MzUsNzg1NDU0NjYwLDgwMDc1NjkyMiw0NTIwOT
 gwMjEsLTE4NjE4MzQwODEsLTkzNjI2MjAwOCwyMTA2NDgxODAs
