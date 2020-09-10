@@ -10,8 +10,7 @@ Jinja2 est un langage d'écriture de  templates intégré à python et développ
 
 ## Les variables
 
-En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template.  
-Par exemple le petit template suivant :
+En Jinja2, les éléments placés entre une double accolade correspondant à des éléments dynamiques. Ils sont interprétés lors de la résolution du template. Par exemple le petit template suivant :
 
     Hello {{ name }}
 
@@ -23,7 +22,8 @@ si name vaut Aline.
   
  Un peu plus compliqué, Jinja2 consomme des variables structurées en les combinant par un point.
 
-Si jedis["obiwan"]["master"] vaut qui-gon (en prenant la syntaxe python), alors
+Si jedis["obiwan"]["master"] vaut ui-gon (en prenant la syntaxe python), yoda
+alors
 
     Hello {{ jedis.obiwan.master }}
 
@@ -45,7 +45,7 @@ Tandis que _Hello {{ jedis.jedi.master }}_ renverra une erreur car jedis['jedi']
 ## Les filtres
 La notion suivante de Jinja2 est le filtre. Une variable suivie du signe | est envoyée vers le filtre indiqué.
 
-Le filtre peut préciser une sélection, une mise en forme ou un calcul. (Oui, le terme filtre est sans doute mal choisi, mais c'est le terme choisi par Jinja2 !).
+Le filtre peut préciser une sélection, une mise en forme ou un calcul. (Oui, le terme filtre est sans doute mal choisi, mais c'est le terme choisé par Jinja2 !).
 
 Ainsi, si on souhaite saluer les padawans de Obiwan, on évitera d'utiliser
 
@@ -229,13 +229,26 @@ Si vous souhaitez installer un testeur de templates sur un serveur, les sources 
 
 
 
+Et n'oubliez pas de transmettre mes amitiés à Darth Vador !
+
+
+Les filtres peuvent être étendus en écrivant des procédures python. Ansible nous offre le filtre netfilter? qui  permet de faire des opérations sur les adresses IP.
+
+
+Les instructions {% %}
+
+
+
+ 
+
+Un lien vers mon testeur de templates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1MDc4MjAwLDE0Nzk2NTIxNjgsLTk5ND
-cxMTc5NiwxMTg0NTE3NTgyLDYyNzU5MjI1NywtMzcxODY4NzI5
-LDIwNzEzMTI4OSwxMzc0MDEzNTksLTIxMTgyOTM2ODUsLTEzMj
-E5MTk5MzEsLTE0NDM4ODIxMjksMzUyNzk3NjYxLDE4OTkzNDcx
-MDQsLTQxMTA1ODE3NiwtMTU0ODM5MTQ1MywtMTQ5NDU1NTIzMC
-wtMTg3NjM0MTMzOSwtNzQzODk0NDE2LDE1NjE4NTU5MjAsMzc0
-OTEyMDY5XX0=
+eyJoaXN0b3J5IjpbLTk4NTg4OTc5MCwyOTUwNzgyMDAsMTQ3OT
+Y1MjE2OCwtOTk0NzExNzk2LDExODQ1MTc1ODIsNjI3NTkyMjU3
+LC0zNzE4Njg3MjksMjA3MTMxMjg5LDEzNzQwMTM1OSwtMjExOD
+I5MzY4NSwtMTMyMTkxOTkzMSwtMTQ0Mzg4MjEyOSwzNTI3OTc2
+NjEsMTg5OTM0NzEwNCwtNDExMDU4MTc2LC0xNTQ4MzkxNDUzLC
+0xNDk0NTU1MjMwLC0xODc2MzQxMzM5LC03NDM4OTQ0MTYsMTU2
+MTg1NTkyMF19
 -->
